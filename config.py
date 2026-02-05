@@ -1,0 +1,73 @@
+"""
+e RAG System - 統一配置檔
+"""
+import os
+from pathlib import Path
+
+# ==================== 路徑設定 ====================
+PROJECT_ROOT = Path(__file__).parent
+DATA_DIR = PROJECT_ROOT / "data"
+RAW_PDF_DIR = DATA_DIR / "raw"
+PROCESSED_MD_DIR = DATA_DIR / "processed"
+IMAGES_DIR = DATA_DIR / "images"
+MILVUS_DATA_DIR = PROJECT_ROOT / "milvus_data"
+
+# 建立必要目錄
+for dir_path in [RAW_PDF_DIR, PROCESSED_MD_DIR, IMAGES_DIR, MILVUS_DATA_DIR]:
+    dir_path.mkdir(parents=True, exist_ok=True)
+
+# ==================== Docling 設定 ====================
+DOCLING_CONFIG = {
+    "do_ocr": True,  # 處理掃描式 PDF
+    "do_table_structure": True,  # 解析表格結構
+    "image_export_mode": "placeholder",  # 'placeholder' 或 'embedded'
+}
+
+# ==================== LangChain 切分設定 ====================
+CHUNK_CONFIG = {
+    "chunk_size": 512,  # 單位：字元數
+    "chunk_overlap": 50,  # 重疊區域
+    "separators": ["\n## ", "\n### ", "\n#### ", "\n\n", "\n", " ", ""],
+    "length_function": len,
+}
+
+# ==================== Embedding 模型設定 ====================
+# BGE-M3 文本模型
+TEXT_EMBEDDING_CONFIG = {
+    "model_name": "BAAI/bge-m3",
+    "device": "cuda",  # 'cuda' 或 'cpu'
+    "normalize_embeddings": True,
+    "embedding_dim": 1024,
+}
+
+# SigLIP 圖片模型
+IMAGE_EMBEDDING_CONFIG = {
+    "model_name": "hf-hub:timm/ViT-SO400M-14-SigLIP-384",
+    "device": "cuda",
+    "embedding_dim": 1152,
+}
+
+# ==================== Milvus 設定 ====================
+MILVUS_CONFIG = {
+    "uri": str(MILVUS_DATA_DIR / "milvus_lite.db"),  # Milvus Lite 使用本地檔案
+    "collection_name": "vibe_rag_collection",
+    "metric_type": "COSINE",  # 相似度計算方式
+    "index_type": "FLAT",  # 索引類型（小資料集用 FLAT，大資料集用 IVF_FLAT）
+}
+
+# ==================== 檢索設定 ====================
+RETRIEVAL_CONFIG = {
+    "top_k": 5,  # 返回前 k 個結果
+    "text_weight": 0.7,  # 文本檢索權重
+    "image_weight": 0.3,  # 圖片檢索權重
+}
+
+# ==================== 除錯設定 ====================
+DEBUG = True
+LOG_LEVEL = "INFO"
+
+if __name__ == "__main__":
+    print("✅ 配置檔載入成功")
+    print(f"專案根目錄: {PROJECT_ROOT}")
+    print(f"原始 PDF 目錄: {RAW_PDF_DIR}")
+    print(f"Milvus 資料目錄: {MILVUS_DATA_DIR}")
