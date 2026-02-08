@@ -9,14 +9,32 @@ PROJECT_ROOT = Path(__file__).parent
 DATA_DIR = PROJECT_ROOT / "data"
 RAW_PDF_DIR = DATA_DIR / "raw"
 PROCESSED_MD_DIR = DATA_DIR / "processed"
-IMAGES_DIR = DATA_DIR / "images"
+# Docling2md 風格輸出：output/<pdf_hash>/*.md, *.json, page/, *.png
+OUTPUT_BASE = PROJECT_ROOT / "output"
 MILVUS_DATA_DIR = PROJECT_ROOT / "milvus_data"
 
 # 建立必要目錄
-for dir_path in [RAW_PDF_DIR, PROCESSED_MD_DIR, IMAGES_DIR, MILVUS_DATA_DIR]:
+for dir_path in [RAW_PDF_DIR, PROCESSED_MD_DIR, OUTPUT_BASE, MILVUS_DATA_DIR]:
     dir_path.mkdir(parents=True, exist_ok=True)
 
 # ==================== Docling 設定 ====================
+# 分層模式：True = Step1 用標準 pipeline（標題/段落/圖 placeholder），圖另存；之後再對圖做 VLM caption
+# False = Step1 直接用 Granite VLM 解析整份 PDF（圖內文字靠 VLM，較吃資源）
+DOCLING_LAYERED_MODE = True
+
+# 僅在非分層模式時使用 VLM
+USE_GRANITE_DOCLING = True
+
+# 運算裝置：GPU 環境未就緒時用 CPU，就緒後改 "cuda" 或 "auto"
+# 可選："auto"（自動選最佳）、"cpu"、"cuda"、"cuda:0"
+DOCLING_DEVICE = "cuda"
+# CPU 執行緒數（僅 device=cpu 時有效）：可調低以減輕 CPU 負載，例如 2
+DOCLING_NUM_THREADS = 4
+# 只解析前 N 頁（測試用）：設 1 只解析第一頁，設 None 解析全部
+DOCLING_MAX_PAGES = 5
+# 提取圖片的縮放倍率：1.0 預設、2.0 較清晰（較大檔案），圖糊可調高
+DOCLING_IMAGES_SCALE = 2.0
+
 DOCLING_CONFIG = {
     "do_ocr": True,  # 處理掃描式 PDF
     "do_table_structure": True,  # 解析表格結構
