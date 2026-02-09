@@ -1,8 +1,11 @@
 """
 Step 3（選用）：對 .md 中的 <image path="..." /> 呼叫 VLM 產生 caption，插回 tag 下方。
 
-整合自 Docling2md：https://github.com/EvannZhongg/Docling2md
-需設定 config_docling2md.yaml（VLM api_key / base_url / model）。
+流程：先對圖片做 OCR（RapidOCR / pytesseract）→ 將 OCR 結果注入 prompt → VLM 產生結構化 caption
+
+支援 VLM 後端（在 config.py 切換）：
+- gemini：家裡測試用，Google Gemini API
+- ollama：公司自架，透過 URL 請求（OpenAI 相容）
 """
 import re
 import sys
@@ -11,50 +14,117 @@ from base64 import b64encode
 from io import BytesIO
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
-from config import PROCESSED_MD_DIR, PROJECT_ROOT
+from config import (
+    PROCESSED_MD_DIR,
+    VLM_PROVIDER,
+    VLM_GEMINI,
+    VLM_OLLAMA,
+    VLM_OPENAI,
+)
 
-# 選用：YAML 設定（VLM API）
-try:
-    import yaml
-    _CONFIG_PATH = PROJECT_ROOT / "config_docling2md.yaml"
-    if _CONFIG_PATH.exists():
-        with open(_CONFIG_PATH, "r", encoding="utf-8") as f:
-            _DOCLING2MD_CONFIG = yaml.safe_load(f)
-    else:
-        _DOCLING2MD_CONFIG = None
-except Exception:
-    _DOCLING2MD_CONFIG = None
-
-# <image path="..." />
-IMAGE_TAG = re.compile(r'<image\s+path="([^"]+)"\s*/>')
+# <image path="..." /> 與可選的既有 *Caption: ...*
+# 重跑時會覆寫既有 caption
+IMAGE_TAG = re.compile(r'<image\s+path="([^"]+)"\s*/>(?:\s*\n\*Caption: [\s\S]*?\*)?', re.MULTILINE)
 
 
-def get_vlm_client():
-    """取得 OpenAI 相容的 VLM client（DashScope / 其他）。"""
-    if not _DOCLING2MD_CONFIG or "VLM" not in _DOCLING2MD_CONFIG:
-        return None
-    vlm = _DOCLING2MD_CONFIG["VLM"]
+def run_ocr_on_image(image_path: Path) -> str:
+    """對圖片執行 OCR，回傳文字。先試 RapidOCR，失敗則試 pytesseract。"""
+    text = ""
+    # 1) RapidOCR（對中文支援較好）
     try:
-        from openai import OpenAI
-        return OpenAI(
-            api_key=vlm.get("api_key", ""),
-            base_url=vlm.get("base_url", ""),
-        ), vlm.get("model", "qwen2.5-vl-72b-instruct")
+        from rapidocr import RapidOCR
+        ocr = RapidOCR()
+        result = ocr(str(image_path))
+        if result and hasattr(result, "txts") and result.txts:
+            text = "\n".join(result.txts).strip()
     except Exception:
-        return None
+        pass
+    # 2) Fallback: pytesseract
+    if not text:
+        try:
+            from PIL import Image
+            import pytesseract
+            img = Image.open(image_path)
+            text = pytesseract.image_to_string(img, lang="chi_sim+eng").strip()
+        except Exception:
+            pass
+    return text
 
 
-def caption_image_with_vlm(image_path: Path, prompt: str, client, model: str) -> str:
-    """傳入圖片路徑與 prompt，回傳 VLM 產生的 caption。"""
+def build_prompt_with_ocr(base_prompt: str, ocr_text: str, ocr_section_template: str) -> str:
+    """若有 OCR 結果，注入到 prompt 中；否則僅使用 base prompt。"""
+    if not ocr_text or not ocr_text.strip():
+        return base_prompt
+    return base_prompt + ocr_section_template.format(ocr_text=ocr_text.strip())
+
+
+def _caption_gemini(image_path: Path, prompt: str, cfg: dict) -> str:
+    """使用 Google Gemini API 產生 caption。支援 google-generativeai 與 google-genai 兩套件。"""
+    api_key = cfg.get("api_key") or ""
+    model = cfg.get("model", "gemini-2.5-flash")
+    if not api_key:
+        return "[VLM error: 請在 config.py 的 VLM_GEMINI 填入 api_key]"
     try:
         from PIL import Image
+
+        img = Image.open(image_path).convert("RGB")
+        img_bytes = BytesIO()
+        img.save(img_bytes, format="PNG")
+        img_bytes.seek(0)
+        img_b64 = b64encode(img_bytes.getvalue()).decode("utf-8")
+
+        # 1) 嘗試 google-generativeai（較常見）
+        try:
+            import google.generativeai as genai
+
+            genai.configure(api_key=api_key)
+            model_obj = genai.GenerativeModel(model)
+            response = model_obj.generate_content([prompt, img])
+            text = response.text if response and response.text else ""
+            return text.strip() or "[No caption]"
+        except ImportError:
+            pass
+
+        # 2) 嘗試 google-genai（新 SDK）
+        try:
+            import google.genai as genai
+
+            client = genai.Client(api_key=api_key)
+            response = client.models.generate_content(
+                model=model,
+                contents=[
+                    {
+                        "role": "user",
+                        "parts": [
+                            {"text": prompt},
+                            {"inline_data": {"mime_type": "image/png", "data": img_b64}},
+                        ],
+                    }
+                ],
+            )
+            text = response.text if response and response.text else ""
+            return text.strip() or "[No caption]"
+        except ImportError:
+            pass
+
+        return "[VLM error: 請安裝 google-generativeai 或 google-genai: pip install google-generativeai]"
+    except Exception as e:
+        return f"[VLM error: {e}]"
+
+
+def _caption_ollama(image_path: Path, prompt: str, cfg: dict) -> str:
+    """使用 Ollama（OpenAI 相容 API）產生 caption"""
+    base_url = (cfg.get("base_url") or "http://localhost:11434/v1").rstrip("/")
+    model = cfg.get("model", "llava")
+    try:
+        from openai import OpenAI
+        from PIL import Image
+
+        client = OpenAI(base_url=base_url, api_key="ollama")
         pil = Image.open(image_path).convert("RGB")
         buf = BytesIO()
         pil.save(buf, format="JPEG")
         b64 = b64encode(buf.getvalue()).decode("utf-8")
-    except Exception as e:
-        return f"[Error loading image: {e}]"
-    try:
         content = [
             {"type": "text", "text": prompt},
             {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{b64}"}},
@@ -68,8 +138,56 @@ def caption_image_with_vlm(image_path: Path, prompt: str, client, model: str) ->
         return f"[VLM error: {e}]"
 
 
-def process_md_file(md_path: Path, images_base: Path, client, model: str, prompt: str) -> bool:
-    """對單一 .md 內所有 <image path="..." /> 插上 VLM caption。"""
+def _caption_openai(image_path: Path, prompt: str, cfg: dict) -> str:
+    """使用 OpenAI 相容 API（DashScope、OpenAI 等）"""
+    api_key = cfg.get("api_key") or ""
+    base_url = cfg.get("base_url") or ""
+    model = cfg.get("model", "gpt-4o")
+    if not api_key:
+        return "[VLM error: 請在 config.py 的 VLM_OPENAI 填入 api_key]"
+    try:
+        from openai import OpenAI
+        from PIL import Image
+
+        kwargs = {"api_key": api_key}
+        if base_url:
+            kwargs["base_url"] = base_url
+        client = OpenAI(**kwargs)
+        pil = Image.open(image_path).convert("RGB")
+        buf = BytesIO()
+        pil.save(buf, format="JPEG")
+        b64 = b64encode(buf.getvalue()).decode("utf-8")
+        content = [
+            {"type": "text", "text": prompt},
+            {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{b64}"}},
+        ]
+        r = client.chat.completions.create(
+            model=model,
+            messages=[{"role": "user", "content": content}],
+        )
+        return (r.choices[0].message.content or "").strip() or "[No caption]"
+    except Exception as e:
+        return f"[VLM error: {e}]"
+
+
+def caption_image(image_path: Path, prompt: str) -> str:
+    """依 config.VLM_PROVIDER 選擇後端產生 caption"""
+    provider = (VLM_PROVIDER or "gemini").lower()
+    if provider == "gemini":
+        return _caption_gemini(image_path, prompt, VLM_GEMINI)
+    if provider == "ollama":
+        return _caption_ollama(image_path, prompt, VLM_OLLAMA)
+    if provider == "openai":
+        return _caption_openai(image_path, prompt, VLM_OPENAI)
+    return f"[VLM error: 未知的 VLM_PROVIDER={VLM_PROVIDER}，請設為 gemini / ollama / openai]"
+
+
+CAPTION_STUB = "[無法產生]"
+
+
+def process_md_file(md_path: Path, images_base: Path, base_prompt: str, ocr_section: str) -> bool:
+    """對單一 .md 內所有 <image path="..." /> 插上 VLM caption。先 OCR，再將結果注入 prompt 呼叫 VLM。
+    若 VLM 失敗則只記錄 log，不將錯誤訊息寫入 md，改寫入 stub。"""
     text = md_path.read_text(encoding="utf-8")
     changed = False
 
@@ -79,7 +197,16 @@ def process_md_file(md_path: Path, images_base: Path, client, model: str, prompt
         abs_path = (md_path.parent / rel_path).resolve()
         if not abs_path.exists():
             return match.group(0)
-        caption = caption_image_with_vlm(abs_path, prompt, client, model)
+        try:
+            ocr_text = run_ocr_on_image(abs_path)
+            full_prompt = build_prompt_with_ocr(base_prompt, ocr_text, ocr_section)
+            caption = caption_image(abs_path, full_prompt)
+            if caption.startswith("[VLM error:"):
+                print(f"  [WARN] VLM 失敗 {abs_path.name}: {caption}")
+                caption = CAPTION_STUB
+        except Exception as e:
+            print(f"  [WARN] VLM 異常 {abs_path.name}: {e}")
+            caption = CAPTION_STUB
         changed = True
         return f'<image path="{rel_path}" />\n*Caption: {caption}*'
 
@@ -90,26 +217,28 @@ def process_md_file(md_path: Path, images_base: Path, client, model: str, prompt
 
 
 def main():
-    if _DOCLING2MD_CONFIG is None:
-        print("未找到 config_docling2md.yaml，請複製 config_docling2md.yaml.example 並填入 VLM api_key / base_url / model")
+    provider = (VLM_PROVIDER or "").lower()
+    if provider not in ("gemini", "ollama", "openai"):
+        print("請在 config.py 設定 VLM_PROVIDER 為 gemini、ollama 或 openai")
         return
-    out = get_vlm_client()
-    if out is None:
-        print("無法建立 VLM client，請檢查 config_docling2md.yaml 的 VLM 設定與 openai 套件")
-        return
-    client, model = out
+
     try:
-        from prompt.VLM_prompt import VLM_PROMPT
+        from prompt.VLM_prompt import VLM_PROMPT_BASE, VLM_PROMPT_OCR_SECTION
     except Exception:
-        VLM_PROMPT = "Describe the content of this image in one concise sentence. Output a short English description."
+        from prompt.VLM_prompt import VLM_PROMPT_BASE
+        VLM_PROMPT_OCR_SECTION = "\n\n---\n## Provided OCR text\n{ocr_text}\n"
+
+    print(f"使用 VLM 後端: {VLM_PROVIDER}，流程: 先 OCR 再 VLM caption")
+
     md_files = [f for f in PROCESSED_MD_DIR.glob("*.md") if not f.name.endswith("_meta.md")]
     if not md_files:
         print(f"在 {PROCESSED_MD_DIR} 沒有找到 .md 檔案，請先執行 Step1 與 Step2")
         return
+
     for md_path in md_files:
         stem = md_path.stem
         images_base = PROCESSED_MD_DIR / "images" / stem
-        if process_md_file(md_path, images_base, client, model, VLM_PROMPT):
+        if process_md_file(md_path, images_base, VLM_PROMPT_BASE, VLM_PROMPT_OCR_SECTION):
             print(f"已寫入 caption: {md_path.name}")
         else:
             print(f"無須變更: {md_path.name}")

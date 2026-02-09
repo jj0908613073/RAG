@@ -1,86 +1,88 @@
-# RAG System - 專案結構（主流程同 Docling2md）
+# RAG System - 專案結構
 
-主流程與 [Docling2md](https://github.com/EvannZhongg/Docling2md) 一致：**單一腳本** 完成 PDF → 結構解析 → 表格／圖片／文字處理（VLM caption、LLM 標題判斷、表格修復）→ 輸出 .md、.json、圖檔。
+以 **分層流程**（Step1 → Step2 → Step3）為主，逐步完成 PDF 解析、圖片綁定、Caption 強化，輸出 Markdown 與圖檔，之後可接文本切分、Embedding、檢索。
 
 ## 目錄規劃
 
 ```
 RAG/
-├── pdf2md.py                    # 主程式：PDF → Markdown + JSON（Docling2md 流程）
-├── config.py                    # 路徑與 Docling 設定（RAW_PDF_DIR、OUTPUT_BASE 等）
-├── config_docling2md.yaml       # API 設定（由 .example 複製，填 OPENAI / VLM / OCR / POPPLER）
-├── config_docling2md.yaml.example
+├── config.py                    # 路徑與 Docling 設定（RAW_PDF_DIR、PROCESSED_MD_DIR、DOCLING_LAYERED_MODE 等）
 ├── requirements.txt
 ├── data/
-│   └── raw/                     # 輸入 PDF 放這裡
-├── output/                      # Docling2md 風格輸出（依 PDF hash 分子目錄）
-│   └── <pdf_hash>/
-│       ├── <hash>.md
-│       ├── <hash>.json
-│       ├── page/                 # 每頁 PNG（需設定 POPPLER 時才有）
-│       ├── <hash>-table-*.png
-│       └── <hash>-picture-*.png
-├── prompt/
+│   ├── raw/                     # 輸入文件（PDF、DOCX、PPTX、圖片等）
+│   └── processed/               # 分層流程輸出
+│       ├── *.md                 # 各文件的 Markdown
+│       ├── *_meta.json          # 結構化 metadata
+│       └── images/              # 圖檔（依文件分子目錄）
+│           └── <doc_name>/
+│               └── image_*.png
+├── prompt/                      # LLM / VLM 用 prompt
 │   ├── VLM_prompt.py
 │   ├── text_type_prompt.py
 │   ├── table_repair_prompt.py
 │   └── text_repair_prompt.py
-├── src/                         # 其他步驟（切分、embedding、檢索等）
-│   ├── step2_chunk_text.py
-│   ├── step3_embedding.py
-│   ├── step4_milvus_store.py
-│   └── step5_query.py
-├── milvus_data/
-└── run_step1_parse.ps1          # 舊分層流程用（可選）
+├── src/                         # 主流程與後續步驟
+│   ├── step1_parse_pdf.py       # PDF 解析 → .md + 圖 placeholder
+│   ├── step2_bind_images.py     # 綁定圖片到 Markdown
+│   ├── step3_caption_enhance.py # VLM caption 強化
+│   ├── caption_vlm.py           # VLM 呼叫封裝
+│   ├── step2_chunk_text.py      # 文本切分（RAG 用）
+│   ├── step3_embedding.py       # Embedding（RAG 用）
+│   ├── step4_milvus_store.py    # 寫入 Milvus（RAG 用）
+│   └── step5_query.py           # 檢索查詢（RAG 用）
+├── milvus_data/                 # Milvus 本地資料
+└── run_step1_parse.ps1          # 執行 Step1 解析
 ```
 
-## 主流程：pdf2md.py（與 Docling2md 相同）
+## 主流程：分層 PDF → Markdown
 
-1. **設定**
-   - 將 `config_docling2md.yaml.example` 複製為 `config_docling2md.yaml`，填入：
-     - **OPENAI**：api_key、base_url、model（如 DeepSeek，用於標題/段落判斷、英文斷字）
-     - **VLM**：api_key、base_url、model（如 DashScope Qwen-VL，用於圖片 caption、表格修復）
-     - **OCR**：enabled（true/false）
-     - **POPPLER**：path（選填，要匯出每頁 PNG 時需填）
+### Step1：解析文件（`step1_parse_pdf.py`）
 
-2. **輸入**
-   - PDF 放在 `data/raw/`（由 `config.py` 的 `RAW_PDF_DIR` 決定）。
+- **輸入**：`data/raw/` 下的多種格式（PDF、DOCX、PPTX、XLSX、HTML、MD、圖片等）
+- **輸出**：`data/processed/*.md`、`*_meta.json`、`data/processed/images/<doc_name>/`
+- **說明**：Docling 統一解析多種格式，產出 Markdown（含表格、標題/段落、圖 placeholder），圖另存至 `images/`
 
-3. **執行**
-   ```bash
-   python pdf2md.py
-   ```
-   - 會處理 `data/raw/` 下所有 PDF，每個 PDF 對應一個 `output/<pdf_hash>/` 目錄。
+### Step2：綁定圖片（`step2_bind_images.py`）
 
-4. **輸出**（與 Docling2md 一致）
-   - `output/<pdf_hash>/<hash>.md`：依文件順序的 Markdown（表格、圖片 caption、標題/段落）。
-   - `output/<pdf_hash>/<hash>.json`：結構化資料（type、level、page_number、bbox 等）。
-   - `output/<pdf_hash>/page/page-*.png`：每頁圖（需設定 POPPLER）。
-   - `output/<pdf_hash>/*-table-*.png`、`*-picture-*.png`：表格與圖片檔。
+- **輸入**：Step1 產生的 `.md`、`_meta.json`、`images/`
+- **輸出**：更新後的 `.md`（圖片連結綁入正確位置）
+- **說明**：依 metadata 與 bbox，將圖檔以 `![](path)` 形式插入 Markdown
 
-5. **流程摘要**
-   - Docling 解析 PDF → 依 `document.iterate_items()` 順序處理：
-     - **表格**：匯出 DataFrame → Markdown；若結構異常則切片 + VLM 修復。
-     - **圖片**：存檔 + VLM 產生 caption，寫成 `![caption](./檔名.png)`。
-     - **文字**：可選英文斷字修復 + LLM 判斷 Heading / Paragraph，標題加 `#`。
+### Step3：Caption 強化（`step3_caption_enhance.py`）
 
-## 執行前注意（Windows）
+- **輸入**：Step2 的 `.md`、`images/`
+- **輸出**：含 VLM caption 的 `.md`（如 `*Caption: ...*`）
+- **說明**：對圖片呼叫 VLM 產生 caption。在 `config.py` 以 `VLM_PROVIDER` 切換後端：
+  - `gemini`：家裡測試，需填 `VLM_GEMINI.api_key`，安裝 `google-generativeai`
+  - `ollama`：公司自架伺服器，填 `VLM_OLLAMA.base_url`、`model`
 
-- 若本機曾用 Granite Docling 且遇權限問題，可設：
-  - `HF_HUB_DISABLE_SYMLINKS=1`
-  - `PYTHONIOENCODING=utf-8`
-- `pdf2md.py` 使用標準 Docling pipeline（非 Granite VLM），不需 GPU。
+### 設定（`config.py`）
 
-## 依賴
-
-- 主流程需：`docling`、`openai`、`pyyaml`、`pandas`、`Pillow`。
-- 選填：`pdf2image` + 系統安裝 **poppler**（用於匯出每頁 PNG）。
+- `DOCLING_LAYERED_MODE = True`：使用分層流程
+- `RAW_PDF_DIR`：PDF 來源
+- `PROCESSED_MD_DIR`：輸出路徑
+- `DOCLING_DEVICE`、`DOCLING_NUM_THREADS`、`DOCLING_MAX_PAGES` 等：Docling 相關參數
 
 ## 後續步驟（RAG）
 
-1. 以 `output/<pdf_hash>/*.md` 或 `.json` 做文本切分（如 `step2_chunk_text`）。
-2. Embedding、寫入 Milvus、實作檢索（`step3_embedding`、`step4_milvus_store`、`step5_query`）。
+1. **step2_chunk_text**：將 `.md` 切分為 chunks
+2. **step3_embedding**：對文本與圖片做 Embedding
+3. **step4_milvus_store**：寫入 Milvus
+4. **step5_query**：實作檢索查詢
+
+## 執行前注意（Windows）
+
+- 若曾用 Granite Docling 且遇權限問題，可設：
+  - `HF_HUB_DISABLE_SYMLINKS=1`
+  - `PYTHONIOENCODING=utf-8`
+
+## 依賴
+
+- Docling、openai、pyyaml、pandas、Pillow
+- 選填：pdf2image + poppler（需匯出每頁 PNG 時）
 
 ---
 
-舊的「分層流程」（Step1 只解析、Step2 綁圖、Step3 再 caption）仍保留在 `src/step1_parse_pdf.py`、`src/step2_bind_images.py`、`src/step3_caption_enhance.py`，可當備用或比對用。
+### 備選：pdf2md.py（Docling2md 風格）
+
+單一腳本一次完成 PDF → Markdown，需 `config_docling2md.yaml`。若偏好分層流程則無須使用。

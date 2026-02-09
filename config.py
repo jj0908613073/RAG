@@ -8,7 +8,15 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).parent
 DATA_DIR = PROJECT_ROOT / "data"
 RAW_PDF_DIR = DATA_DIR / "raw"
+RAW_DOCS_DIR = RAW_PDF_DIR  # 多格式輸入目錄（與 RAW_PDF_DIR 相同）
 PROCESSED_MD_DIR = DATA_DIR / "processed"
+
+# 多格式支援：Step1 可解析的副檔名（PDF、Office、圖片、網頁等）
+SUPPORTED_DOC_EXTENSIONS = (
+    ".pdf", ".docx", ".pptx", ".xlsx",
+    ".html", ".htm", ".md", ".csv", ".asciidoc",
+    ".png", ".jpg", ".jpeg", ".tiff", ".bmp", ".webp",
+)
 # Docling2md 風格輸出：output/<pdf_hash>/*.md, *.json, page/, *.png
 OUTPUT_BASE = PROJECT_ROOT / "output"
 MILVUS_DATA_DIR = PROJECT_ROOT / "milvus_data"
@@ -71,6 +79,33 @@ MILVUS_CONFIG = {
     "collection_name": "vibe_rag_collection",
     "metric_type": "COSINE",  # 相似度計算方式
     "index_type": "FLAT",  # 索引類型（小資料集用 FLAT，大資料集用 IVF_FLAT）
+}
+
+# ==================== VLM 圖片摘要設定（Step3 caption） ====================
+# 切換後端：改 VLM_PROVIDER 即可
+#   "gemini"  = 家裡測試，用 Google Gemini API（需 pip install google-generativeai）
+#   "ollama"  = 公司自架 Ollama，透過 URL 請求
+#   "openai"  = OpenAI 相容（DashScope、OpenAI 等）
+VLM_PROVIDER = "ollama"  # 公司用 ollama，家裡改回 "gemini"
+
+# Gemini API（家裡測試）
+# 可用模型：gemini-2.5-flash、gemini-2.5-flash-lite、gemini-2.0-flash（gemini-1.5-flash 已棄用）
+VLM_GEMINI = {
+    "api_key": "",  # Google AI Studio 取得 https://aistudio.google.com/app/apikey
+    "model": "gemini-2.5-flash",
+}
+
+# Ollama（公司自架，透過 URL 請求）
+VLM_OLLAMA = {
+    "base_url": "http://t2c2ap6:9999/v1",
+    "model": "qwen3-vl:8b",
+}
+
+# OpenAI 相容（DashScope、OpenAI 等）
+VLM_OPENAI = {
+    "api_key": "",
+    "base_url": "",  # 留空則用預設 OpenAI
+    "model": "gpt-4o",
 }
 
 # ==================== 檢索設定 ====================

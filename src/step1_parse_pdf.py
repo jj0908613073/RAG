@@ -1,18 +1,19 @@
 """
-Step 1: 使用 Docling 解析 PDF 並輸出 Markdown
+Step 1: 使用 Docling 解析多種文件格式（PDF、DOCX、PPTX、圖片等）並輸出 Markdown
 """
 import sys
 import traceback
 from pathlib import Path
 from typing import List, Dict
 import json
+import os
 
 # 確保能導入 config
 sys.path.append(str(Path(__file__).parent.parent))
 from config import (
-    RAW_PDF_DIR,
+    RAW_DOCS_DIR,
     PROCESSED_MD_DIR,
-    DOCLING_CONFIG,
+    SUPPORTED_DOC_EXTENSIONS,
     DOCLING_LAYERED_MODE,
     USE_GRANITE_DOCLING,
     DOCLING_DEVICE,
@@ -25,6 +26,7 @@ try:
     from docling.document_converter import DocumentConverter, PdfFormatOption
     from docling.datamodel.base_models import InputFormat
     from docling.datamodel.pipeline_options import ThreadedPdfPipelineOptions
+
 except ImportError:
     print("❌ 請先安裝 docling: pip install docling")
     sys.exit(1)
@@ -45,64 +47,106 @@ except ImportError:
     ImageRefMode = None
 
 
-class PDFParser:
-    """使用 Docling 解析 PDF 的封裝類別（可選 Granite Docling VLM）"""
-    
+def _collect_doc_files(directory: Path) -> List[Path]:
+    """收集目錄下所有支援格式的檔案"""
+    files = []
+    for ext in SUPPORTED_DOC_EXTENSIONS:
+        files.extend(directory.glob(f"*{ext}"))
+    return sorted(files, key=lambda p: p.name.lower())
+
+
+class DocumentParser:
+    """使用 Docling 解析多種文件格式（PDF、DOCX、PPTX、圖片等）的封裝類別"""
+
     def __init__(self):
-        # 建立 Docling 轉換器（分層模式用標準 pipeline，不跑 VLM）
+        # 支援的格式（Docling 會依副檔名自動選擇對應 pipeline）
+        allowed_formats = [
+            InputFormat.PDF,
+            InputFormat.DOCX,
+            InputFormat.PPTX,
+            InputFormat.XLSX,
+            InputFormat.HTML,
+            InputFormat.MD,
+            InputFormat.CSV,
+            InputFormat.IMAGE,
+        ]
+        format_options = {}
+
         if DOCLING_LAYERED_MODE:
-            # 必須開啟 generate_picture_images 才會有圖可匯出；images_scale 愈高圖愈清晰
             pdf_opts = ThreadedPdfPipelineOptions(
                 generate_picture_images=True,
                 generate_page_images=True,
                 images_scale=DOCLING_IMAGES_SCALE,
             )
-            self.converter = DocumentConverter(
-                format_options={
-                    InputFormat.PDF: PdfFormatOption(pipeline_options=pdf_opts),
-                }
-            )
-            print("[OK] 分層模式：標準 Docling（標題/段落 + 圖匯出至 images/）")
+            format_options[InputFormat.PDF] = PdfFormatOption(pipeline_options=pdf_opts)
+            print("[OK] 分層模式：多格式 Docling（PDF/DOCX/PPTX/圖片等 → Markdown）")
         elif USE_GRANITE_DOCLING:
-            # 使用 Granite Docling（VLM pipeline），裝置與執行緒由 config 控制
             accel = AcceleratorOptions(device=DOCLING_DEVICE, num_threads=DOCLING_NUM_THREADS)
-            self.converter = DocumentConverter(
-                format_options={
-                    InputFormat.PDF: PdfFormatOption(
-                        pipeline_cls=VlmPipeline,
-                        pipeline_options=VlmPipelineOptions(accelerator_options=accel),
-                    ),
-                }
+            format_options[InputFormat.PDF] = PdfFormatOption(
+                pipeline_cls=VlmPipeline,
+                pipeline_options=VlmPipelineOptions(accelerator_options=accel),
             )
-            print(f"[OK] Granite Docling (VLM)，裝置: {DOCLING_DEVICE}，執行緒: {DOCLING_NUM_THREADS}")
-        else:
-            self.converter = DocumentConverter()
-        
-    def parse_single_pdf(self, pdf_path: Path) -> Dict:
-        """
-        解析單一 PDF 檔案
-        
-        Args:
-            pdf_path: PDF 檔案路徑
-            
-        Returns:
-            包含 markdown 文本、metadata 的字典
-        """
-        print(f"📄 開始解析: {pdf_path.name}")
-        if DOCLING_MAX_PAGES is not None:
-            print(f"   （僅前 {DOCLING_MAX_PAGES} 頁，測試用）")
+            print(f"[OK] Granite Docling (VLM)，裝置: {DOCLING_DEVICE}")
+
+        self.converter = DocumentConverter(
+            allowed_formats=allowed_formats,
+            format_options=format_options or {},
+        )
+
+    def parse_single_document(self, doc_path: Path) -> Dict:
+        """解析單一文件（PDF、DOCX、PPTX、圖片等）"""
+        print(f"📄 開始解析: {doc_path.name}")
         try:
-            # 只處理前 N 頁：用 page_range，不要用 max_num_pages（會把多頁 PDF 整份拒收）
             kwargs = {}
-            if DOCLING_MAX_PAGES is not None:
+            # 僅 PDF 支援 page_range（限制頁數）
+            if doc_path.suffix.lower() == ".pdf" and DOCLING_MAX_PAGES is not None:
                 kwargs["page_range"] = (1, DOCLING_MAX_PAGES)
-            result = self.converter.convert(str(pdf_path), **kwargs)
-            
+                print(f"   （僅前 {DOCLING_MAX_PAGES} 頁，測試用）")
+            result = self.converter.convert(str(doc_path), **kwargs)
+
+            from docling_core.types.doc import TableItem, PictureItem, TextItem
+
+            elements = []
+            for item, level in result.document.iterate_items():
+                prov = item.prov[0] if item.prov else None
+                bbox = prov.bbox if prov and hasattr(prov, "bbox") and prov.bbox else None
+                element = {
+                    "type": "text",
+                    "level": level,
+                    "text": getattr(item, "text", ""),
+                    "label": "paragraph",
+                    "page_number": getattr(prov, "page_no", None) if prov else None,
+                    "bbox": {
+                        "left": bbox.l, "top": bbox.t, "right": bbox.r, "bottom": bbox.b,
+                        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+                    } if bbox else None
+                }
+
+                if isinstance(item, TableItem):
+                    element["type"] = "table"
+                    element["label"] = "table"
+                    try:
+                        html_content = item.export_to_html(doc=result.document)
+                        if html_content.strip() == "<table></table>" or not html_content:
+                            element["text"] = item.export_to_markdown(doc=result.document)
+                        else:
+                            element["text"] = html_content
+                    except Exception:
+                        element["text"] = item.export_to_markdown(doc=result.document)
+
+                elif isinstance(item, PictureItem):
+                    element["type"] = "picture"
+                    element["label"] = "picture"
+                    element["image"] = f"{item.self_ref.split('/')[-1]}.png"
+                    element["caption"] = getattr(item, "caption", "[Image description failed]")
+                    element["text"] = element["caption"]
+
+                elements.append(element)
+
             if DOCLING_LAYERED_MODE and ImageRefMode is not None:
-                # 分層：直接寫入 .md + 匯出圖片到 images/{doc_stem}/（相對路徑，方便 Step2）
-                md_path = PROCESSED_MD_DIR / (pdf_path.stem + ".md")
-                (PROCESSED_MD_DIR / "images" / pdf_path.stem).mkdir(parents=True, exist_ok=True)
-                artifacts_dir = Path("images") / pdf_path.stem  # 相對路徑，md 內為 images/doc_stem/xxx.png
+                md_path = PROCESSED_MD_DIR / (doc_path.stem + ".md")
+                (PROCESSED_MD_DIR / "images" / doc_path.stem).mkdir(parents=True, exist_ok=True)
+                artifacts_dir = Path("images") / doc_path.stem
                 result.document.save_as_markdown(
                     filename=md_path,
                     artifacts_dir=artifacts_dir,
@@ -111,20 +155,20 @@ class PDFParser:
                 markdown_text = md_path.read_text(encoding="utf-8")
             else:
                 markdown_text = result.document.export_to_markdown()
-            
-            # 提取 metadata
+
             metadata = {
-                "source": pdf_path.name,
-                "num_pages": len(result.document.pages) if hasattr(result.document, 'pages') else 0,
-                "title": getattr(result.document, 'title', pdf_path.stem),
+                "source": doc_path.name,
+                "num_pages": len(result.document.pages) if hasattr(result.document, "pages") else 0,
+                "title": getattr(result.document, "title", doc_path.stem),
+                "elements": elements,
             }
-            
+
             return {
                 "markdown": markdown_text,
                 "metadata": metadata,
                 "success": True
             }
-            
+
         except Exception as e:
             print(f"❌ 解析失敗: {e}")
             traceback.print_exc()
@@ -134,49 +178,41 @@ class PDFParser:
                 "success": False,
                 "error": str(e)
             }
-    
-    def save_markdown(self, pdf_path: Path, result: Dict):
+    def save_markdown(self, doc_path: Path, result: Dict):
         """儲存 Markdown 到檔案（分層模式時 .md 已在 parse 時寫入，只寫 metadata）"""
         if not result["success"]:
             return
-        
-        output_path = PROCESSED_MD_DIR / (pdf_path.stem + ".md")
+
+        output_path = PROCESSED_MD_DIR / (doc_path.stem + ".md")
         if not DOCLING_LAYERED_MODE:
             with open(output_path, "w", encoding="utf-8") as f:
                 f.write(result["markdown"])
             print(f"✅ 已儲存: {output_path}")
-        
-        meta_path = PROCESSED_MD_DIR / (pdf_path.stem + "_meta.json")
+
+        meta_path = PROCESSED_MD_DIR / (doc_path.stem + "_meta.json")
         with open(meta_path, "w", encoding="utf-8") as f:
             json.dump(result["metadata"], f, indent=2, ensure_ascii=False)
         print(f"📊 Metadata: {meta_path}")
     
     def parse_directory(self, max_files: int = None) -> List[Dict]:
-        """
-        批次解析目錄下的所有 PDF
-        
-        Args:
-            max_files: 最多處理幾個檔案（測試用）
-            
-        Returns:
-            解析結果列表
-        """
-        pdf_files = list(RAW_PDF_DIR.glob("*.pdf"))
-        
-        if not pdf_files:
-            print(f"⚠️  在 {RAW_PDF_DIR} 找不到 PDF 檔案")
+        """批次解析目錄下所有支援格式的檔案"""
+        doc_files = _collect_doc_files(RAW_DOCS_DIR)
+
+        if not doc_files:
+            print(f"⚠️  在 {RAW_DOCS_DIR} 找不到支援的檔案")
+            print(f"   支援副檔名: {', '.join(SUPPORTED_DOC_EXTENSIONS)}")
             return []
-        
+
         if max_files:
-            pdf_files = pdf_files[:max_files]
-        
-        print(f"🔍 找到 {len(pdf_files)} 個 PDF 檔案")
-        
+            doc_files = doc_files[:max_files]
+
+        print(f"🔍 找到 {len(doc_files)} 個檔案 ({', '.join(p.suffix for p in doc_files[:5])}{'...' if len(doc_files) > 5 else ''})")
+
         results = []
-        for pdf_path in pdf_files:
-            result = self.parse_single_pdf(pdf_path)
+        for doc_path in doc_files:
+            result = self.parse_single_document(doc_path)
             if result["success"]:
-                self.save_markdown(pdf_path, result)
+                self.save_markdown(doc_path, result)
             results.append(result)
         
         # 統計
@@ -189,21 +225,19 @@ class PDFParser:
 def main():
     """主程式 - 測試解析功能"""
     print("=" * 60)
-    print("Step 1: PDF 解析測試")
+    print("Step 1: 多格式文件解析（PDF / DOCX / PPTX / 圖片等）")
     print("=" * 60)
-    
-    parser = PDFParser()
-    
-    # 檢查是否有 PDF 檔案
-    pdf_files = list(RAW_PDF_DIR.glob("*.pdf"))
-    if not pdf_files:
-        print(f"\n⚠️  請先將 PDF 檔案放到: {RAW_PDF_DIR}")
-        print("提示：你可以從 LongDocURL 資料集下載測試檔案")
+
+    parser = DocumentParser()
+
+    doc_files = _collect_doc_files(RAW_DOCS_DIR)
+    if not doc_files:
+        print(f"\n⚠️  請先將文件放到: {RAW_DOCS_DIR}")
+        print(f"   支援副檔名: {', '.join(SUPPORTED_DOC_EXTENSIONS)}")
         return
-    
-    # 先測試解析第一個檔案
+
     print(f"\n🧪 測試模式：只解析第一個檔案")
-    results = parser.parse_directory(max_files=1)
+    results = parser.parse_directory(max_files=None) # max_files=1 只解析第一個檔案，None 解析全部
     
     if results and results[0]["success"]:
         print("\n" + "=" * 60)

@@ -1,0 +1,247 @@
+{
+  "source": "論文格式說明與備註.docx",
+  "num_pages": 0,
+  "title": "論文格式說明與備註",
+  "elements": [
+    {
+      "type": "text",
+      "level": 1,
+      "text": "高雄醫學大學語言與文化中心研討會論文書寫格式說明",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "中英文稿件請以Microsoft Word軟體處理，橫式打字。",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "中文稿件格式：",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "論文題目請置中、粗體、採用新細明體16點；內文標題靠左、粗體、採用新細明體14點；標點符號及空白字為全形字；論文內容採用新細明體12點，固定行高22。",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "論文摘要、關鍵詞，請用標楷體12點。",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "各章節標號，請依序用： 壹 → 一 →（一）→ 1 → （1）……",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "書名與篇名請分別用《》、〈〉。",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "兩行以上的引文請用標楷體12點，獨立起段，前後不加引號，每行前各縮三個字，並註明出處。",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "註腳採當頁註，編號請置於標點符號後，字體採用新細明體10點；所引資料請依第(七)點參考文獻之規範撰寫。",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "參考文獻請依照專書、學位論文、期刊文章及網路資料分類編排，中文在前、外文在後：",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "請依作者、書名、出版地、出版社及出版年的順序編排。例如：             連橫主編：《台灣詩薈》，南投：台灣省文獻委員會，1992。",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 4,
+      "text": "期刊論文",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 4,
+      "text": "：",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "請依作者、篇名、期刊名、卷號、出版時間、起訖頁碼的順序編排。         例如：                                                          張光正：〈張我軍與中日文化交流〉，《台灣研究集刊》，第2期，1996，        頁73-81。",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 4,
+      "text": "網路資料",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 4,
+      "text": "：",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "請依作者、篇名、網站、發表時間、網址、搜尋時間的順序編排。",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "例如：",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "ETS台灣區代表：〈台灣區代表發布「2012年台灣與國際產學英語能力差距報告」〉，《多益季刊Newsletter27》，2012年1月，http://www.toeic.com.tw/newsletter/context.jsp?nid=N20120109&nch=242 ，8月18日搜尋。",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "英文稿件格式：摘要、全文、圖表、照片請依據最新版本之American Psychological Association(APA)格式。",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "table",
+      "level": 1,
+      "text": "<table><tbody><tr><th>備註:</th><th></th></tr><tr><td colspan=\"2\">1.論文摘要通過審核之來稿文長：中文以8000-20000字；英文以6000-7000 字為原則。</td></tr><tr><td colspan=\"2\"><p>2.文稿排序：題目、摘要、關鍵詞、正文（註腳請採用當頁註，置於每頁下方）、參考文獻、</p>\n<p>附錄、圖表等。詳細撰寫格式請參閱本校語言與文化中心研討會論文書寫格式說明。</p></td></tr><tr><td colspan=\"2\"><p>3.論文截稿日期：請於2018年10月1日（星期一）前將論文全文以電子檔（pdf）寄至</p>\n<p>徐嘉吟小姐 m867006@kmu.edu.tw 。電子郵件主旨請註明：2018年「文學、語文教學」</p>\n<p>學術研討會投稿。本會於收到文稿後，會儘速回覆作者文稿已收悉。</p></td></tr></tbody></table>",
+      "label": "table",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "2.文稿排序：題目、摘要、關鍵詞、正文（註腳請採用當頁註，置於每頁下方）、參考文獻、",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "附錄、圖表等。詳細撰寫格式請參閱本校語言與文化中心研討會論文書寫格式說明。",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "3.論文截稿日期：請於2018年10月1日（星期一）前將論文全文以電子檔（pdf）寄至",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "徐嘉吟小姐 m867006@kmu.edu.tw 。電子郵件主旨請註明：2018年「文學、語文教學」",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "學術研討會投稿。本會於收到文稿後，會儘速回覆作者文稿已收悉。",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    }
+  ]
+}

@@ -1,0 +1,433 @@
+{
+  "source": "數碼一號-進銷存系統操作手冊-1-10.pdf",
+  "num_pages": 5,
+  "title": "數碼一號-進銷存系統操作手冊-1-10",
+  "elements": [
+    {
+      "type": "text",
+      "level": 1,
+      "text": "數碼one",
+      "label": "paragraph",
+      "page_number": 1,
+      "bbox": {
+        "left": 248.0,
+        "top": 694.7066446940104,
+        "right": 350.0,
+        "bottom": 659.3733113606771,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "ERP 系統操作手冊目錄",
+      "label": "paragraph",
+      "page_number": 1,
+      "bbox": {
+        "left": 191.45,
+        "top": 651.9399780273438,
+        "right": 438.46,
+        "bottom": 628.3959780273437,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "table",
+      "level": 1,
+      "text": "<table><tbody><tr><td>一、基本系統篇………………………………………….2</td></tr><tr><td>二、採購進貨篇………………………………………..82</td></tr><tr><td>三、銷售系統篇………………………………………105</td></tr><tr><td>四、庫存系統篇………………………………………173</td></tr><tr><td>五、電子發票篇………………………………………249</td></tr><tr><td>六、帳款成本篇………………………………………300</td></tr><tr><td>七、票據系統篇………………………………………360</td></tr><tr><td>八、電商API篇……………………………………...380</td></tr></tbody></table>",
+      "label": "table",
+      "page_number": 1,
+      "bbox": {
+        "left": 84.2812271118164,
+        "top": 590.0442504882812,
+        "right": 537.4761962890625,
+        "bottom": 301.98443603515625,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "one 數碼一号",
+      "label": "paragraph",
+      "page_number": 1,
+      "bbox": {
+        "left": 400.33333333333337,
+        "top": 116.70664469401038,
+        "right": 513.3333333333333,
+        "bottom": 59.37331136067712,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "基本系統篇",
+      "label": "paragraph",
+      "page_number": 2,
+      "bbox": {
+        "left": 94.104,
+        "top": 500.3499780273438,
+        "right": 517.174,
+        "bottom": 423.9209780273438,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "系統設定說明",
+      "label": "paragraph",
+      "page_number": 3,
+      "bbox": {
+        "left": 63.744,
+        "top": 737.9039780273438,
+        "right": 164.69,
+        "bottom": 722.2479780273438,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "在數碼一號系統的主畫面中，如果有系統設定要調整，可以參考如圖〔系統設定〕所標示的 三個地方。",
+      "label": "paragraph",
+      "page_number": 3,
+      "bbox": {
+        "left": 56.784,
+        "top": 690.5799780273438,
+        "right": 538.838,
+        "bottom": 657.6879780273438,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 1,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 3,
+      "bbox": {
+        "left": 70.84033203125,
+        "top": 633.9862823486328,
+        "right": 523.2875366210938,
+        "bottom": 414.0228271484375,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "0.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "圖〔系統設定〕",
+      "label": "paragraph",
+      "page_number": 3,
+      "bbox": {
+        "left": 253.13,
+        "top": 410.20997802734377,
+        "right": 340.15,
+        "bottom": 398.4379780273438,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "在畫面最上方的列表：請將系統別變更為 系統設定 ，之後再將滑鼠游標移動至 系統設定 欄位，即可下拉檢視所有系統設定項目。",
+      "label": "paragraph",
+      "page_number": 3,
+      "bbox": {
+        "left": 63.744,
+        "top": 368.6899780273438,
+        "right": 534.1,
+        "bottom": 336.1579780273438,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "在畫面左邊功能清單：在系統主畫面左邊的功能清單，點選 系統設定 後，就會展開所有 系統設定項目。",
+      "label": "paragraph",
+      "page_number": 3,
+      "bbox": {
+        "left": 63.744,
+        "top": 327.16997802734386,
+        "right": 534.1,
+        "bottom": 294.6379780273437,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "在 系統維護 分頁：在系統主畫面切換到 系統維護 分頁，可以直接看到所有系統設定項目 的圖示。",
+      "label": "paragraph",
+      "page_number": 3,
+      "bbox": {
+        "left": 63.744,
+        "top": 285.64997802734376,
+        "right": 534.07,
+        "bottom": 253.08797802734375,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "系統設定依據項目，總共分為以下兩個單元做說明：",
+      "label": "paragraph",
+      "page_number": 3,
+      "bbox": {
+        "left": 61.224,
+        "top": 223.33997802734382,
+        "right": 340.27,
+        "bottom": 211.56797802734377,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "系統參數： 包含公司資料、進銷存參數、顯示格式及自動編號原則。",
+      "label": "paragraph",
+      "page_number": 3,
+      "bbox": {
+        "left": 63.744,
+        "top": 202.57997802734383,
+        "right": 441.1,
+        "bottom": 190.80797802734378,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "資料庫備份： 包含資料庫備份的操作流程介紹。",
+      "label": "paragraph",
+      "page_number": 3,
+      "bbox": {
+        "left": 63.744,
+        "top": 181.81997802734372,
+        "right": 333.07,
+        "bottom": 170.0479780273438,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "1-1 系統參數說明",
+      "label": "paragraph",
+      "page_number": 4,
+      "bbox": {
+        "left": 56.664,
+        "top": 735.2639780273438,
+        "right": 186.05,
+        "bottom": 719.6079780273437,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "系統參數設定在數碼一號系統裡頭至關重要，任何的系統參數修改都會牽一髮動全身， 影響到整個進銷存系統的運作，舉凡數字的顯示格式、單號的編碼原則……等等，所以 建議將此畫面的設定權限交由系統管理員控制。",
+      "label": "paragraph",
+      "page_number": 4,
+      "bbox": {
+        "left": 56.664,
+        "top": 687.9399780273438,
+        "right": 512.664,
+        "bottom": 634.6479780273438,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "此畫面一共包含四個頁籤如下：",
+      "label": "paragraph",
+      "page_number": 4,
+      "bbox": {
+        "left": 56.664,
+        "top": 625.6599780273438,
+        "right": 227.69,
+        "bottom": 613.8879780273438,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "【1-1-1】公司資料",
+      "label": "paragraph",
+      "page_number": 4,
+      "bbox": {
+        "left": 56.664,
+        "top": 583.2859780273437,
+        "right": 181.4,
+        "bottom": 569.5129780273438,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "使用時機： 使用者若要查看或是修改總公司的基本資料可以開啟此畫面，包含統一編 號、電話號碼、負責人姓名……等等，都可以在此畫面查看，如圖〔公司資料〕 。",
+      "label": "paragraph",
+      "page_number": 4,
+      "bbox": {
+        "left": 56.664,
+        "top": 559.8699780273438,
+        "right": 515.76,
+        "bottom": 527.3379780273438,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 1,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 4,
+      "bbox": {
+        "left": 83.34758758544922,
+        "top": 504.3414001464844,
+        "right": 500.8130798339844,
+        "bottom": 147.9393310546875,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "1.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "圖〔公司資料〕",
+      "label": "paragraph",
+      "page_number": 4,
+      "bbox": {
+        "left": 250.49,
+        "top": 142.69997802734383,
+        "right": 337.51,
+        "bottom": 130.92797802734378,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "【1-1-2】進銷存參數",
+      "label": "paragraph",
+      "page_number": 5,
+      "bbox": {
+        "left": 56.784,
+        "top": 739.1959780273438,
+        "right": 195.56,
+        "bottom": 725.4229780273438,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "使用時機： 使用者可以開啟此畫面查看進銷存系統相關的參數設定。",
+      "label": "paragraph",
+      "page_number": 5,
+      "bbox": {
+        "left": 63.864,
+        "top": 715.7799780273438,
+        "right": 426.94,
+        "bottom": 704.0079780273438,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 1,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 5,
+      "bbox": {
+        "left": 119.88285064697266,
+        "top": 680.6909942626953,
+        "right": 484.9066162109375,
+        "bottom": 368.87109375,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "2.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "圖〔進銷存參數〕",
+      "label": "paragraph",
+      "page_number": 5,
+      "bbox": {
+        "left": 253.13,
+        "top": 362.8099780273438,
+        "right": 352.15,
+        "bottom": 351.0379780273438,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "◇ 庫存開帳日： 可以在此欄位輸入系統啟用的日期。",
+      "label": "paragraph",
+      "page_number": 5,
+      "bbox": {
+        "left": 68.184,
+        "top": 321.28997802734375,
+        "right": 352.15,
+        "bottom": 309.5179780273438,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "◇ 庫存關帳日期： 使用者執行成本月結後，系統會自動將庫存關帳日回寫到此欄位。",
+      "label": "paragraph",
+      "page_number": 5,
+      "bbox": {
+        "left": 68.184,
+        "top": 279.76997802734377,
+        "right": 520.2,
+        "bottom": 267.99797802734383,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "◇ 庫存成本基準： 此下拉選單有 月加權平均成本 及 標準成本 兩個選項，選擇任一項都會影 響到庫存系統報表的總成本值。例如：系統參數設定為 標準成本 ，在輸入調整單時，當 調整數量為-5個時，被調整的總金額為(-5)*(產品的標準成本(30元))=-150元。",
+      "label": "paragraph",
+      "page_number": 5,
+      "bbox": {
+        "left": 68.184,
+        "top": 238.2199780273438,
+        "right": 538.78,
+        "bottom": 184.92797802734378,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "◇ 稅率： 設定為公司所在營業地的營業稅率，例如：在台灣為5%，若是在日本的話則設 為10%。",
+      "label": "paragraph",
+      "page_number": 5,
+      "bbox": {
+        "left": 68.184,
+        "top": 155.17997802734385,
+        "right": 537.7,
+        "bottom": 122.64797802734381,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    }
+  ]
+}
