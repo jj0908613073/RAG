@@ -81,32 +81,10 @@ MILVUS_CONFIG = {
     "index_type": "FLAT",  # 索引類型（小資料集用 FLAT，大資料集用 IVF_FLAT）
 }
 
-# ==================== VLM 圖片摘要設定（Step3 caption） ====================
-# 切換後端：改 VLM_PROVIDER 即可
-#   "gemini"  = 家裡測試，用 Google Gemini API（需 pip install google-generativeai）
-#   "ollama"  = 公司自架 Ollama，透過 URL 請求
-#   "openai"  = OpenAI 相容（DashScope、OpenAI 等）
-VLM_PROVIDER = "ollama"  # 公司用 ollama，家裡改回 "gemini"
-
-# Gemini API（家裡測試）
-# 可用模型：gemini-2.5-flash、gemini-2.5-flash-lite、gemini-2.0-flash（gemini-1.5-flash 已棄用）
-VLM_GEMINI = {
-    "api_key": "",  # Google AI Studio 取得 https://aistudio.google.com/app/apikey
-    "model": "gemini-2.5-flash",
-}
-
-# Ollama（公司自架，透過 URL 請求）
-VLM_OLLAMA = {
-    "base_url": "http://t2c2ap6:9999/v1",
-    "model": "qwen3-vl:8b",
-}
-
-# OpenAI 相容（DashScope、OpenAI 等）
-VLM_OPENAI = {
-    "api_key": "",
-    "base_url": "",  # 留空則用預設 OpenAI
-    "model": "gpt-4o",
-}
+# ==================== VLM 圖片摘要設定（Step3 caption，僅 Ollama） ====================
+# 家裡：http://127.0.0.1:11434 | 公司：http://t2c2ap6:9999/v1
+OLLAMA_BASE_URL = "http://127.0.0.1:11434"  # 公司；家裡改 "http://127.0.0.1:11434"
+OLLAMA_MODEL = "qwen3-vl:8b"
 
 # ==================== 檢索設定 ====================
 RETRIEVAL_CONFIG = {

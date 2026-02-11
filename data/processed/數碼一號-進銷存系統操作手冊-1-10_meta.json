@@ -7,7 +7,7 @@
       "type": "text",
       "level": 1,
       "text": "數碼one",
-      "label": "paragraph",
+      "label": "heading",
       "page_number": 1,
       "bbox": {
         "left": 248.0,
@@ -21,7 +21,7 @@
       "type": "text",
       "level": 1,
       "text": "ERP 系統操作手冊目錄",
-      "label": "paragraph",
+      "label": "heading",
       "page_number": 1,
       "bbox": {
         "left": 191.45,
@@ -43,13 +43,14 @@
         "right": 537.4761962890625,
         "bottom": 301.98443603515625,
         "coord_origin": "CoordOrigin.BOTTOMLEFT"
-      }
+      },
+      "table_id": "0001"
     },
     {
       "type": "text",
       "level": 1,
       "text": "one 數碼一号",
-      "label": "paragraph",
+      "label": "heading",
       "page_number": 1,
       "bbox": {
         "left": 400.33333333333337,
@@ -63,7 +64,7 @@
       "type": "text",
       "level": 1,
       "text": "基本系統篇",
-      "label": "paragraph",
+      "label": "heading",
       "page_number": 2,
       "bbox": {
         "left": 94.104,
@@ -77,7 +78,7 @@
       "type": "text",
       "level": 1,
       "text": "系統設定說明",
-      "label": "paragraph",
+      "label": "heading",
       "page_number": 3,
       "bbox": {
         "left": 63.744,
@@ -121,7 +122,7 @@
       "type": "text",
       "level": 2,
       "text": "圖〔系統設定〕",
-      "label": "paragraph",
+      "label": "heading",
       "page_number": 3,
       "bbox": {
         "left": 253.13,
@@ -177,7 +178,7 @@
       "type": "text",
       "level": 1,
       "text": "系統設定依據項目，總共分為以下兩個單元做說明：",
-      "label": "paragraph",
+      "label": "heading",
       "page_number": 3,
       "bbox": {
         "left": 61.224,
@@ -219,7 +220,7 @@
       "type": "text",
       "level": 1,
       "text": "1-1 系統參數說明",
-      "label": "paragraph",
+      "label": "heading",
       "page_number": 4,
       "bbox": {
         "left": 56.664,
@@ -247,7 +248,7 @@
       "type": "text",
       "level": 1,
       "text": "此畫面一共包含四個頁籤如下：",
-      "label": "paragraph",
+      "label": "heading",
       "page_number": 4,
       "bbox": {
         "left": 56.664,
@@ -261,7 +262,7 @@
       "type": "text",
       "level": 1,
       "text": "【1-1-1】公司資料",
-      "label": "paragraph",
+      "label": "heading",
       "page_number": 4,
       "bbox": {
         "left": 56.664,
@@ -305,7 +306,7 @@
       "type": "text",
       "level": 2,
       "text": "圖〔公司資料〕",
-      "label": "paragraph",
+      "label": "heading",
       "page_number": 4,
       "bbox": {
         "left": 250.49,
@@ -319,7 +320,7 @@
       "type": "text",
       "level": 1,
       "text": "【1-1-2】進銷存參數",
-      "label": "paragraph",
+      "label": "heading",
       "page_number": 5,
       "bbox": {
         "left": 56.784,
@@ -363,7 +364,7 @@
       "type": "text",
       "level": 2,
       "text": "圖〔進銷存參數〕",
-      "label": "paragraph",
+      "label": "heading",
       "page_number": 5,
       "bbox": {
         "left": 253.13,

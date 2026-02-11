@@ -52,9 +52,9 @@ RAG/
 
 - **輸入**：Step2 的 `.md`、`images/`
 - **輸出**：含 VLM caption 的 `.md`（如 `*Caption: ...*`）
-- **說明**：對圖片呼叫 VLM 產生 caption。在 `config.py` 以 `VLM_PROVIDER` 切換後端：
-  - `gemini`：家裡測試，需填 `VLM_GEMINI.api_key`，安裝 `google-generativeai`
-  - `ollama`：公司自架伺服器，填 `VLM_OLLAMA.base_url`、`model`
+- **說明**：對圖片呼叫 Ollama VLM 產生 caption。在 `config.py` 設定：
+  - `OLLAMA_BASE_URL`：家裡 `http://127.0.0.1:11434`（不加 /v1），公司 `http://t2c2ap6:9999/v1`
+  - `OLLAMA_MODEL`：如 `qwen3-vl:8b`
 
 ### 設定（`config.py`）
 

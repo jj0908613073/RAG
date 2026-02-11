@@ -1,12 +1,17 @@
 """
 Step 1: 使用 Docling 解析多種文件格式（PDF、DOCX、PPTX、圖片等）並輸出 Markdown
 """
+# Windows 需停用 symlinks，避免 [WinError 1314] 用戶端沒有這項特殊權限
+import os
+
+os.environ.setdefault("HF_HUB_DISABLE_SYMLINKS", "1")
+os.environ.setdefault("HF_HUB_DISABLE_SYMLINKS_WARNING", "1")
+
 import sys
 import traceback
 from pathlib import Path
 from typing import List, Dict
 import json
-import os
 
 # 確保能導入 config
 sys.path.append(str(Path(__file__).parent.parent))
@@ -45,6 +50,8 @@ try:
     from docling_core.types.doc.base import ImageRefMode
 except ImportError:
     ImageRefMode = None
+
+from table_dual_track import apply_table_dual_track
 
 
 def _collect_doc_files(directory: Path) -> List[Path]:
@@ -106,15 +113,38 @@ class DocumentParser:
 
             from docling_core.types.doc import TableItem, PictureItem, TextItem
 
+            try:
+                from docling_core.types.doc import DocItemLabel
+            except ImportError:
+                try:
+                    from docling_core.types.doc.labels import DocItemLabel
+                except ImportError:
+                    DocItemLabel = None
+
+            table_counter = [0]
             elements = []
             for item, level in result.document.iterate_items():
                 prov = item.prov[0] if item.prov else None
                 bbox = prov.bbox if prov and hasattr(prov, "bbox") and prov.bbox else None
+
+                # 依 label 區分 heading 與 paragraph
+                label = "paragraph"
+                if DocItemLabel is not None:
+                    item_label = getattr(item, "label", None)
+                    if item_label is not None:
+                        if item_label in (DocItemLabel.SECTION_HEADER, DocItemLabel.TITLE):
+                            label = "heading"
+                # fallback：很短且不像句子 → heading 候選（DOCX/PPTX 常漏標）
+                text = (getattr(item, "text", "") or "").strip()
+                if label == "paragraph" and text:
+                    if len(text) <= 40 and not any(p in text for p in "。.!?"):
+                        label = "heading"
+
                 element = {
                     "type": "text",
                     "level": level,
                     "text": getattr(item, "text", ""),
-                    "label": "paragraph",
+                    "label": label,
                     "page_number": getattr(prov, "page_no", None) if prov else None,
                     "bbox": {
                         "left": bbox.l, "top": bbox.t, "right": bbox.r, "bottom": bbox.b,
@@ -125,6 +155,8 @@ class DocumentParser:
                 if isinstance(item, TableItem):
                     element["type"] = "table"
                     element["label"] = "table"
+                    table_counter[0] += 1
+                    element["table_id"] = f"{table_counter[0]:04d}"
                     try:
                         html_content = item.export_to_html(doc=result.document)
                         if html_content.strip() == "<table></table>" or not html_content:
@@ -141,6 +173,9 @@ class DocumentParser:
                     element["caption"] = getattr(item, "caption", "[Image description failed]")
                     element["text"] = element["caption"]
 
+                # 過濾空 text element，避免雜訊
+                if element["type"] == "text" and not (element.get("text") or "").strip():
+                    continue
                 elements.append(element)
 
             if DOCLING_LAYERED_MODE and ImageRefMode is not None:
@@ -179,15 +214,22 @@ class DocumentParser:
                 "error": str(e)
             }
     def save_markdown(self, doc_path: Path, result: Dict):
-        """儲存 Markdown 到檔案（分層模式時 .md 已在 parse 時寫入，只寫 metadata）"""
+        """儲存 Markdown 到檔案（含表格雙軌：HTML 保真 + TABLE_TEXT 檢索版）"""
         if not result["success"]:
             return
 
         output_path = PROCESSED_MD_DIR / (doc_path.stem + ".md")
-        if not DOCLING_LAYERED_MODE:
-            with open(output_path, "w", encoding="utf-8") as f:
-                f.write(result["markdown"])
-            print(f"✅ 已儲存: {output_path}")
+
+        # 表格雙軌：placeholders + elements 回填 TABLE_HTML + TABLE_TEXT
+        markdown_content = apply_table_dual_track(
+            result["markdown"],
+            result["metadata"].get("elements", []),
+        )
+
+        # 寫入格式化後的內容（分層模式和非分層模式都需要寫入）
+        with open(output_path, "w", encoding="utf-8") as f:
+            f.write(markdown_content)
+        print(f"✅ 已儲存: {output_path}")
 
         meta_path = PROCESSED_MD_DIR / (doc_path.stem + "_meta.json")
         with open(meta_path, "w", encoding="utf-8") as f:
@@ -236,8 +278,8 @@ def main():
         print(f"   支援副檔名: {', '.join(SUPPORTED_DOC_EXTENSIONS)}")
         return
 
-    print(f"\n🧪 測試模式：只解析第一個檔案")
-    results = parser.parse_directory(max_files=None) # max_files=1 只解析第一個檔案，None 解析全部
+    print(f"\n🚀 開始解析所有檔案...")
+    results = parser.parse_directory(max_files=None)
     
     if results and results[0]["success"]:
         print("\n" + "=" * 60)
