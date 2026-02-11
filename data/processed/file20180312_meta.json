@@ -1,0 +1,1453 @@
+{
+  "source": "file20180312.pdf",
+  "num_pages": 5,
+  "title": "file20180312",
+  "elements": [
+    {
+      "type": "picture",
+      "level": 1,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 1,
+      "bbox": {
+        "left": 67.28571319580078,
+        "top": 785.7668113708496,
+        "right": 161.88815307617188,
+        "bottom": 750.7373504638672,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "0.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "table",
+      "level": 1,
+      "text": "<table><tbody><tr><td>系統</td><td rowspan=\"2\">ISO 9001:2015</td><td>頁數</td><td>日期</td></tr><tr><td>名稱</td><td>第 1 頁 , 共 17 頁</td><td>2017/01/01</td></tr><tr><td>文件</td><td rowspan=\"2\">採購暨供應商評鑑作業程序</td><td>文 件 編</td><td>號</td></tr><tr><td>名稱</td><td>DOC-002</td><td></td></tr></tbody></table>",
+      "label": "table",
+      "page_number": 1,
+      "bbox": {
+        "left": 54.052467346191406,
+        "top": 800.3372764587402,
+        "right": 540.741943359375,
+        "bottom": 735.3590621948242,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "table_id": "0001"
+    },
+    {
+      "type": "picture",
+      "level": 1,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 1,
+      "bbox": {
+        "left": 54.460205078125,
+        "top": 724.4022369384766,
+        "right": 540.1720581054688,
+        "bottom": 66.6251220703125,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "1.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "table",
+      "level": 1,
+      "text": "<table><tbody><tr><td colspan=\"5\">文件核准與修改記錄</td></tr><tr><td rowspan=\"11\">改 記 錄</td><td colspan=\"3\">日 期 修 改 內 容</td><td>發文單位</td></tr><tr><td colspan=\"3\">2017/01/01 ISO 9001 &amp;14001 2015 新版條文要求更新內容符合法規</td><td>陳永勳</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><th>核 准</th><td></td><td></td><td></td><td></td></tr><tr><td></td><td>審 核</td><td colspan=\"2\">製 訂</td></tr><tr><th colspan=\"2\">廖宜彥</th><td>陳永勳</td><td colspan=\"2\">詹張進</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td></tr></tbody></table>",
+      "label": "table",
+      "page_number": 1,
+      "bbox": {
+        "left": 54.460205078125,
+        "top": 724.4022369384766,
+        "right": 540.1720581054688,
+        "bottom": 66.6251220703125,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "table_id": "0002"
+    },
+    {
+      "type": "picture",
+      "level": 1,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 2,
+      "bbox": {
+        "left": 66.93004608154297,
+        "top": 785.9049949645996,
+        "right": 161.63613891601562,
+        "bottom": 750.490608215332,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "2.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "table",
+      "level": 1,
+      "text": "<table><tbody><tr><td>系統</td><td rowspan=\"2\">ISO 9001:2015</td><td>頁數</td><td>日期</td></tr><tr><td>名稱</td><td>第 2 頁 , 共 17 頁</td><td>2017/01/01</td></tr><tr><td>文件</td><td rowspan=\"2\">採購暨供應商評鑑作業程序</td><td>文 件 編</td><td>號</td></tr><tr><td>名稱</td><td>DOC-002</td><td></td></tr></tbody></table>",
+      "label": "table",
+      "page_number": 2,
+      "bbox": {
+        "left": 54.60908508300781,
+        "top": 800.2189559936523,
+        "right": 540.5016479492188,
+        "bottom": 735.2855758666992,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "table_id": "0003"
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "1. 目的：",
+      "label": "heading",
+      "page_number": 2,
+      "bbox": {
+        "left": 56.7,
+        "top": 718.952,
+        "right": 101.7,
+        "bottom": 705.668,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "為確保採購之物料、組件與委外加工能以合理價格且適時、適質、適量提供公司所 須，並在買賣雙方維持良好關係，特訂定本管制程序。",
+      "label": "paragraph",
+      "page_number": 2,
+      "bbox": {
+        "left": 65.7,
+        "top": 697.88,
+        "right": 531.842,
+        "bottom": 665.912,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "2. 範圍：",
+      "label": "heading",
+      "page_number": 2,
+      "bbox": {
+        "left": 56.7,
+        "top": 638.972,
+        "right": 101.7,
+        "bottom": 625.688,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "適用於採購生產原物料、已完工模具設備、委外品皆屬之。",
+      "label": "paragraph",
+      "page_number": 2,
+      "bbox": {
+        "left": 65.7,
+        "top": 617.9,
+        "right": 397.812,
+        "bottom": 605.912,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "3. 職責：",
+      "label": "heading",
+      "page_number": 2,
+      "bbox": {
+        "left": 56.7,
+        "top": 578.972,
+        "right": 101.7,
+        "bottom": 565.688,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "3.1 採購單位負責選擇優良之供應廠商並確保物料之供應及模具設備之管理。",
+      "label": "paragraph",
+      "page_number": 2,
+      "bbox": {
+        "left": 65.7,
+        "top": 558.992,
+        "right": 474.72,
+        "bottom": 545.708,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "3.2 品管單位負責供貨品質之品管作業。",
+      "label": "paragraph",
+      "page_number": 2,
+      "bbox": {
+        "left": 65.7,
+        "top": 538.952,
+        "right": 275.7,
+        "bottom": 525.668,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "3.3 研發單位就廠商提供之環境限用物質樣品進行審查。",
+      "label": "paragraph",
+      "page_number": 2,
+      "bbox": {
+        "left": 65.7,
+        "top": 518.972,
+        "right": 359.7,
+        "bottom": 505.688,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "3.4 採購、資材、委外管理單位負責委外加工，選擇優良之委外廠商並確保委外品之供 應無虞。",
+      "label": "paragraph",
+      "page_number": 2,
+      "bbox": {
+        "left": 65.7,
+        "top": 498.992,
+        "right": 515.7,
+        "bottom": 465.872,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "3.5 決定其所採購產品與服務之環境要求事項。",
+      "label": "paragraph",
+      "page_number": 2,
+      "bbox": {
+        "left": 65.7,
+        "top": 458.972,
+        "right": 314.7,
+        "bottom": 445.688,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "( 例 : 環保、省水、節能標章、低污染、可回收及重覆使用 ) 。",
+      "label": "paragraph",
+      "page_number": 2,
+      "bbox": {
+        "left": 65.7,
+        "top": 438.992,
+        "right": 401.04,
+        "bottom": 425.708,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "4. 執行程序：",
+      "label": "heading",
+      "page_number": 2,
+      "bbox": {
+        "left": 56.7,
+        "top": 398.972,
+        "right": 130.682,
+        "bottom": 385.688,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "4.1 作業流程圖：",
+      "label": "heading",
+      "page_number": 2,
+      "bbox": {
+        "left": 65.64,
+        "top": 378.992,
+        "right": 162.378,
+        "bottom": 365.708,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.1.1 採購 / 委外作業流程圖 ( 一般物料 / 委外品 )( 附件一 )",
+      "label": "paragraph",
+      "page_number": 2,
+      "bbox": {
+        "left": 91.56,
+        "top": 358.952,
+        "right": 397.02,
+        "bottom": 345.668,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.1.2 供應商管理作業流程圖 ( 附件二 )",
+      "label": "paragraph",
+      "page_number": 2,
+      "bbox": {
+        "left": 91.56,
+        "top": 338.972,
+        "right": 302.34,
+        "bottom": 325.688,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.1.3 樣品承認作業流程圖 ( 附件三 )",
+      "label": "paragraph",
+      "page_number": 2,
+      "bbox": {
+        "left": 91.56,
+        "top": 318.99199999999996,
+        "right": 289.32,
+        "bottom": 305.7080000000001,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.1.4 模具保管作業流程圖 ( 附件四 )",
+      "label": "paragraph",
+      "page_number": 2,
+      "bbox": {
+        "left": 91.56,
+        "top": 298.952,
+        "right": 289.32,
+        "bottom": 285.668,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "4.2 採購目標：",
+      "label": "heading",
+      "page_number": 2,
+      "bbox": {
+        "left": 65.64,
+        "top": 258.99199999999996,
+        "right": 149.34,
+        "bottom": 245.70799999999997,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.2.1 選擇優良供應商確保料源。",
+      "label": "paragraph",
+      "page_number": 2,
+      "bbox": {
+        "left": 56.7,
+        "top": 238.952,
+        "right": 269.482,
+        "bottom": 225.668,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.2.2 確保採購物品的品質。",
+      "label": "paragraph",
+      "page_number": 2,
+      "bbox": {
+        "left": 56.7,
+        "top": 218.97199999999998,
+        "right": 243.416,
+        "bottom": 205.688,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.2.3 落實生產計劃催交物料作業，期能適時供應所須物品。",
+      "label": "paragraph",
+      "page_number": 2,
+      "bbox": {
+        "left": 56.7,
+        "top": 198.99199999999996,
+        "right": 425.532,
+        "bottom": 185.70799999999997,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.2.4 防止採購作業異常發生，針對異常能迅速妥當處理。",
+      "label": "paragraph",
+      "page_number": 2,
+      "bbox": {
+        "left": 56.7,
+        "top": 178.952,
+        "right": 412.512,
+        "bottom": 165.668,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "4.3 供應商之開發與選用：",
+      "label": "heading",
+      "page_number": 2,
+      "bbox": {
+        "left": 65.64,
+        "top": 138.99199999999996,
+        "right": 214.398,
+        "bottom": 125.70799999999997,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.3.1 供應商開發時機：",
+      "label": "paragraph",
+      "page_number": 2,
+      "bbox": {
+        "left": 56.7,
+        "top": 118.952,
+        "right": 217.459,
+        "bottom": 105.668,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.3.1.1 現有供應商無法提供時。",
+      "label": "paragraph",
+      "page_number": 2,
+      "bbox": {
+        "left": 56.7,
+        "top": 98.97199999999998,
+        "right": 294.42,
+        "bottom": 85.68799999999999,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.3.1.2 現有供應商在品質、成本或交期無法滿足需求時。",
+      "label": "paragraph",
+      "page_number": 2,
+      "bbox": {
+        "left": 56.7,
+        "top": 78.99199999999996,
+        "right": 437.543,
+        "bottom": 65.70799999999997,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.3.1.3 次供應商 (SECOND SOURCE) 開發。",
+      "label": "paragraph",
+      "page_number": 2,
+      "bbox": {
+        "left": 56.7,
+        "top": 58.952,
+        "right": 356.16,
+        "bottom": 45.668000000000006,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.3.1.4 現有供應商之原承認資格已被取消。",
+      "label": "paragraph",
+      "page_number": 3,
+      "bbox": {
+        "left": 56.7,
+        "top": 718.952,
+        "right": 359.484,
+        "bottom": 705.668,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.3.1.5 依合約中客戶指定。",
+      "label": "paragraph",
+      "page_number": 3,
+      "bbox": {
+        "left": 56.7,
+        "top": 698.972,
+        "right": 268.454,
+        "bottom": 685.688,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.3.2 供應商之選用原則",
+      "label": "paragraph",
+      "page_number": 3,
+      "bbox": {
+        "left": 56.7,
+        "top": 678.992,
+        "right": 217.459,
+        "bottom": 665.708,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.3.2.1 有足夠的開發、生產、品質管理能力。",
+      "label": "paragraph",
+      "page_number": 3,
+      "bbox": {
+        "left": 56.7,
+        "top": 658.952,
+        "right": 372.49,
+        "bottom": 645.668,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.3.2.2 有健全的財務狀況。",
+      "label": "paragraph",
+      "page_number": 3,
+      "bbox": {
+        "left": 56.7,
+        "top": 638.972,
+        "right": 268.454,
+        "bottom": 625.688,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.3.2.3 有誠意與本公司來往。",
+      "label": "paragraph",
+      "page_number": 3,
+      "bbox": {
+        "left": 56.7,
+        "top": 618.992,
+        "right": 281.472,
+        "bottom": 605.708,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.3.2.4 有合理之市場競爭價格。",
+      "label": "paragraph",
+      "page_number": 3,
+      "bbox": {
+        "left": 56.7,
+        "top": 598.952,
+        "right": 294.42,
+        "bottom": 585.668,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.3.2.5 依合約中客戶指定。",
+      "label": "paragraph",
+      "page_number": 3,
+      "bbox": {
+        "left": 56.7,
+        "top": 578.972,
+        "right": 268.454,
+        "bottom": 565.688,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 1,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 3,
+      "bbox": {
+        "left": 67.015625,
+        "top": 785.5581321716309,
+        "right": 161.50759887695312,
+        "bottom": 750.6060943603516,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "3.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "table",
+      "level": 1,
+      "text": "<table><tbody><tr><td>系統</td><td rowspan=\"2\">ISO 9001:2015</td><td>頁數</td><td>日期</td></tr><tr><td>名稱</td><td>第 3 頁 , 共 17 頁</td><td>2017/01/01</td></tr><tr><td>文件</td><td rowspan=\"2\">採購暨供應商評鑑作業程序</td><td>文 件 編</td><td>號</td></tr><tr><td>名稱</td><td>DOC-002</td><td></td></tr></tbody></table>",
+      "label": "table",
+      "page_number": 3,
+      "bbox": {
+        "left": 54.51554870605469,
+        "top": 800.2087211608887,
+        "right": 540.3743896484375,
+        "bottom": 735.141227722168,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "table_id": "0004"
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "4.3.3 合格供應商之選用：",
+      "label": "heading",
+      "page_number": 3,
+      "bbox": {
+        "left": 83.7,
+        "top": 538.952,
+        "right": 226.697,
+        "bottom": 525.668,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.3.3.1 符合公司環境限用物質管理規範要求之供應商。",
+      "label": "paragraph",
+      "page_number": 3,
+      "bbox": {
+        "left": 110.7,
+        "top": 518.972,
+        "right": 422.532,
+        "bottom": 505.688,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.3.3.2 凡屬電子零件類之供應商，由採購單位參考供應商選用原則評估是 否符合需求，經電話或訪談確認後，由採購單位將廠商基本資料鍵入 系統廠商明細表內 , 並發起電子簽核流程。",
+      "label": "paragraph",
+      "page_number": 3,
+      "bbox": {
+        "left": 110.7,
+        "top": 498.992,
+        "right": 532.764,
+        "bottom": 445.688,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.3.3.3 凡屬機構件之供應商，先由採購單位就廠商基本資料作一過濾，選 出符合之廠商，如須再進一步就廠商資格作確認時，可會同品管及 研發等相關單位進行廠商評鑑，廠商評鑑結果須填入『供應商評鑑 報告』 (DOC-002-01) 內，評鑑總分在 75 分以上者列入系統廠商明細 表內。評鑑總分在 60-74 分者，由採購單位將評鑑缺點通知供應商改 善，如供應商確認三個月內可作改善者，改善後再作一次評鑑以決 定是否可列入供應商名錄內。 59 分以下者年度內不得再要求評鑑。",
+      "label": "paragraph",
+      "page_number": 3,
+      "bbox": {
+        "left": 110.7,
+        "top": 438.992,
+        "right": 532.764,
+        "bottom": 305.7080000000001,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.3.3.4 若通過 ISO 9000 或第三認證單位認證通過公司可以不需進行廠商 評鑑作業。",
+      "label": "paragraph",
+      "page_number": 3,
+      "bbox": {
+        "left": 110.7,
+        "top": 298.952,
+        "right": 525.324,
+        "bottom": 265.89200000000005,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "4.4 供應商之考核：",
+      "label": "heading",
+      "page_number": 3,
+      "bbox": {
+        "left": 65.64,
+        "top": 238.952,
+        "right": 175.399,
+        "bottom": 225.668,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.4.1 考核對象為與本公司有往來之交貨合格供應商。",
+      "label": "paragraph",
+      "page_number": 3,
+      "bbox": {
+        "left": 83.7,
+        "top": 218.97199999999998,
+        "right": 385.512,
+        "bottom": 205.688,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.4.2 考核項目以交貨品質、交期準確率為依據。",
+      "label": "paragraph",
+      "page_number": 3,
+      "bbox": {
+        "left": 83.7,
+        "top": 198.99199999999996,
+        "right": 359.522,
+        "bottom": 185.70799999999997,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.4.3 考核頻率為每半年一次。",
+      "label": "paragraph",
+      "page_number": 3,
+      "bbox": {
+        "left": 83.7,
+        "top": 178.952,
+        "right": 255.492,
+        "bottom": 165.668,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.4.4 由品管單位針對交貨品質作考核，採購單位針對交期準確率考核。交貨品 質佔整體考核分數之 70% 、交期準確率佔整體考核分數之 30% 。",
+      "label": "paragraph",
+      "page_number": 3,
+      "bbox": {
+        "left": 83.7,
+        "top": 158.97199999999998,
+        "right": 528.562,
+        "bottom": 125.70799999999997,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.4.5 半年累計交貨批＜ =25 批者不予考核，評分等級一律列為 B 等。",
+      "label": "paragraph",
+      "page_number": 3,
+      "bbox": {
+        "left": 83.82,
+        "top": 118.952,
+        "right": 476.1,
+        "bottom": 105.668,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.4.6 品管單位針對交貨品質評分如下：",
+      "label": "paragraph",
+      "page_number": 3,
+      "bbox": {
+        "left": 83.82,
+        "top": 98.97199999999998,
+        "right": 307.632,
+        "bottom": 85.68799999999999,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.4.6.1 適用於符合環境限用物質要求的供應商之考核。",
+      "label": "paragraph",
+      "page_number": 3,
+      "bbox": {
+        "left": 83.82,
+        "top": 78.99199999999996,
+        "right": 423.605,
+        "bottom": 65.70799999999997,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 1,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 4,
+      "bbox": {
+        "left": 66.8647232055664,
+        "top": 785.9059867858887,
+        "right": 161.73794555664062,
+        "bottom": 750.129524230957,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "4.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "table",
+      "level": 1,
+      "text": "<table><tbody><tr><td>系統</td><td rowspan=\"2\">ISO 9001:2015</td><td>頁數</td><td>日期</td></tr><tr><td>名稱</td><td>第 4 頁 , 共 17 頁</td><td>2017/01/01</td></tr><tr><td>文件</td><td rowspan=\"2\">採購暨供應商評鑑作業程序</td><td>文 件 編</td><td>號</td></tr><tr><td>名稱</td><td>DOC-002</td><td></td></tr></tbody></table>",
+      "label": "table",
+      "page_number": 4,
+      "bbox": {
+        "left": 54.61351776123047,
+        "top": 800.388614654541,
+        "right": 540.8057250976562,
+        "bottom": 735.2743377685547,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "table_id": "0005"
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "進料總批數",
+      "label": "heading",
+      "page_number": 4,
+      "bbox": {
+        "left": 265.2,
+        "top": 660.56,
+        "right": 325.2,
+        "bottom": 648.572,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "4.4.6.3 正常檢驗、減量檢驗、免驗批數之定義依進料檢驗作業程序。 4.4.7 採購單位針對交貨準確率評分如下：",
+      "label": "paragraph",
+      "page_number": 4,
+      "bbox": {
+        "left": 83.82,
+        "top": 632.372,
+        "right": 502.519,
+        "bottom": 599.048,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "4.4.7.1 交貨準確率評分方式：",
+      "label": "paragraph",
+      "page_number": 4,
+      "bbox": {
+        "left": 110.7,
+        "top": 592.352,
+        "right": 279.492,
+        "bottom": 579.068,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "數",
+      "label": "heading",
+      "page_number": 4,
+      "bbox": {
+        "left": 302.7,
+        "top": 517.34,
+        "right": 314.7,
+        "bottom": 505.352,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.4.8 將以上二項積分依其權數加總後，將其評分結果記錄於『供應商考核評分 表』 (DOC-002-02) 內。",
+      "label": "paragraph",
+      "page_number": 4,
+      "bbox": {
+        "left": 83.7,
+        "top": 500.372,
+        "right": 532.682,
+        "bottom": 467.108,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "4.4.9 評分等級：",
+      "label": "heading",
+      "page_number": 4,
+      "bbox": {
+        "left": 83.7,
+        "top": 460.352,
+        "right": 174.66,
+        "bottom": 447.068,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "A 等 : 可申請列入免驗廠商物料清單，視狀況增加採購量。",
+      "label": "paragraph",
+      "page_number": 4,
+      "bbox": {
+        "left": 112.668,
+        "top": 360.392,
+        "right": 475.032,
+        "bottom": 347.108,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "B",
+      "label": "heading",
+      "page_number": 4,
+      "bbox": {
+        "left": 112.668,
+        "top": 340.352,
+        "right": 155.652,
+        "bottom": 327.068,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "C",
+      "label": "heading",
+      "page_number": 4,
+      "bbox": {
+        "left": 112.668,
+        "top": 320.37200000000007,
+        "right": 155.652,
+        "bottom": 307.08799999999997,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "等 : 維持正常採購。",
+      "label": "paragraph",
+      "page_number": 4,
+      "bbox": {
+        "left": 159.42,
+        "top": 340.352,
+        "right": 266.299,
+        "bottom": 327.068,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "等 : 將不給予新的機種開發採購。",
+      "label": "paragraph",
+      "page_number": 4,
+      "bbox": {
+        "left": 159.42,
+        "top": 320.37200000000007,
+        "right": 344.347,
+        "bottom": 307.08799999999997,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "D",
+      "label": "heading",
+      "page_number": 4,
+      "bbox": {
+        "left": 110.7,
+        "top": 300.39200000000005,
+        "right": 154.344,
+        "bottom": 287.10799999999995,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "等 : 予以廠商輔導，連續二次考核未能提升等級者，將停止採購。",
+      "label": "paragraph",
+      "page_number": 4,
+      "bbox": {
+        "left": 158.1,
+        "top": 300.39200000000005,
+        "right": 521.21,
+        "bottom": 287.10799999999995,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "4.5 供應商資格取消：",
+      "label": "heading",
+      "page_number": 4,
+      "bbox": {
+        "left": 65.7,
+        "top": 280.352,
+        "right": 188.479,
+        "bottom": 267.068,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.5.1 供應商考核評等 D 等者，經連續二次輔導無效，將取消其供應商資 格採購。",
+      "label": "paragraph",
+      "page_number": 4,
+      "bbox": {
+        "left": 110.7,
+        "top": 260.37200000000007,
+        "right": 518.124,
+        "bottom": 227.312,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "採購人員須將不合格之供應商之資料自廠商基本資料表申請停止交 易，並不再向其採購 ; 若為獨占或寡占產品之供應商 , 則將持續輔導 至改善為止。",
+      "label": "paragraph",
+      "page_number": 4,
+      "bbox": {
+        "left": 142.02,
+        "top": 219.26,
+        "right": 518.1,
+        "bottom": 167.312,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.5.2 已不符合原承認資格條件者。",
+      "label": "paragraph",
+      "page_number": 4,
+      "bbox": {
+        "left": 83.7,
+        "top": 160.35199999999998,
+        "right": 309.487,
+        "bottom": 147.06799999999998,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.6 採購原料、物料及委外加工生產之驗證：",
+      "label": "paragraph",
+      "page_number": 4,
+      "bbox": {
+        "left": 65.7,
+        "top": 140.37200000000007,
+        "right": 318.494,
+        "bottom": 127.08799999999997,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.6.1 樣品送樣原則 ( 委外品除外 ) ：",
+      "label": "paragraph",
+      "page_number": 4,
+      "bbox": {
+        "left": 91.68,
+        "top": 120.39200000000005,
+        "right": 285.42,
+        "bottom": 107.10799999999995,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "4.6.1.1 第一次使用之零件。",
+      "label": "paragraph",
+      "page_number": 4,
+      "bbox": {
+        "left": 117.72,
+        "top": 100.35199999999998,
+        "right": 273.494,
+        "bottom": 87.06799999999998,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.6.1.2 次供應商 (SECOND SOURCE) 之開發。",
+      "label": "paragraph",
+      "page_number": 4,
+      "bbox": {
+        "left": 117.72,
+        "top": 80.37199999999996,
+        "right": 374.237,
+        "bottom": 67.08799999999997,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.6.1.3 降低成本 (COST DOWN) 之零件。",
+      "label": "paragraph",
+      "page_number": 4,
+      "bbox": {
+        "left": 117.72,
+        "top": 60.39200000000005,
+        "right": 344.717,
+        "bottom": 47.10799999999995,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.6.1.4 原承認樣品之材料、規格或製程及環境限用物質有所變更時。",
+      "label": "paragraph",
+      "page_number": 5,
+      "bbox": {
+        "left": 117.72,
+        "top": 718.952,
+        "right": 507.562,
+        "bottom": 705.668,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 1,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 5,
+      "bbox": {
+        "left": 67.00823974609375,
+        "top": 785.6866111755371,
+        "right": 161.56105041503906,
+        "bottom": 750.6748886108398,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "5.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "table",
+      "level": 1,
+      "text": "<table><tbody><tr><td>系統</td><td rowspan=\"2\">ISO 9001:2015</td><td>頁數</td><td>日期</td></tr><tr><td>名稱</td><td>第 5 頁 , 共 17 頁</td><td>2017/01/01</td></tr><tr><td>文件</td><td rowspan=\"2\">採購暨供應商評鑑作業程序</td><td>文 件 編</td><td>號</td></tr><tr><td>名稱</td><td>DOC-002</td><td></td></tr></tbody></table>",
+      "label": "table",
+      "page_number": 5,
+      "bbox": {
+        "left": 54.322479248046875,
+        "top": 800.2407264709473,
+        "right": 540.341064453125,
+        "bottom": 735.1938323974609,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "table_id": "0006"
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "4.6.2 委外加工：",
+      "label": "heading",
+      "page_number": 5,
+      "bbox": {
+        "left": 83.7,
+        "top": 698.972,
+        "right": 177.432,
+        "bottom": 685.688,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "首批由生技提供樣品、 BOM 表及生產文件 SOP/SIP 於資材單位、委外管理 單位，再由資材單位、委外管理單位將樣品與生產文件轉委外加工廠，且 於首批生產時生技須至委外廠現場指導。",
+      "label": "paragraph",
+      "page_number": 5,
+      "bbox": {
+        "left": 119.7,
+        "top": 683.372,
+        "right": 537.62,
+        "bottom": 639.092,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "4.6.3 委外生產：",
+      "label": "heading",
+      "page_number": 5,
+      "bbox": {
+        "left": 83.58,
+        "top": 636.572,
+        "right": 177.312,
+        "bottom": 623.288,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "委外廠提供相關 BOM 表、承認書給委外管理單位，委外管理單位依樣品承 認作業執行驗證承認。",
+      "label": "paragraph",
+      "page_number": 5,
+      "bbox": {
+        "left": 119.7,
+        "top": 620.972,
+        "right": 537.674,
+        "bottom": 592.292,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "4.7 樣品承認作業：",
+      "label": "heading",
+      "page_number": 5,
+      "bbox": {
+        "left": 69.72,
+        "top": 571.592,
+        "right": 186.49,
+        "bottom": 558.308,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.7.1 申請：新開發的零件，由研發處進行搜尋及樣品承認，並由廠商提供樣品 至少 3 份及電子檔承認書，由研發單位申請專案文件簽核進行承認書的申 請，並進行樣品承認審核與測試，若為舊料需要重送就由採購人員申請，連 同樣品一起送交研發單位進行資料審核與測試。",
+      "label": "paragraph",
+      "page_number": 5,
+      "bbox": {
+        "left": 83.58,
+        "top": 551.612,
+        "right": 532.764,
+        "bottom": 478.532,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.7.2 PP 測試料件暫不需承認， MP 量產時，則需請研發補齊所有樣品承認書。",
+      "label": "paragraph",
+      "page_number": 5,
+      "bbox": {
+        "left": 83.58,
+        "top": 471.572,
+        "right": 528.902,
+        "bottom": 458.288,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.7.3 研發單位審查資料是否齊全、規格是否符合所須及完成測試後，如確認為 合格者即可將承認書製作成正式文件，並呈權責主管簽核後送至文管中心登 錄後發行至各相關單位。",
+      "label": "paragraph",
+      "page_number": 5,
+      "bbox": {
+        "left": 83.58,
+        "top": 451.592,
+        "right": 532.704,
+        "bottom": 398.492,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.7.4 若評估為不合格者，由採購將評估缺點通知供應商改善，如經供應商改善 後可重新送樣。",
+      "label": "paragraph",
+      "page_number": 5,
+      "bbox": {
+        "left": 83.58,
+        "top": 391.592,
+        "right": 532.672,
+        "bottom": 358.532,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "4.8 樣品承認之取消：",
+      "label": "heading",
+      "page_number": 5,
+      "bbox": {
+        "left": 65.7,
+        "top": 331.592,
+        "right": 188.479,
+        "bottom": 318.308,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.8.1 供應商考核評等不合格，經輔導無效者。",
+      "label": "paragraph",
+      "page_number": 5,
+      "bbox": {
+        "left": 83.7,
+        "top": 311.6120000000001,
+        "right": 346.516,
+        "bottom": 298.328,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.8.2 同一零件連續三批進料有重大不良者，且無有效之改善對策。",
+      "label": "paragraph",
+      "page_number": 5,
+      "bbox": {
+        "left": 83.82,
+        "top": 291.572,
+        "right": 463.694,
+        "bottom": 278.288,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.8.3 原承認樣品之材料規格或製程有所變動時，並足以影響原樣品之品質者。",
+      "label": "paragraph",
+      "page_number": 5,
+      "bbox": {
+        "left": 83.82,
+        "top": 271.592,
+        "right": 521.352,
+        "bottom": 258.308,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.8.4 供應商原承認資格已被取消。",
+      "label": "paragraph",
+      "page_number": 5,
+      "bbox": {
+        "left": 83.82,
+        "top": 251.61199999999997,
+        "right": 281.587,
+        "bottom": 238.32799999999997,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "4.9 原 ( 物 ) 料驗證之執行場所：",
+      "label": "heading",
+      "page_number": 5,
+      "bbox": {
+        "left": 65.7,
+        "top": 211.59199999999998,
+        "right": 236.474,
+        "bottom": 198.308,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.9.1 本公司進料檢驗 (IQC)本公司進料檢驗處。",
+      "label": "paragraph",
+      "page_number": 5,
+      "bbox": {
+        "left": 82.62,
+        "top": 191.61199999999997,
+        "right": 363.074,
+        "bottom": 178.32799999999997,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.9.2 目前本公司尚無在廠商處驗證事宜。",
+      "label": "paragraph",
+      "page_number": 5,
+      "bbox": {
+        "left": 83.7,
+        "top": 171.572,
+        "right": 320.466,
+        "bottom": 158.288,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "4.10 採購作業：",
+      "label": "heading",
+      "page_number": 5,
+      "bbox": {
+        "left": 65.7,
+        "top": 131.61199999999997,
+        "right": 155.952,
+        "bottom": 118.32799999999997,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.10.1 一般物料採購依『請購單』 ( 系統表單 ) 開立『採購單』 ( 系統表單 ) 並確認 廠商、料號、品名規格、數量、交期、單價及樣品承認書無誤後，分發至 供應商。",
+      "label": "paragraph",
+      "page_number": 5,
+      "bbox": {
+        "left": 83.7,
+        "top": 111.572,
+        "right": 532.74,
+        "bottom": 58.53200000000004,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    }
+  ]
+}

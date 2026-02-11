@@ -1,0 +1,1873 @@
+{
+  "source": "霸凌_20190213.docx",
+  "num_pages": 0,
+  "title": "霸凌_20190213",
+  "elements": [
+    {
+      "type": "text",
+      "level": 1,
+      "text": "投稿類別：教育類",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "篇名：",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "探討六家高中校園不同性別、教育層級對於校園霸凌的感受是否有差異",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "作者：",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "陳姿尹。六家高中。高二6班",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "李虔華。六家高中。高二6班",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "指導老師：",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "李文華　老師",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "前言",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "研究動機",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "即使反霸凌的口號已提倡一段時間，在學校仍然會發生霸凌事件。在許多霸凌的事件當中，我們發現其實霸凌者與被霸凌者對於是否為霸凌的認知是有差異的，因此我們想透過這個研究探討六家高中校園在不同性別或不同教育層級對校園霸凌的看法是否有所差異。",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "研究目的",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "本研究的目的是希望了解不同性別、教育層級對於校園霸凌的感受是否有差異，如果有差異，又是對哪幾種類別的霸凌感受較不嚴重，或是感受差異較大。根據林芃薇（2015）的研究，閱讀不同觀點的文本可以改變同理心和霸凌感受，本次調查希望能找出應該從那些族群或是霸凌類別，優先設計不同觀點的文本，提升霸凌感受與一致性，希望能減少校園霸凌事件。",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "研究方法",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "根據相關文獻及統計資料，本研究想探討六家高中校園不同性別、教育層級對於校園霸凌的感受是否有差異，因此本研究架構如圖一所示。研究變數有性別（男生、女生）、教育層級（國中、高中）以及對霸凌的感受。對霸凌的感受程度是使用十五個問題，以李克特六點量表衡量（1非常不嚴重、2不嚴重、3有點不嚴重、4有點嚴重、5嚴重、6非常嚴重）。除了十五題分別統計得分，也將15題分成六類霸凌的平均分數作為霸凌感受程度的衡量，分數越高表示感受霸凌程度越強。",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "對霸凌的感受：(有六類15題)",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "肢體霸凌",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "言語霸凌",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "關係霸凌",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "性霸凌",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "反擊霸凌",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "網路霸凌",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "性別：",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "男、女",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "教育層級：",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "國中、高中",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "picture",
+      "level": 1,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": null,
+      "bbox": null,
+      "image": "0.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "圖一：研究架構(作者自行繪製)",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "本研究的研究對象是六家高中的高中部及國中部學生，因為時間與人力成本的考量所以採用便利抽樣，預計針對不同性別及不同教育層級的四個族群各蒐集50份有效問卷。回收資料使用Excel進行資料統計分析。",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "正文",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "霸凌的定義",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "依教育部校園霸凌防治準則資料定義：霸凌是「",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "指個人或集體持續以言語、文字、圖畫、符號、肢體動作或其他方式，直接或間接對他人為貶抑、排擠、欺負、騷擾或戲弄等行為，使他人處於具有敵意或不友善之校園學習環境，或難以抗拒，產生精神上、生理上或財產上之損害，或影響正常學習活動之進行。",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "」而校園霸凌是「",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "指相同或不同學校學生與學生間，於校園內、外所發生之霸凌行為。",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "」（教育部校園霸凌防治準則。2018年11月4日取自",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "https://csrc.edu.tw/bully/rule_view.asp?Sno=1542",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "）",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "霸凌類型",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "根據新竹縣校園安全正向管教反霸凌曁毒品防制專區，校園霸凌共有六種類型，分別為肢體霸凌、言語霸凌、關係霸凌、性霸凌、反擊型霸凌及網路霸凌。肢體霸凌，例如推、踢、毆打、搶奪財物等；言語霸凌，例如譏笑、謾罵、言語刺傷、取綽號、威脅恐嚇等；關係霸凌，排擠弱勢同儕、散播不實謠言或中傷等；性霸凌，以身體、性別、性取向、性徵做為取笑或評論，或是性侵害；反擊型霸凌，受虐後的反擊行為，對欺負他的人反擊，或欺負更弱的人；網路霸凌，電子郵件、即時通散播威脅辱罵言語，散播不實謠言訊息。(新竹縣校園安全正向管教反霸凌曁毒品防制專區。2018年11月4日取自http://bully.nc.hcc.edu.tw/files/11-1137-23.php)",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "校園霸凌行為發生因素",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "家庭因素",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "家庭為多數人成長的第一步，因此父母等長輩的管教對小孩的行為舉止會有一定程度的影響。霸凌者多來自於高壓、暴力統治等，被霸凌者多來自於缺乏關注、低管教等不完整的家庭，影響其與人相處的方式。",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "同儕因素",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "青少年對同儕依賴度較親子間高，面對壓力或困擾時，青少年亦會尋求同儕的 協助，使校園霸凌的發生率下降。",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "學校因素",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "若學生不喜歡上學，將使其在學期間為痛苦的來源，進而使其產生霸凌行為。學校對霸凌者及被霸凌者的相關輔導、協助亦將影響其觀念及往後行為。邱凱楨（2014）。從學校、家庭與同儕面向探討青少年校園霸凌問題。",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "臺灣教育評論月刊，3",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "(3), 99-102。",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "校園霸凌事件相關調查",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "為了更加地了解不同性別、教育層級對於校園霸凌的感受是否有所不同，我們透過網路搜尋過去統計資料及製作問卷來直接蒐集資料兩種方式來做比較。",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "校園霸凌事件相關統計",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "根據兒福聯盟「2014年台灣校園霸凌狀況調查」的報告顯示，超過26.4%的兒少曾被霸凌，其中以遭遇到言語霸凌及關係霸凌居多，而男性被肢體霸凌的比例為女性的2.5倍，女性則是言語霸凌及關係霸凌的比例為男性的1.5及1.7倍。(兒童福利聯盟文教基金（2014）。",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "2014年臺灣校園霸凌狀況調查報告",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "。2018年11月4日取自https://reurl.cc/v526e)",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "教育部自102年至105年的性霸凌事件調查屬實統計（表1），被霸凌者性別多為男性（佔70%以上），被霸凌者教育層級則以國中最多，高中次之；而霸凌的加害者（表2）也是以男性居多（佔76%以上）。(教育部學生事務及特殊教育司 (n.d.)，",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "校園性霸凌事件調查屬實統計-按被害人性別統計",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "。2018年11月4日取自https://stats.moe.gov.tw/files/gender/404-14.xls)(教育部學生事務及特殊教育司 (n.d.)，",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "校園性霸凌事件調查屬實統計-按加害人性別統計",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "。2018年11月4日取自",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "https://stats.moe.gov.tw/files/gender/404-16.xls",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": ")",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "表1：校園性霸凌事件調查屬實統計-按被害人性別統計",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "table",
+      "level": 1,
+      "text": "<table><tbody><tr><th rowspan=\"2\">年度</th><th colspan=\"2\">百分比</th><th colspan=\"2\">大專</th><th colspan=\"2\">高中職</th><th colspan=\"2\">國中</th><th colspan=\"2\">國小</th><th colspan=\"2\">特教</th><th colspan=\"2\">未指定</th><th colspan=\"2\">合計</th><th rowspan=\"2\">總人數</th></tr><tr><td>男</td><td>女</td><td>男</td><td>女</td><td>男</td><td>女</td><td>男</td><td>女</td><td>男</td><td>女</td><td>男</td><td>女</td><td>男</td><td>女</td><td>男</td><td>女</td></tr><tr><td>102</td><td>79.17</td><td>20.83</td><td>1</td><td>2</td><td>4</td><td>0</td><td>9</td><td>3</td><td>5</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>19</td><td>5</td><td>24</td></tr><tr><td>103</td><td>70.37</td><td>29.63</td><td>0</td><td>2</td><td>9</td><td>3</td><td>23</td><td>8</td><td>6</td><td>3</td><td>0</td><td>0</td><td>0</td><td>0</td><td>38</td><td>16</td><td>54</td></tr><tr><td>104</td><td>73.68</td><td>26.32</td><td>3</td><td>1</td><td>1</td><td>2</td><td>16</td><td>6</td><td>8</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>28</td><td>10</td><td>38</td></tr><tr><td>105</td><td>70.00</td><td>30.00</td><td>1</td><td>2</td><td>9</td><td>1</td><td>8</td><td>2</td><td>3</td><td>4</td><td>0</td><td>0</td><td>0</td><td>0</td><td>21</td><td>9</td><td>30</td></tr></tbody></table>",
+      "label": "table",
+      "page_number": null,
+      "bbox": null,
+      "table_id": "0001"
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "表2：校園性霸凌事件調查屬實統計-按加害人性別統計",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "table",
+      "level": 1,
+      "text": "<table><tbody><tr><th rowspan=\"2\">年度</th><th colspan=\"2\">百分比</th><th colspan=\"2\">大專</th><th colspan=\"2\">高中職</th><th colspan=\"2\">國中</th><th colspan=\"2\">國小</th><th colspan=\"2\">特教</th><th colspan=\"2\">未指定</th><th colspan=\"2\">合計</th><th rowspan=\"2\">總人數</th></tr><tr><td>男</td><td>女</td><td>男</td><td>女</td><td>男</td><td>女</td><td>男</td><td>女</td><td>男</td><td>女</td><td>男</td><td>女</td><td>男</td><td>女</td><td>男</td><td>女</td></tr><tr><td>102</td><td>85.42</td><td>14.58</td><td>4</td><td>3</td><td>4</td><td>1</td><td>27</td><td>2</td><td>6</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>41</td><td>7</td><td>48</td></tr><tr><td>103</td><td>76.14</td><td>23.86</td><td>1</td><td>1</td><td>22</td><td>0</td><td>34</td><td>14</td><td>10</td><td>6</td><td>0</td><td>0</td><td>0</td><td>0</td><td>67</td><td>21</td><td>88</td></tr><tr><td>104</td><td>84.29</td><td>15.71</td><td>6</td><td>0</td><td>4</td><td>2</td><td>32</td><td>5</td><td>15</td><td>1</td><td>0</td><td>0</td><td>2</td><td>3</td><td>59</td><td>11</td><td>70</td></tr><tr><td>105</td><td>96.30</td><td>3.70</td><td>2</td><td>1</td><td>20</td><td>1</td><td>18</td><td>0</td><td>12</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>52</td><td>2</td><td>54</td></tr></tbody></table>",
+      "label": "table",
+      "page_number": null,
+      "bbox": null,
+      "table_id": "0002"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "依據過往的研究報告可以發現，男性對霸凌的感受比女生多，如，戰寶華（2011）屏東縣國小高年級學童校園霸凌經驗、感受與應對方式之研究，顯示在肢體霸凌、性霸凌上男生比女生有較多的感受；年級的比較則是在肢體霸凌、關係霸凌、與性霸凌六年級比五年級有較多的感受。只是他的研究所測量的霸凌感受是詢問同學對於霸凌的聽聞情形，並不是同學對於霸凌的認定戰寶華(（2011）。(屏東縣國小高年級學童校園霸凌經驗;感受與應對方式之研究。",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "教育行政論壇，3",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "(1), 65-107)。。顏秀娟、陳政友（2012）研究新竹地區高中職學生校園霸凌之受凌經驗及其相關因素，結果也顯示男生感受受霸凌的經驗比女生多。(顏秀娟、陳政友（2012）。新竹地區高中職學生校園霸凌之受凌經驗及其相關因素研究。",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "健康促進與衛生教育學報，38",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": ", 71-96)",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "然而，林季玲、蘇峰慶（2018）的國中生校園霸凌、網路霸凌與防治策略之研究，在校園霸凌、網路霸凌上都沒有顯著的性別的差異林季玲、蘇峰慶（2018）。(國中生校園霸凌、網路霸凌與防治策略之研究。",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "終身樂學研究學刊，3",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": ", 74-94。)。在張佑勳（2011）的大學生網路使用行為與網路霸凌感受之研究，男女對於網路霸凌的感受也是無顯著差異。(張佑勳（2011）。",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "大學生網路使用行為與網路霸凌感受之研究",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "。中華大學資訊管理學系，碩士論文：新竹。)綜觀過往的研究，霸凌的感受在不同的教育層級中，不同性別對霸凌的感受或認知並不一致。因此本研究欲調查不同性別、教育層級在這六類霸凌種類的感受是否有差異。期盼研究結果可以讓師長及同學了解校園霸凌感受的現狀，檢視是否符合霸凌防治教育的成效，或是針對不同族群需要再強化霸凌感受的相關教育。",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "六家高中校園霸凌感受問卷分析與統整",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "本研究蒐集六家高中校園不同性別、教育層級以及對校園霸凌感受程度，以比較不同性別、或是不同教育層級對於校園霸凌感受是否有差異，問卷設計則是根據林芃薇（2015）的研究論文 [註11]，如附件一所示，分成六大類15個題項。",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "本研究於2018年11月9日至11月11日期間，採用便利抽樣方式調查六家高中校園在學學生，對象涵蓋國中七、八、九年級及高中一、二、三年級，回收363份問卷，扣除所有霸凌感知皆為非常不嚴重的39份問卷，剩餘168份有效問卷。其中國中部共計回收197份問卷，其中116份為女性，81份為男性；高中部共計166份問卷，其中108份為女性，58份為男性，如表3。其中題目是否曾被霸凌、是否霸凌過別人，這兩個問題為非必答，因此有未作答的情形。",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "表3：樣本描述",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "(刪除霸凌題項都是選擇非常不嚴重的 39份)",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "table",
+      "level": 1,
+      "text": "<table><tbody><tr><th>教育層級</th><th colspan=\"3\">國中部</th><th colspan=\"4\">高中部</th><th colspan=\"2\"></th></tr><tr><td>性別</td><td>女</td><td>男</td><td colspan=\"2\">合計</td><td>女</td><td>男</td><td colspan=\"2\">合計</td><td>總計</td></tr><tr><td><strong><p>總人數</p></strong></td><td><strong><p>116</p></strong></td><td><strong><p>81</p></strong></td><td colspan=\"2\"><strong><p>197</p></strong></td><td><strong><p>108</p></strong></td><td><strong><p>58</p></strong></td><td colspan=\"2\"><strong><p>166</p></strong></td><td><strong><p>363</p></strong></td></tr><tr><td><u><strong><p>是否被霸凌</p></strong></u></td><td></td><td></td><td colspan=\"2\"></td><td></td><td></td><td colspan=\"2\"></td><td></td></tr><tr><td>是</td><td>19</td><td>7</td><td colspan=\"2\">26</td><td>19</td><td>8</td><td colspan=\"2\">27</td><td>53</td></tr><tr><td>否</td><td>97</td><td>74</td><td colspan=\"2\">171</td><td>88</td><td>34</td><td colspan=\"2\">122</td><td>293</td></tr><tr><td>未作答</td><td>0</td><td>0</td><td colspan=\"2\">0</td><td>1</td><td>0</td><td colspan=\"2\">1</td><td>1</td></tr><tr><td><u><strong><p>是否霸凌別人</p></strong></u></td><td></td><td></td><td colspan=\"2\"></td><td></td><td></td><td colspan=\"2\"></td><td></td></tr><tr><td>是</td><td>8</td><td>5</td><td colspan=\"2\">13</td><td>5</td><td>8</td><td colspan=\"2\">13</td><td>26</td></tr><tr><td>否</td><td>108</td><td>76</td><td colspan=\"2\">184</td><td>99</td><td>50</td><td colspan=\"2\">149</td><td>333</td></tr><tr><td>未作答</td><td>0</td><td>0</td><td colspan=\"2\">0</td><td>4</td><td>0</td><td colspan=\"2\">4</td><td>4</td></tr></tbody></table>",
+      "label": "table",
+      "page_number": null,
+      "bbox": null,
+      "table_id": "0003"
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "總人數",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "116",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "81",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "197",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "108",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "58",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "166",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "363",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "是否被霸凌",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "是否霸凌別人",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "從性別差異來看，如表4所示，整體而言，除了第5.題同學隨便替別人取綽號這一題以外，其餘題項，無論女性或男性在感受霸凌的嚴重程度平均皆有4分以上，表示不同性別都很在乎霸凌感受。在第1.題同學推人、踢人、第2.題同學毆打別人、第4.題同學對別人譏笑、謾罵、第9.題同學以身體、性別、性取向、性徵做為取笑或評論別人、第10.題同學性侵害別人、第11.題同學受虐後，對欺負他的人反擊、第12.題同學受虐後，欺負更弱的別人、第13.題同學對別人發送具有威脅辱罵的言語、第14.題同學對別人的朋友（Line群組、臉書封閉社團），發送有關別人的不實謠言及第15.題同學公開（臉書公開社團、公開的論壇）散播威脅辱罵別人的言語，散播別人不實謠言訊息對霸凌的感受皆達顯著的差異，且皆為女性高於男性。",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "表4：不同性別對霸凌的感受",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "table",
+      "level": 1,
+      "text": "<table><tbody><tr><th>題號</th><th>性別</th><th>非常不嚴重 (1)</th><th>不嚴重 (2)</th><th>有點不嚴重 (3)</th><th>有點嚴重 (4)</th><th>嚴重 (5)</th><th>非常嚴重 (6)</th><th>總人數</th><th>平均數</th><th>標準差</th><th>t 值</th><th></th></tr><tr><td rowspan=\"2\">1</td><td>女</td><td>7</td><td>6</td><td>23</td><td>69</td><td>59</td><td>60</td><td>224</td><td><strong><p>4.55</p></strong></td><td>1.24</td><td>2.18</td><td>*</td></tr><tr><td>男</td><td>5</td><td>12</td><td>18</td><td>47</td><td>23</td><td>34</td><td>139</td><td><strong><p>4.24</p></strong></td><td>1.38</td><td></td><td></td></tr><tr><td rowspan=\"2\">2</td><td>女</td><td>6</td><td>4</td><td>4</td><td>36</td><td>58</td><td>116</td><td>224</td><td><strong><p>5.16</p></strong></td><td>1.15</td><td>2.42</td><td>*</td></tr><tr><td>男</td><td>4</td><td>6</td><td>4</td><td>33</td><td>38</td><td>54</td><td>139</td><td><strong><p>4.85</p></strong></td><td>1.26</td><td></td><td></td></tr><tr><td rowspan=\"2\">3</td><td>女</td><td>6</td><td>1</td><td>2</td><td>37</td><td>60</td><td>118</td><td>224</td><td>5.22</td><td>1.07</td><td>1.68</td><td></td></tr><tr><td>男</td><td>5</td><td>2</td><td>9</td><td>21</td><td>35</td><td>67</td><td>139</td><td>5.01</td><td>1.27</td><td></td><td></td></tr><tr><td rowspan=\"2\">4</td><td>女</td><td>5</td><td>3</td><td>13</td><td>65</td><td>67</td><td>71</td><td>224</td><td><strong><p>4.78</p></strong></td><td>1.13</td><td>2.51</td><td>*</td></tr><tr><td>男</td><td>4</td><td>11</td><td>17</td><td>36</td><td>31</td><td>40</td><td>139</td><td><strong><p>4.43</p></strong></td><td>1.38</td><td></td><td></td></tr><tr><td rowspan=\"2\">5</td><td>女</td><td>3</td><td>21</td><td>60</td><td>80</td><td>33</td><td>27</td><td>224</td><td>3.89</td><td>1.18</td><td>0.93</td><td></td></tr><tr><td>男</td><td>9</td><td>23</td><td>27</td><td>37</td><td>20</td><td>23</td><td>139</td><td>3.76</td><td>1.48</td><td></td><td></td></tr><tr><td rowspan=\"2\">6</td><td>女</td><td>5</td><td>3</td><td>2</td><td>63</td><td>60</td><td>91</td><td>224</td><td>4.98</td><td>1.10</td><td>1.71</td><td></td></tr><tr><td>男</td><td>2</td><td>5</td><td>11</td><td>38</td><td>33</td><td>50</td><td>139</td><td>4.76</td><td>1.21</td><td></td><td></td></tr><tr><td rowspan=\"2\">7</td><td>女</td><td>6</td><td>3</td><td>6</td><td>45</td><td>72</td><td>92</td><td>224</td><td>5.01</td><td>1.13</td><td>1.47</td><td></td></tr><tr><td>男</td><td>7</td><td>2</td><td>13</td><td>24</td><td>36</td><td>57</td><td>139</td><td>4.81</td><td>1.37</td><td></td><td></td></tr><tr><td rowspan=\"2\">8</td><td>女</td><td>5</td><td>0</td><td>7</td><td>36</td><td>71</td><td>105</td><td>224</td><td>5.16</td><td>1.05</td><td>1.70</td><td></td></tr><tr><td>男</td><td>6</td><td>2</td><td>8</td><td>25</td><td>36</td><td>62</td><td>139</td><td>4.94</td><td>1.30</td><td></td><td></td></tr><tr><td rowspan=\"2\">9</td><td>女</td><td>4</td><td>3</td><td>1</td><td>36</td><td>78</td><td>102</td><td>224</td><td><strong><p>5.17</p></strong></td><td>1.01</td><td>2.34</td><td>*</td></tr><tr><td>男</td><td>5</td><td>3</td><td>10</td><td>30</td><td>30</td><td>61</td><td>139</td><td><strong><p>4.87</p></strong></td><td>1.31</td><td></td><td></td></tr><tr><td rowspan=\"2\">10</td><td>女</td><td>8</td><td>1</td><td>1</td><td>13</td><td>30</td><td>171</td><td>224</td><td><strong><p>5.54</p></strong></td><td>1.08</td><td>2.46</td><td>*</td></tr><tr><td>男</td><td>6</td><td>3</td><td>6</td><td>17</td><td>16</td><td>91</td><td>139</td><td><strong><p>5.21</p></strong></td><td>1.34</td><td></td><td></td></tr><tr><td rowspan=\"2\">11</td><td>女</td><td>12</td><td>12</td><td>22</td><td>45</td><td>58</td><td>75</td><td>224</td><td><strong><p>4.56</p></strong></td><td>1.44</td><td>2.22</td><td>*</td></tr><tr><td>男</td><td>9</td><td>11</td><td>23</td><td>34</td><td>23</td><td>39</td><td>139</td><td><strong><p>4.21</p></strong></td><td>1.53</td><td></td><td></td></tr><tr><td rowspan=\"2\">12</td><td>女</td><td>7</td><td>1</td><td>5</td><td>35</td><td>55</td><td>121</td><td>224</td><td><strong><p>5.20</p></strong></td><td>1.14</td><td>3.30</td><td>***</td></tr><tr><td>男</td><td>5</td><td>6</td><td>10</td><td>31</td><td>33</td><td>54</td><td>139</td><td><strong><p>4.75</p></strong></td><td>1.35</td><td></td><td></td></tr><tr><td rowspan=\"2\">13</td><td>女</td><td>7</td><td>4</td><td>4</td><td>46</td><td>74</td><td>89</td><td>224</td><td><strong><p>4.98</p></strong></td><td>1.16</td><td>2.13</td><td>*</td></tr><tr><td>男</td><td>4</td><td>5</td><td>14</td><td>33</td><td>34</td><td>49</td><td>139</td><td><strong><p>4.69</p></strong></td><td>1.30</td><td></td><td></td></tr><tr><td rowspan=\"2\">14</td><td>女</td><td>6</td><td>2</td><td>6</td><td>38</td><td>68</td><td>104</td><td>224</td><td><strong><p>5.11</p></strong></td><td>1.12</td><td>3.22</td><td>***</td></tr><tr><td>男</td><td>8</td><td>2</td><td>13</td><td>31</td><td>37</td><td>48</td><td>139</td><td><strong><p>4.66</p></strong></td><td>1.38</td><td></td><td></td></tr><tr><td rowspan=\"2\">15</td><td>女</td><td>5</td><td>1</td><td>7</td><td>32</td><td>51</td><td>128</td><td>224</td><td><strong><p>5.26</p></strong></td><td>1.08</td><td>3.15</td><td>**</td></tr><tr><td>男</td><td>7</td><td>1</td><td>12</td><td>29</td><td>29</td><td>61</td><td>139</td><td><strong><p>4.83</p></strong></td><td>1.36</td><td></td><td></td></tr></tbody></table>",
+      "label": "table",
+      "page_number": null,
+      "bbox": null,
+      "table_id": "0004"
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "4.55",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "4.24",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "5.16",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "4.85",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "4.78",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "4.43",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "5.17",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "4.87",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "5.54",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "5.21",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "4.56",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "4.21",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "5.20",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "4.75",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "4.98",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "4.69",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "5.11",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "4.66",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "5.26",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "4.83",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "* p < .05,  ** p <.01,  *** p <.01",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "從教育層級來看，如表5所示，整體而言，無論國中部或高中部在全部15題霸凌嚴重程度的感受分數平均皆有4分以上，表示不同教育層級都很在乎霸凌感受。不過在第2.題同學毆打別人、第3.題同學搶奪別人財物、第10.題同學性侵害別人、第5.題同學隨便替別人取綽號、第11.題同學受虐後，對欺負他的人反擊，這三題上有年級差異。其中在同學毆打別人、.同學搶奪別人財物、同學性侵害別人的感受上是高中部高於國中部；其餘兩題關於霸凌的題目則是國中部高於高中部。其中，第2.題同學毆打別人和第11.題同學受虐後，對欺負他的人反擊高中生觀點差異很大(5.24.07)，表示高中生普遍不把反擊行為視為霸凌的一種，值得進一步研究。",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "表5：不同教育層級對霸凌的感受",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "table",
+      "level": 1,
+      "text": "<table><tbody><tr><th>題號</th><th>教育層級</th><th>非常不嚴重(1)</th><th>不嚴重 (2)</th><th>有點不嚴重(3)</th><th>有點嚴重 (4)</th><th>嚴重 (5)</th><th>非常嚴重 (6)</th><th>總人數</th><th>平均數</th><th>標準差</th><th>t 值</th><th></th></tr><tr><td rowspan=\"2\">1</td><td>國中</td><td>8</td><td>11</td><td>22</td><td>60</td><td>35</td><td>61</td><td>197</td><td>4.45</td><td>1.39</td><td>0.31</td><td></td></tr><tr><td>高中</td><td>4</td><td>7</td><td>19</td><td>56</td><td>47</td><td>33</td><td>166</td><td>4.41</td><td>1.19</td><td></td><td></td></tr><tr><td rowspan=\"2\">2</td><td>國中</td><td>8</td><td>8</td><td>6</td><td>42</td><td>42</td><td>91</td><td>197</td><td><strong><p>4.90</p></strong></td><td>1.35</td><td>-2.47</td><td>*</td></tr><tr><td>高中</td><td>2</td><td>2</td><td>2</td><td>27</td><td>54</td><td>79</td><td>166</td><td><strong><p>5.20</p></strong></td><td>0.98</td><td></td><td></td></tr><tr><td rowspan=\"2\">3</td><td>國中</td><td>10</td><td>3</td><td>7</td><td>34</td><td>39</td><td>104</td><td>197</td><td><strong><p>5.04</p></strong></td><td>1.34</td><td>-2.01</td><td>*</td></tr><tr><td>高中</td><td>1</td><td>0</td><td>4</td><td>24</td><td>56</td><td>81</td><td>166</td><td><strong><p>5.27</p></strong></td><td>0.87</td><td></td><td></td></tr><tr><td rowspan=\"2\">4</td><td>國中</td><td>7</td><td>7</td><td>13</td><td>48</td><td>48</td><td>74</td><td>197</td><td>4.75</td><td>1.31</td><td>1.74</td><td></td></tr><tr><td>高中</td><td>2</td><td>7</td><td>17</td><td>53</td><td>50</td><td>37</td><td>166</td><td>4.52</td><td>1.14</td><td></td><td></td></tr><tr><td rowspan=\"2\">5</td><td>國中</td><td>6</td><td>21</td><td>35</td><td>58</td><td>36</td><td>41</td><td>197</td><td><strong><p>4.12</p></strong></td><td>1.37</td><td>4.60</td><td>***</td></tr><tr><td>高中</td><td>6</td><td>23</td><td>52</td><td>59</td><td>17</td><td>9</td><td>166</td><td><strong><p>3.51</p></strong></td><td>1.13</td><td></td><td></td></tr><tr><td rowspan=\"2\">6</td><td>國中</td><td>7</td><td>6</td><td>8</td><td>48</td><td>35</td><td>93</td><td>197</td><td>4.91</td><td>1.31</td><td>0.34</td><td></td></tr><tr><td>高中</td><td>0</td><td>2</td><td>5</td><td>53</td><td>58</td><td>48</td><td>166</td><td>4.87</td><td>0.91</td><td></td><td></td></tr><tr><td rowspan=\"2\">7</td><td>國中</td><td>13</td><td>3</td><td>11</td><td>36</td><td>42</td><td>92</td><td>197</td><td>4.86</td><td>1.43</td><td>-1.20</td><td></td></tr><tr><td>高中</td><td>0</td><td>2</td><td>8</td><td>33</td><td>66</td><td>57</td><td>166</td><td>5.01</td><td>0.92</td><td></td><td></td></tr><tr><td rowspan=\"2\">8</td><td>國中</td><td>11</td><td>2</td><td>7</td><td>33</td><td>46</td><td>98</td><td>197</td><td>5.01</td><td>1.34</td><td>-1.24</td><td></td></tr><tr><td>高中</td><td>0</td><td>0</td><td>8</td><td>28</td><td>61</td><td>69</td><td>166</td><td>5.15</td><td>0.87</td><td></td><td></td></tr><tr><td rowspan=\"2\">9</td><td>國中</td><td>9</td><td>5</td><td>7</td><td>33</td><td>47</td><td>96</td><td>197</td><td>4.99</td><td>1.33</td><td>-1.28</td><td></td></tr><tr><td>高中</td><td>0</td><td>1</td><td>4</td><td>33</td><td>61</td><td>67</td><td>166</td><td>5.14</td><td>0.86</td><td></td><td></td></tr><tr><td rowspan=\"2\">10</td><td>國中</td><td>12</td><td>3</td><td>5</td><td>20</td><td>28</td><td>129</td><td>197</td><td><strong><p>5.21</p></strong></td><td>1.39</td><td>-3.66</td><td>***</td></tr><tr><td>高中</td><td>2</td><td>1</td><td>2</td><td>10</td><td>18</td><td>133</td><td>166</td><td><strong><p>5.65</p></strong></td><td>0.86</td><td></td><td></td></tr><tr><td rowspan=\"2\">11</td><td>國中</td><td>14</td><td>7</td><td>18</td><td>26</td><td>46</td><td>86</td><td>197</td><td><strong><p>4.73</p></strong></td><td>1.53</td><td>4.40</td><td>***</td></tr><tr><td>高中</td><td>7</td><td>16</td><td>27</td><td>53</td><td>35</td><td>28</td><td>166</td><td><strong><p>4.07</p></strong></td><td>1.35</td><td></td><td></td></tr><tr><td rowspan=\"2\">12</td><td>國中</td><td>10</td><td>6</td><td>7</td><td>32</td><td>34</td><td>108</td><td>197</td><td>5.02</td><td>1.40</td><td>-0.12</td><td></td></tr><tr><td>高中</td><td>2</td><td>1</td><td>8</td><td>34</td><td>54</td><td>67</td><td>166</td><td>5.04</td><td>1.03</td><td></td><td></td></tr><tr><td rowspan=\"2\">13</td><td>國中</td><td>10</td><td>5</td><td>11</td><td>35</td><td>49</td><td>87</td><td>197</td><td>4.87</td><td>1.37</td><td>0.09</td><td></td></tr><tr><td>高中</td><td>1</td><td>4</td><td>7</td><td>44</td><td>59</td><td>51</td><td>166</td><td>4.86</td><td>1.02</td><td></td><td></td></tr><tr><td rowspan=\"2\">14</td><td>國中</td><td>13</td><td>2</td><td>9</td><td>33</td><td>48</td><td>92</td><td>197</td><td>4.91</td><td>1.40</td><td>-0.39</td><td></td></tr><tr><td>高中</td><td>1</td><td>2</td><td>10</td><td>36</td><td>57</td><td>60</td><td>166</td><td>4.96</td><td>1.01</td><td></td><td></td></tr><tr><td rowspan=\"2\">15</td><td>國中</td><td>11</td><td>1</td><td>10</td><td>33</td><td>39</td><td>103</td><td>197</td><td>5.02</td><td>1.36</td><td>-1.47</td><td></td></tr><tr><td>高中</td><td>1</td><td>1</td><td>9</td><td>28</td><td>41</td><td>86</td><td>166</td><td>5.20</td><td>1.01</td><td></td><td></td></tr></tbody></table>",
+      "label": "table",
+      "page_number": null,
+      "bbox": null,
+      "table_id": "0005"
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "4.90",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "5.20",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "5.04",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "5.27",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "4.12",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "3.51",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "5.21",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "5.65",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "4.73",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "4.07",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "* p < .05,  ** p <.01,  *** p <.01",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "在進一步研究，如表6所示，本研究依照性別、教育層級分為四組不同的群族，對15題霸凌感受平均分數排序，得分最高者皆為第10.題同學性侵害別人，最低者皆為第5.題同學隨便替別人取綽號。表示大家認為性侵害別人最嚴重，而取綽號則是所有題型當中較容易被輕忽的。",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "表6：不同教育層級、性別對霸凌的感受排序",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "table",
+      "level": 1,
+      "text": "<table><tbody><tr><th rowspan=\"2\">題號</th><th colspan=\"3\">國中女 (n=116)</th><th colspan=\"3\">國中男(n=81)</th><th colspan=\"3\">高中女(n=108)</th><th colspan=\"3\">高中男(n=58)</th></tr><tr><td><strong><p>排序</p></strong></td><td><strong><p>平均數</p></strong></td><td><strong><p>標準差</p></strong></td><td><strong><p>排序</p></strong></td><td><strong><p>平均數</p></strong></td><td><strong><p>標準差</p></strong></td><td><strong><p>排序</p></strong></td><td><strong><p>平均數</p></strong></td><td><strong><p>標準差</p></strong></td><td><strong><p>排序</p></strong></td><td><strong><p>平均數</p></strong></td><td><strong><p>標準差</p></strong></td></tr><tr><td>1</td><td>14</td><td>4.54</td><td>1.30</td><td>13</td><td>4.32</td><td>1.50</td><td>13</td><td>4.56</td><td>1.17</td><td>13</td><td>4.14</td><td>1.19</td></tr><tr><td>2</td><td>11</td><td>5.02</td><td>1.31</td><td>4</td><td>4.74</td><td>1.39</td><td><strong><p>2</p></strong></td><td><strong><p>5.31</p></strong></td><td><strong><p>0.93</p></strong></td><td>6.5</td><td>5.00</td><td>1.03</td></tr><tr><td>3</td><td>5.5</td><td>5.15</td><td>1.24</td><td><strong><p>2</p></strong></td><td><strong><p>4.88</p></strong></td><td><strong><p>1.47</p></strong></td><td><strong><p>3.5</p></strong></td><td><strong><p>5.31</p></strong></td><td><strong><p>0.86</p></strong></td><td><strong><p>2</p></strong></td><td><strong><p>5.21</p></strong></td><td><strong><p>0.89</p></strong></td></tr><tr><td>4</td><td>13</td><td>4.91</td><td>1.19</td><td>12</td><td>4.53</td><td>1.44</td><td>12</td><td>4.65</td><td>1.04</td><td>12</td><td>4.29</td><td>1.28</td></tr><tr><td>5</td><td>15</td><td>4.24</td><td>1.22</td><td>15</td><td>3.94</td><td>1.56</td><td>15</td><td>3.52</td><td>1.01</td><td>15</td><td>3.50</td><td>1.34</td></tr><tr><td>6</td><td>8</td><td>5.07</td><td>1.24</td><td>8</td><td>4.69</td><td>1.39</td><td>11</td><td>4.88</td><td>0.92</td><td>8</td><td>4.86</td><td>0.89</td></tr><tr><td>7</td><td>9</td><td>5.06</td><td>1.29</td><td>11</td><td>4.58</td><td>1.58</td><td>9.5</td><td>4.95</td><td>0.92</td><td><strong><p>3.5</p></strong></td><td><strong><p>5.12</p></strong></td><td><strong><p>0.92</p></strong></td></tr><tr><td>8</td><td>5.5</td><td>5.15</td><td>1.20</td><td><strong><p>3</p></strong></td><td><strong><p>4.80</p></strong></td><td><strong><p>1.51</p></strong></td><td>5</td><td>5.17</td><td>0.86</td><td><strong><p>3.5</p></strong></td><td><strong><p>5.12</p></strong></td><td><strong><p>0.90</p></strong></td></tr><tr><td>9</td><td>4</td><td>5.19</td><td>1.16</td><td>6</td><td>4.70</td><td>1.50</td><td>6</td><td>5.16</td><td>0.81</td><td>5</td><td>5.10</td><td>0.95</td></tr><tr><td>10</td><td><strong><p>1</p></strong></td><td><strong><p>5.36</p></strong></td><td><strong><p>1.29</p></strong></td><td><strong><p>1</p></strong></td><td><strong><p>5.00</p></strong></td><td><strong><p>1.51</p></strong></td><td><strong><p>1</p></strong></td><td><strong><p>5.73</p></strong></td><td><strong><p>0.76</p></strong></td><td><strong><p>1</p></strong></td><td><strong><p>5.50</p></strong></td><td><strong><p>1.01</p></strong></td></tr><tr><td>11</td><td>10</td><td>5.03</td><td>1.35</td><td>14</td><td>4.31</td><td>1.66</td><td>14</td><td>4.06</td><td>1.38</td><td>14</td><td>4.07</td><td>1.31</td></tr><tr><td>12</td><td><strong><p>2</p></strong></td><td><strong><p>5.25</p></strong></td><td><strong><p>1.27</p></strong></td><td>8</td><td>4.69</td><td>1.51</td><td>7</td><td>5.15</td><td>0.97</td><td>9</td><td>4.83</td><td>1.09</td></tr><tr><td>13</td><td>12</td><td>5.00</td><td>1.30</td><td>8</td><td>4.69</td><td>1.45</td><td>9.5</td><td>4.95</td><td>0.99</td><td>11</td><td>4.69</td><td>1.06</td></tr><tr><td>14</td><td>7</td><td>5.12</td><td>1.24</td><td>10</td><td>4.62</td><td>1.57</td><td>8</td><td>5.09</td><td>0.97</td><td>10</td><td>4.72</td><td>1.06</td></tr><tr><td>15</td><td><strong><p>3</p></strong></td><td><strong><p>5.22</p></strong></td><td><strong><p>1.19</p></strong></td><td>5</td><td>4.72</td><td>1.53</td><td><strong><p>3.5</p></strong></td><td><strong><p>5.31</p></strong></td><td><strong><p>0.96</p></strong></td><td>6.5</td><td>5.00</td><td>1.08</td></tr></tbody></table>",
+      "label": "table",
+      "page_number": null,
+      "bbox": null,
+      "table_id": "0006"
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "排序",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "平均數",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "標準差",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "排序",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "平均數",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "標準差",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "排序",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "平均數",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "標準差",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "排序",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "平均數",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "標準差",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "2",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "5.31",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "0.93",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "2",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "4.88",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "1.47",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "3.5",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "5.31",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "0.86",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "2",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "5.21",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "0.89",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "3.5",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "5.12",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "0.92",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "3",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "4.80",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "1.51",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "3.5",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "5.12",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "0.90",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "1",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "5.36",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "1.29",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "1",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "5.00",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "1.51",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "1",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "5.73",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "0.76",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "1",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "5.50",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "1.01",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "2",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "5.25",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "1.27",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "3",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "5.22",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "1.19",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "3.5",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "5.31",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "0.96",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "從表7可以看到，在六種霸凌類型中，除言語霸凌及關係霸凌外，其餘霸凌皆有性別上的顯著差異，且女生明顯比男生感受嚴重；而言語霸凌、性霸凌和反擊霸凌則是在教育層級有所不同，其中言語霸凌及反擊霸凌為國中部比高中部感受嚴重，性霸凌則是高中部比國中部感受嚴重。",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "表7：不同教育層級、性別的六類霸凌感受平均數、標準差與ｔ檢定",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "table",
+      "level": 1,
+      "text": "<table><tbody><tr><th></th><th>教育層級</th><th colspan=\"3\">國中部</th><th colspan=\"3\">高中部</th><th colspan=\"3\">總數</th><th>檢定性別</th><th>檢定教育層級</th></tr><tr><td></td><td><strong><p>性別</p></strong></td><td><strong><p>女</p></strong></td><td><strong><p>男</p></strong></td><td><strong><p>總數</p></strong></td><td><strong><p>女</p></strong></td><td><strong><p>男</p></strong></td><td><strong><p>總數</p></strong></td><td><strong><p>女</p></strong></td><td><strong><p>男</p></strong></td><td><strong><p>總數</p></strong></td><td><strong><p>t 值</p></strong></td><td><strong><p>t 值</p></strong></td></tr><tr><td rowspan=\"2\">肢體霸凌</td><td>平均數</td><td>4.90</td><td>4.65</td><td>4.80</td><td>5.06</td><td>4.78</td><td>4.96</td><td><strong><p>4.98</p></strong></td><td><strong><p>4.70</p></strong></td><td>4.87</td><td>2.32*</td><td>-1.46</td></tr><tr><td>標準差</td><td>1.18</td><td>1.38</td><td>1.27</td><td>0.86</td><td>0.87</td><td>0.87</td><td>1.04</td><td>1.19</td><td>1.10</td><td></td><td></td></tr><tr><td rowspan=\"2\">言語霸凌</td><td>平均數</td><td>4.74</td><td>4.39</td><td><strong><p>4.59</p></strong></td><td>4.35</td><td>4.22</td><td><strong><p>4.30</p></strong></td><td>4.55</td><td>4.32</td><td>4.46</td><td>1.95</td><td>2.65**</td></tr><tr><td>標準差</td><td>1.09</td><td>1.29</td><td>1.19</td><td>0.85</td><td>1.00</td><td>0.90</td><td>1.00</td><td>1.18</td><td>1.07</td><td></td><td></td></tr><tr><td rowspan=\"2\">關係霸凌</td><td>平均數</td><td>5.10</td><td>4.69</td><td>4.93</td><td>5.06</td><td>5.12</td><td>5.08</td><td>5.08</td><td>4.87</td><td>5.00</td><td>1.66</td><td>-1.29</td></tr><tr><td>標準差</td><td>1.20</td><td>1.49</td><td>1.34</td><td>0.81</td><td>0.81</td><td>0.81</td><td>1.03</td><td>1.27</td><td>1.13</td><td></td><td></td></tr><tr><td rowspan=\"2\">性霸凌</td><td>平均數</td><td>5.28</td><td>4.85</td><td><strong><p>5.10</p></strong></td><td>5.44</td><td>5.30</td><td><strong><p>5.39</p></strong></td><td><strong><p>5.36</p></strong></td><td><strong><p>5.04</p></strong></td><td>5.24</td><td>2.56*</td><td>-2.68**</td></tr><tr><td>標準差</td><td>1.17</td><td>1.45</td><td>1.31</td><td>0.69</td><td>0.83</td><td>0.74</td><td>0.97</td><td>1.25</td><td>1.09</td><td></td><td></td></tr><tr><td rowspan=\"2\">反擊霸凌</td><td>平均數</td><td>5.14</td><td>4.50</td><td><strong><p>4.88</p></strong></td><td>4.61</td><td>4.45</td><td><strong><p>4.55</p></strong></td><td><strong><p>4.88</p></strong></td><td><strong><p>4.48</p></strong></td><td>4.73</td><td>3.04**</td><td>2.57*</td></tr><tr><td>標準差</td><td>1.27</td><td>1.49</td><td>1.40</td><td>1.01</td><td>0.98</td><td>1.00</td><td>1.18</td><td>1.30</td><td>1.24</td><td></td><td></td></tr><tr><td rowspan=\"2\">網路霸凌</td><td>平均數</td><td>5.11</td><td>4.67</td><td>4.93</td><td>5.12</td><td>4.80</td><td>5.01</td><td><strong><p>5.12</p></strong></td><td><strong><p>4.73</p></strong></td><td>4.97</td><td>3.01**</td><td>-0.63</td></tr><tr><td>標準差</td><td>1.18</td><td>1.47</td><td>1.32</td><td>0.89</td><td>0.94</td><td>0.92</td><td>1.05</td><td>1.27</td><td>1.15</td><td></td><td></td></tr></tbody></table>",
+      "label": "table",
+      "page_number": null,
+      "bbox": null,
+      "table_id": "0007"
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "性別",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "女",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "男",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "總數",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "女",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "男",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "總數",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "女",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "男",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "總數",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "t 值",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "t 值",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "4.98",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "4.70",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "4.59",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "4.30",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "5.10",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "5.39",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "5.36",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "5.04",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "4.88",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "4.55",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "4.88",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "4.48",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "5.12",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "4.73",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "* p < .05,  ** p <.01,  *** p <.01",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "結論",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "根據本研究的調查，大家一致認為性侵害別人是感受最嚴重的霸凌行為，而取綽號則是較容易被輕忽的行為。但是在不同教育層級或性別上，大家對霸凌感受就有些許不同。在性別差異上，15題中10題男生和女生在霸凌感受上有顯著的不同，且這時題都是女性高於男性，可見女生對霸凌的感受較在乎。在教育層級上，高中生明顯比國中生不把反擊行為視為霸凌的一種。",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "若將15種霸凌行為歸類成六種霸凌類型時，肢體霸凌、性霸凌、反擊霸凌、網路霸凌皆有性別上的顯著差異，且女生明顯比男生感受嚴重；而言語霸凌、性霸凌和反擊霸凌則是在教育層級有所不同，其中言語霸凌及反擊霸凌為國中部比高中部感受嚴重，性霸凌則是高中部比國中部感受嚴重。可以看出，不同教育層級需要關注不同的霸凌行為，而男生更要設計教育課程，使其認知女生對霸凌的差異感受，已減少產生霸凌行為。",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "附錄：問卷內容",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "霸凌相關問卷調查",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "您好，我們是六家高中高二的學生，我們正在進行關於校園霸凌的相關研究，您的回答對本研究有極大的幫助，希望您能花幾分鐘的時間完成下列問卷，謝謝。",
+      "label": "paragraph",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "一、基本資料：",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "1\t請問您的性別？\t\t女\t男",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "2\t請問您的年級？\t\t七年級\t\t八年級\t九年級",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "高中一年級\t高中二年級\t高中三年級",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "3\t請問您是否有被霸凌的經驗？\t\t是\t否",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 1,
+      "text": "4\t請問您是否曾霸凌過他人？\t\t是\t否",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "二、關於霸凌的感受",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "：",
+      "label": "heading",
+      "page_number": null,
+      "bbox": null
+    },
+    {
+      "type": "table",
+      "level": 1,
+      "text": "<table><tbody><tr><th></th><th>以下敘述請圈選您認為此行為的嚴重程度</th><th>非常不嚴重</th><th>不嚴重</th><th>有點不嚴重</th><th>有點嚴重</th><th>嚴重</th><th>非常嚴重</th></tr><tr><td>1</td><td>同學推人、踢人</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr><tr><td>2</td><td>同學毆打別人</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr><tr><td>3</td><td>同學搶奪別人財物</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr><tr><td>4</td><td>同學對別人譏笑、謾罵</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr><tr><td>5</td><td>同學隨便替別人取綽號</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr><tr><td>6</td><td>同學用言語刺傷、威脅、恐嚇別人</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr><tr><td>7</td><td>同學排擠弱勢同儕</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr><tr><td>8</td><td>同學散播不實謠言或中傷別人</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr><tr><td>9</td><td>同學以身體、性別、性取向、性徵做為取笑或評論別人</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr><tr><td>10</td><td>同學性侵害別人</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr><tr><td>11</td><td>同學受虐後，對欺負他的人反擊</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr><tr><td>12</td><td>同學受虐後，欺負更弱的別人</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr><tr><td>13</td><td>同學對別人發送具有威脅辱罵的言語</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr><tr><td>14</td><td>同學對別人的朋友（Line群組、臉書封閉社團），發送有關別人的不實謠言</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr><tr><td>15</td><td>同學公開（臉書公開社團、公開的論壇）散播威脅辱罵別人的言語，散播別人不實謠言訊息</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr></tbody></table>",
+      "label": "table",
+      "page_number": null,
+      "bbox": null,
+      "table_id": "0008"
+    }
+  ]
+}

@@ -1,0 +1,4727 @@
+{
+  "source": "計算機專題期末_完整版.pptx",
+  "num_pages": 40,
+  "title": "計算機專題期末_完整版",
+  "elements": [
+    {
+      "type": "text",
+      "level": 2,
+      "text": "基於BERT情緒分析應用於",
+      "label": "heading",
+      "page_number": 1,
+      "bbox": {
+        "left": 0.0,
+        "top": 10287000.0,
+        "right": 18288000.0,
+        "bottom": 0.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "交友配對推薦系統",
+      "label": "heading",
+      "page_number": 1,
+      "bbox": {
+        "left": 0.0,
+        "top": 10287000.0,
+        "right": 18288000.0,
+        "bottom": 0.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 1,
+      "bbox": {
+        "left": 16741125.0,
+        "top": 7872849.0,
+        "right": 19171678.0,
+        "bottom": 7262173.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "0.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 1,
+      "bbox": {
+        "left": 1107850.0,
+        "top": 768111.0,
+        "right": 3538403.0,
+        "bottom": 157435.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "1.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "指導教授 :葉瑞峰 教授 ",
+      "label": "heading",
+      "page_number": 1,
+      "bbox": {
+        "left": 0.0,
+        "top": 10287000.0,
+        "right": 18288000.0,
+        "bottom": 0.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "組員 : 1092915 李虔華",
+      "label": "heading",
+      "page_number": 1,
+      "bbox": {
+        "left": 0.0,
+        "top": 10287000.0,
+        "right": 18288000.0,
+        "bottom": 0.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "           1092917 林品秀",
+      "label": "heading",
+      "page_number": 1,
+      "bbox": {
+        "left": 0.0,
+        "top": 10287000.0,
+        "right": 18288000.0,
+        "bottom": 0.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 1,
+      "bbox": {
+        "left": -225785.0,
+        "top": 10316397.0,
+        "right": 2842189.0,
+        "bottom": 7248423.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "2.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 1,
+      "bbox": {
+        "left": 15696324.0,
+        "top": 2861145.0,
+        "right": 19316931.0,
+        "bottom": -759462.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "3.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "‹#›",
+      "label": "heading",
+      "page_number": 1,
+      "bbox": {
+        "left": 6553200.0,
+        "top": 6721450.0,
+        "right": 8686800.0,
+        "bottom": 6356350.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 2,
+      "bbox": {
+        "left": 109099.0,
+        "top": 8360845.0,
+        "right": 3729706.0,
+        "bottom": 4740238.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "4.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 2,
+      "bbox": {
+        "left": 559683.0,
+        "top": 3785166.0,
+        "right": 1082170.0,
+        "bottom": 3262679.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "5.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 2,
+      "bbox": {
+        "left": 15749709.0,
+        "top": 2209955.0,
+        "right": 17259300.0,
+        "bottom": 1028700.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "6.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 2,
+      "bbox": {
+        "left": 17074709.0,
+        "top": 8806138.0,
+        "right": 19385287.0,
+        "bottom": 7563393.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "7.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "緒論",
+      "label": "heading",
+      "page_number": 2,
+      "bbox": {
+        "left": 5743775.0,
+        "top": 4212041.0,
+        "right": 10885775.0,
+        "bottom": 3362441.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "2. 相關研究",
+      "label": "paragraph",
+      "page_number": 2,
+      "bbox": {
+        "left": 5409000.0,
+        "top": 5855663.0,
+        "right": 11874300.0,
+        "bottom": 5006063.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "3. 系統方法",
+      "label": "paragraph",
+      "page_number": 2,
+      "bbox": {
+        "left": 5409000.0,
+        "top": 7732088.0,
+        "right": 12387300.0,
+        "bottom": 6882488.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4. 實驗",
+      "label": "paragraph",
+      "page_number": 2,
+      "bbox": {
+        "left": 12260750.0,
+        "top": 4112263.0,
+        "right": 18897050.0,
+        "bottom": 3262663.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "5. 使用者介面",
+      "label": "paragraph",
+      "page_number": 2,
+      "bbox": {
+        "left": 12260750.0,
+        "top": 5855663.0,
+        "right": 18172850.0,
+        "bottom": 5006063.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "6. 結論",
+      "label": "paragraph",
+      "page_number": 2,
+      "bbox": {
+        "left": 12260750.0,
+        "top": 7732101.0,
+        "right": 18172850.0,
+        "bottom": 6882501.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "目錄:",
+      "label": "heading",
+      "page_number": 2,
+      "bbox": {
+        "left": 4477450.0,
+        "top": 1672663.0,
+        "right": 16189450.0,
+        "bottom": 287263.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "2",
+      "label": "heading",
+      "page_number": 2,
+      "bbox": {
+        "left": 17074700.0,
+        "top": 10115375.0,
+        "right": 18007700.0,
+        "bottom": 9548975.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 3,
+      "bbox": {
+        "left": -1443083.0,
+        "top": 10480145.0,
+        "right": 2748407.0,
+        "bottom": 6288657.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "8.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 3,
+      "bbox": {
+        "left": 559683.0,
+        "top": 3785166.0,
+        "right": 1082170.0,
+        "bottom": 3262679.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "9.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 3,
+      "bbox": {
+        "left": 15749709.0,
+        "top": 2209955.0,
+        "right": 17259300.0,
+        "bottom": 1028700.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "10.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 3,
+      "bbox": {
+        "left": 15512859.0,
+        "top": 8269275.0,
+        "right": 17823437.0,
+        "bottom": 7026530.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "11.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "緒論",
+      "label": "heading",
+      "page_number": 3,
+      "bbox": {
+        "left": 3288012.0,
+        "top": 5928450.0,
+        "right": 15000012.0,
+        "bottom": 4358550.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "2.",
+      "label": "paragraph",
+      "page_number": 3,
+      "bbox": {
+        "left": 19292750.0,
+        "top": 10082225.0,
+        "right": 20026250.0,
+        "bottom": 9528125.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "3",
+      "label": "heading",
+      "page_number": 3,
+      "bbox": {
+        "left": 17074700.0,
+        "top": 10191575.0,
+        "right": 18007700.0,
+        "bottom": 9625175.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "認為藉由對於同一件事的看法、價值觀是否相近具有更高的匹配參考性",
+      "label": "heading",
+      "page_number": 4,
+      "bbox": {
+        "left": 2504026.0,
+        "top": 8612700.0,
+        "right": 17920126.0,
+        "bottom": 7090800.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "緒論-研究動機",
+      "label": "heading",
+      "page_number": 4,
+      "bbox": {
+        "left": 418325.0,
+        "top": 1810700.0,
+        "right": 12130325.0,
+        "bottom": 502400.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 4,
+      "bbox": {
+        "left": 15564474.0,
+        "top": 2579674.0,
+        "right": 17920124.0,
+        "bottom": 502399.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "12.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "1",
+      "label": "heading",
+      "page_number": 4,
+      "bbox": {
+        "left": 1272862.0,
+        "top": 3709225.0,
+        "right": 1899862.0,
+        "bottom": 2939725.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "3",
+      "label": "heading",
+      "page_number": 4,
+      "bbox": {
+        "left": 1272850.0,
+        "top": 7860288.0,
+        "right": 1899850.0,
+        "bottom": 7090788.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "2",
+      "label": "heading",
+      "page_number": 4,
+      "bbox": {
+        "left": 1272875.0,
+        "top": 5883388.0,
+        "right": 1899875.0,
+        "bottom": 5113888.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "想要改善線上普遍交友軟體對於個人顏質、社會條件較好的依賴",
+      "label": "heading",
+      "page_number": 4,
+      "bbox": {
+        "left": 2630250.0,
+        "top": 6374175.0,
+        "right": 15657750.0,
+        "bottom": 4852275.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "快速找尋志同道合的朋友，打破時間和空間的限制使得交友更加容易",
+      "label": "heading",
+      "page_number": 4,
+      "bbox": {
+        "left": 2504025.0,
+        "top": 4476925.0,
+        "right": 17705325.0,
+        "bottom": 2955025.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4",
+      "label": "heading",
+      "page_number": 4,
+      "bbox": {
+        "left": 17074700.0,
+        "top": 10191575.0,
+        "right": 18007700.0,
+        "bottom": 9625175.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 5,
+      "bbox": {
+        "left": -1443083.0,
+        "top": 10480145.0,
+        "right": 2748407.0,
+        "bottom": 6288657.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "13.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 5,
+      "bbox": {
+        "left": 559683.0,
+        "top": 3785166.0,
+        "right": 1082170.0,
+        "bottom": 3262679.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "14.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 5,
+      "bbox": {
+        "left": 15749709.0,
+        "top": 2209955.0,
+        "right": 17259300.0,
+        "bottom": 1028700.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "15.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 5,
+      "bbox": {
+        "left": 15512859.0,
+        "top": 8269275.0,
+        "right": 17823437.0,
+        "bottom": 7026530.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "16.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "文獻探討",
+      "label": "heading",
+      "page_number": 5,
+      "bbox": {
+        "left": 1414350.0,
+        "top": 5836200.0,
+        "right": 16873650.0,
+        "bottom": 4450800.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "1.",
+      "label": "paragraph",
+      "page_number": 5,
+      "bbox": {
+        "left": 17554500.0,
+        "top": 10179275.0,
+        "right": 18288000.0,
+        "bottom": 9625175.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "5",
+      "label": "heading",
+      "page_number": 5,
+      "bbox": {
+        "left": 17074700.0,
+        "top": 10191575.0,
+        "right": 18007700.0,
+        "bottom": 9625175.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "文獻/既有系統服務探討",
+      "label": "heading",
+      "page_number": 6,
+      "bbox": {
+        "left": 1028700.0,
+        "top": 2537925.0,
+        "right": 13940400.0,
+        "bottom": 1152525.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "BERT-CNN模型",
+      "label": "heading",
+      "page_number": 6,
+      "bbox": {
+        "left": 12120238.0,
+        "top": 3707891.0,
+        "right": 17262238.0,
+        "bottom": 3028091.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 6,
+      "bbox": {
+        "left": 16837000.0,
+        "top": 9227741.0,
+        "right": 19863428.0,
+        "bottom": 6555391.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "17.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 6,
+      "bbox": {
+        "left": 15106527.0,
+        "top": 2178327.0,
+        "right": 17413423.0,
+        "bottom": 981625.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "18.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 6,
+      "bbox": {
+        "left": 1252282.0,
+        "top": 4642410.0,
+        "right": 2072361.0,
+        "bottom": 3817897.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "19.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "情緒分析",
+      "label": "heading",
+      "page_number": 6,
+      "bbox": {
+        "left": 12120238.0,
+        "top": 5560038.0,
+        "right": 15476938.0,
+        "bottom": 4880238.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 6,
+      "bbox": {
+        "left": 1291922.0,
+        "top": 6729352.0,
+        "right": 2173051.0,
+        "bottom": 5843456.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "20.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "6",
+      "label": "heading",
+      "page_number": 6,
+      "bbox": {
+        "left": 17074700.0,
+        "top": 10191575.0,
+        "right": 18007700.0,
+        "bottom": 9625175.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 6,
+      "bbox": {
+        "left": 1291922.0,
+        "top": 8828097.0,
+        "right": 2173051.0,
+        "bottom": 7942201.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "21.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "k-means演算法",
+      "label": "heading",
+      "page_number": 6,
+      "bbox": {
+        "left": 12122863.0,
+        "top": 7486726.0,
+        "right": 19867363.0,
+        "bottom": 6806926.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "ABC Theory of Emotion",
+      "label": "heading",
+      "page_number": 6,
+      "bbox": {
+        "left": 2838575.0,
+        "top": 6555400.0,
+        "right": 10405775.0,
+        "bottom": 5875600.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 6,
+      "bbox": {
+        "left": 10461595.0,
+        "top": 3840932.0,
+        "right": 11283739.0,
+        "bottom": 3013123.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "22.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "36 questions to fall in love",
+      "label": "heading",
+      "page_number": 6,
+      "bbox": {
+        "left": 2749925.0,
+        "top": 8712764.0,
+        "right": 10494425.0,
+        "bottom": 8032964.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 6,
+      "bbox": {
+        "left": 10354784.0,
+        "top": 5789519.0,
+        "right": 11238131.0,
+        "bottom": 4900082.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "23.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "相似吸引效應",
+      "label": "heading",
+      "page_number": 6,
+      "bbox": {
+        "left": 2749913.0,
+        "top": 4546654.0,
+        "right": 7891913.0,
+        "bottom": 3866854.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 6,
+      "bbox": {
+        "left": 10464212.0,
+        "top": 7547154.0,
+        "right": 11286356.0,
+        "bottom": 6719345.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "24.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "Digital twin",
+      "label": "heading",
+      "page_number": 6,
+      "bbox": {
+        "left": 12118925.0,
+        "top": 9319589.0,
+        "right": 19863425.0,
+        "bottom": 8639789.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 6,
+      "bbox": {
+        "left": 10424350.0,
+        "top": 9417704.0,
+        "right": 11246494.0,
+        "bottom": 8589895.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "25.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "相似吸引效應",
+      "label": "heading",
+      "page_number": 7,
+      "bbox": {
+        "left": 884150.0,
+        "top": 1976425.0,
+        "right": 18833150.0,
+        "bottom": 914425.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 7,
+      "bbox": {
+        "left": 16769867.0,
+        "top": 9435877.0,
+        "right": 21560274.0,
+        "bottom": 8232277.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "26.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 7,
+      "bbox": {
+        "left": 17517624.0,
+        "top": 2827420.0,
+        "right": 21138231.0,
+        "bottom": -793187.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "27.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 7,
+      "bbox": {
+        "left": -565351.0,
+        "top": 10723836.0,
+        "right": 1790299.0,
+        "bottom": 8646561.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "28.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "McPherson等人研究社交網絡中的同質性(Homophily)現象，這一現象指的是人們更傾向於和具有相似特質的人建立緊密聯繫。",
+      "label": "paragraph",
+      "page_number": 7,
+      "bbox": {
+        "left": 1031650.0,
+        "top": 8122075.0,
+        "right": 16652350.0,
+        "bottom": 2765575.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "其中指出，同質性不僅在線下社交中普遍存在，也在線上社交平台中得到了證實。",
+      "label": "paragraph",
+      "page_number": 7,
+      "bbox": {
+        "left": 1031650.0,
+        "top": 8122075.0,
+        "right": 16652350.0,
+        "bottom": 2765575.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "7",
+      "label": "heading",
+      "page_number": 7,
+      "bbox": {
+        "left": 16911875.0,
+        "top": 10191575.0,
+        "right": 18007775.0,
+        "bottom": 9625175.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "ABC Theory of Emotion",
+      "label": "heading",
+      "page_number": 8,
+      "bbox": {
+        "left": 884150.0,
+        "top": 1774400.0,
+        "right": 18833150.0,
+        "bottom": 712400.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 8,
+      "bbox": {
+        "left": 17589992.0,
+        "top": 9440477.0,
+        "right": 22380399.0,
+        "bottom": 8236877.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "29.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 8,
+      "bbox": {
+        "left": 17517624.0,
+        "top": 2827420.0,
+        "right": 21138231.0,
+        "bottom": -793187.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "30.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 8,
+      "bbox": {
+        "left": -1324001.0,
+        "top": 10784886.0,
+        "right": 1031649.0,
+        "bottom": 8707611.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "31.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "Albert Ellisk於1955年提出，理論表示事件A，在透過思考歷程影響個人想法B，最後導致情緒反應C。",
+      "label": "paragraph",
+      "page_number": 8,
+      "bbox": {
+        "left": 1224400.0,
+        "top": 7616125.0,
+        "right": 17590000.0,
+        "bottom": 5584225.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "8",
+      "label": "heading",
+      "page_number": 8,
+      "bbox": {
+        "left": 16911875.0,
+        "top": 10191575.0,
+        "right": 18007775.0,
+        "bottom": 9625175.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "A-Activating event-觸發事件或經驗",
+      "label": "heading",
+      "page_number": 8,
+      "bbox": {
+        "left": 1680250.0,
+        "top": 5310575.0,
+        "right": 16113250.0,
+        "bottom": 2170475.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "B-Belief-想法或看法",
+      "label": "heading",
+      "page_number": 8,
+      "bbox": {
+        "left": 1680250.0,
+        "top": 5310575.0,
+        "right": 16113250.0,
+        "bottom": 2170475.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "C-emotional and behavioral Consequence-情緒反應",
+      "label": "paragraph",
+      "page_number": 8,
+      "bbox": {
+        "left": 1680250.0,
+        "top": 5310575.0,
+        "right": 16113250.0,
+        "bottom": 2170475.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "A",
+      "label": "heading",
+      "page_number": 8,
+      "bbox": {
+        "left": 884150.0,
+        "top": 9648025.0,
+        "right": 5840150.0,
+        "bottom": 7616125.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "(activating event)",
+      "label": "heading",
+      "page_number": 8,
+      "bbox": {
+        "left": 884150.0,
+        "top": 9648025.0,
+        "right": 5840150.0,
+        "bottom": 7616125.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "B",
+      "label": "heading",
+      "page_number": 8,
+      "bbox": {
+        "left": 6493763.0,
+        "top": 9648025.0,
+        "right": 11449763.0,
+        "bottom": 7616125.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "(belief)",
+      "label": "heading",
+      "page_number": 8,
+      "bbox": {
+        "left": 6493763.0,
+        "top": 9648025.0,
+        "right": 11449763.0,
+        "bottom": 7616125.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "C",
+      "label": "heading",
+      "page_number": 8,
+      "bbox": {
+        "left": 12041875.0,
+        "top": 9648025.0,
+        "right": 16997875.0,
+        "bottom": 7616125.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "(consequence)",
+      "label": "heading",
+      "page_number": 8,
+      "bbox": {
+        "left": 12041875.0,
+        "top": 9648025.0,
+        "right": 16997875.0,
+        "bottom": 7616125.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "36 questoins to fall in love",
+      "label": "heading",
+      "page_number": 9,
+      "bbox": {
+        "left": 884150.0,
+        "top": 1976425.0,
+        "right": 18833150.0,
+        "bottom": 914425.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 9,
+      "bbox": {
+        "left": 16769867.0,
+        "top": 9435877.0,
+        "right": 21560274.0,
+        "bottom": 8232277.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "32.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 9,
+      "bbox": {
+        "left": 17517624.0,
+        "top": 2827420.0,
+        "right": 21138231.0,
+        "bottom": -793187.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "33.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 9,
+      "bbox": {
+        "left": -565351.0,
+        "top": 10723836.0,
+        "right": 1790299.0,
+        "bottom": 8646561.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "34.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "36 questoins to fall in love是由心理學家Arthur Aron、Elaine Aron在1990年代提出的一組問題。",
+      "label": "paragraph",
+      "page_number": 9,
+      "bbox": {
+        "left": 1031650.0,
+        "top": 7013875.0,
+        "right": 16652350.0,
+        "bottom": 2765575.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "研究兩個陌生人是否可以透過問對方一系列問題來建立親密的聯繫。",
+      "label": "paragraph",
+      "page_number": 9,
+      "bbox": {
+        "left": 1031650.0,
+        "top": 7013875.0,
+        "right": 16652350.0,
+        "bottom": 2765575.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "9",
+      "label": "heading",
+      "page_number": 9,
+      "bbox": {
+        "left": 16911875.0,
+        "top": 10191575.0,
+        "right": 18007775.0,
+        "bottom": 9625175.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "BERT-CNN模型",
+      "label": "heading",
+      "page_number": 10,
+      "bbox": {
+        "left": 884150.0,
+        "top": 2118025.0,
+        "right": 12596150.0,
+        "bottom": 914425.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 10,
+      "bbox": {
+        "left": 15954225.0,
+        "top": 2118017.0,
+        "right": 18010582.0,
+        "bottom": 304684.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "35.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "WU, Pei-Shan提出情緒標籤分類使用BERT做詞嵌入後取得各個字詞的向量，作為模型輸入，接者進行遷移學習，最後由一維卷積神經網路模型完成分類。",
+      "label": "paragraph",
+      "page_number": 10,
+      "bbox": {
+        "left": 884150.0,
+        "top": 6797125.0,
+        "right": 16942550.0,
+        "bottom": 2887525.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 10,
+      "bbox": {
+        "left": 12811050.0,
+        "top": 10573675.0,
+        "right": 18288000.0,
+        "bottom": 5096725.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "36.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "10",
+      "label": "heading",
+      "page_number": 10,
+      "bbox": {
+        "left": 16737850.0,
+        "top": 10191575.0,
+        "right": 18007750.0,
+        "bottom": 9625175.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "維度型情感分析(Sentiment Analysis)",
+      "label": "heading",
+      "page_number": 11,
+      "bbox": {
+        "left": 884150.0,
+        "top": 1976425.0,
+        "right": 18833150.0,
+        "bottom": 914425.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 11,
+      "bbox": {
+        "left": 16769867.0,
+        "top": 9435877.0,
+        "right": 21560274.0,
+        "bottom": 8232277.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "37.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 11,
+      "bbox": {
+        "left": 17517624.0,
+        "top": 2827420.0,
+        "right": 21138231.0,
+        "bottom": -793187.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "38.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 11,
+      "bbox": {
+        "left": -565351.0,
+        "top": 10723836.0,
+        "right": 1790299.0,
+        "bottom": 8646561.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "39.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "Russell & Pratt(1980)提出Valence-Arousal(VA)二維空間模型來表示情感相關性，Valence 代表正面或負面的程度，Arousal 代表激動及冷靜的程度，如右圖所示。",
+      "label": "paragraph",
+      "page_number": 11,
+      "bbox": {
+        "left": 1236700.0,
+        "top": 10262675.0,
+        "right": 10260700.0,
+        "bottom": 2689775.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "11",
+      "label": "heading",
+      "page_number": 11,
+      "bbox": {
+        "left": 16911875.0,
+        "top": 10191575.0,
+        "right": 18007775.0,
+        "bottom": 9625175.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 11,
+      "bbox": {
+        "left": 10260700.0,
+        "top": 9568099.0,
+        "right": 18007800.0,
+        "bottom": 2908668.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "40.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "K-means 演算法",
+      "label": "heading",
+      "page_number": 12,
+      "bbox": {
+        "left": 884150.0,
+        "top": 1976425.0,
+        "right": 18833150.0,
+        "bottom": 914425.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 12,
+      "bbox": {
+        "left": 16769867.0,
+        "top": 8829727.0,
+        "right": 21560274.0,
+        "bottom": 7626127.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "41.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 12,
+      "bbox": {
+        "left": 17517624.0,
+        "top": 2827420.0,
+        "right": 21138231.0,
+        "bottom": -793187.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "42.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 12,
+      "bbox": {
+        "left": -565351.0,
+        "top": 10723836.0,
+        "right": 1790299.0,
+        "bottom": 8646561.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "43.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "分別針對每個使用者，利用k-means clustering algorithm將具有相近價值觀的使用者聚類在一起",
+      "label": "paragraph",
+      "page_number": 12,
+      "bbox": {
+        "left": 1083000.0,
+        "top": 6713550.0,
+        "right": 9477000.0,
+        "bottom": 2465250.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "12",
+      "label": "heading",
+      "page_number": 12,
+      "bbox": {
+        "left": 16911875.0,
+        "top": 10191575.0,
+        "right": 18007775.0,
+        "bottom": 9625175.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 12,
+      "bbox": {
+        "left": 10501625.0,
+        "top": 9762301.0,
+        "right": 16000537.0,
+        "bottom": 914429.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "44.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "Digital twin",
+      "label": "heading",
+      "page_number": 13,
+      "bbox": {
+        "left": 884150.0,
+        "top": 1976425.0,
+        "right": 18833150.0,
+        "bottom": 914425.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 13,
+      "bbox": {
+        "left": 16510092.0,
+        "top": 8771164.0,
+        "right": 21300499.0,
+        "bottom": 7567564.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "45.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 13,
+      "bbox": {
+        "left": 17517624.0,
+        "top": 2827420.0,
+        "right": 21138231.0,
+        "bottom": -793187.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "46.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 13,
+      "bbox": {
+        "left": -565351.0,
+        "top": 10723836.0,
+        "right": 1790299.0,
+        "bottom": 8646561.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "47.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "Digital twin，或稱為數位映射、數位分身、數位雙生，其所指的即是在 數位世界當中，創造一個現實世界的數位模擬，而這一模擬能夠通過感應器與網路，將真實世界發生的狀況，映射至數位環境中。",
+      "label": "paragraph",
+      "page_number": 13,
+      "bbox": {
+        "left": 1083000.0,
+        "top": 6713550.0,
+        "right": 16911900.0,
+        "bottom": 2465250.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "‹#›",
+      "label": "heading",
+      "page_number": 13,
+      "bbox": {
+        "left": 6553200.0,
+        "top": 6721450.0,
+        "right": 8686800.0,
+        "bottom": 6356350.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "13",
+      "label": "heading",
+      "page_number": 13,
+      "bbox": {
+        "left": 16911875.0,
+        "top": 10191575.0,
+        "right": 18007775.0,
+        "bottom": 9625175.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 14,
+      "bbox": {
+        "left": -1443083.0,
+        "top": 10480145.0,
+        "right": 2748407.0,
+        "bottom": 6288657.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "48.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 14,
+      "bbox": {
+        "left": 559683.0,
+        "top": 3785166.0,
+        "right": 1082170.0,
+        "bottom": 3262679.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "49.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 14,
+      "bbox": {
+        "left": 15749709.0,
+        "top": 2209955.0,
+        "right": 17259300.0,
+        "bottom": 1028700.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "50.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 14,
+      "bbox": {
+        "left": 15512859.0,
+        "top": 8269275.0,
+        "right": 17823437.0,
+        "bottom": 7026530.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "51.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "研究方法",
+      "label": "heading",
+      "page_number": 14,
+      "bbox": {
+        "left": 1082175.0,
+        "top": 5670626.0,
+        "right": 17849775.0,
+        "bottom": 4650926.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "14",
+      "label": "heading",
+      "page_number": 14,
+      "bbox": {
+        "left": 16911875.0,
+        "top": 10191575.0,
+        "right": 18007775.0,
+        "bottom": 9625175.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 15,
+      "bbox": {
+        "left": 16140818.0,
+        "top": 1349166.0,
+        "right": 20570972.0,
+        "bottom": 236091.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "52.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 15,
+      "bbox": {
+        "left": -225785.0,
+        "top": 12191122.0,
+        "right": 2842189.0,
+        "bottom": 9123148.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "53.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "開發流程圖",
+      "label": "heading",
+      "page_number": 15,
+      "bbox": {
+        "left": 418325.0,
+        "top": 1810700.0,
+        "right": 12130325.0,
+        "bottom": 502400.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "‹#›",
+      "label": "heading",
+      "page_number": 15,
+      "bbox": {
+        "left": 6553200.0,
+        "top": 6721450.0,
+        "right": 8686800.0,
+        "bottom": 6356350.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "15",
+      "label": "heading",
+      "page_number": 15,
+      "bbox": {
+        "left": 16911875.0,
+        "top": 10191575.0,
+        "right": 18007775.0,
+        "bottom": 9625175.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 15,
+      "bbox": {
+        "left": 3437038.0,
+        "top": 9897273.0,
+        "right": 16140825.0,
+        "bottom": 1810700.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "54.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "BERT-CNN模型結構",
+      "label": "heading",
+      "page_number": 16,
+      "bbox": {
+        "left": 304800.0,
+        "top": 1671650.0,
+        "right": 13216500.0,
+        "bottom": 286250.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 16,
+      "bbox": {
+        "left": 15106527.0,
+        "top": 2178327.0,
+        "right": 17413423.0,
+        "bottom": 981625.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "55.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "‹#›",
+      "label": "heading",
+      "page_number": 16,
+      "bbox": {
+        "left": 6553200.0,
+        "top": 6721450.0,
+        "right": 8686800.0,
+        "bottom": 6356350.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "16",
+      "label": "heading",
+      "page_number": 16,
+      "bbox": {
+        "left": 16726900.0,
+        "top": 10191575.0,
+        "right": 18007600.0,
+        "bottom": 9625175.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 16,
+      "bbox": {
+        "left": 6905625.0,
+        "top": 10191575.0,
+        "right": 15106525.0,
+        "bottom": 1892656.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "56.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 17,
+      "bbox": {
+        "left": 16140818.0,
+        "top": 1349166.0,
+        "right": 20570972.0,
+        "bottom": 236091.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "57.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "匹配流程圖",
+      "label": "heading",
+      "page_number": 17,
+      "bbox": {
+        "left": 418325.0,
+        "top": 1810700.0,
+        "right": 12130325.0,
+        "bottom": 502400.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 17,
+      "bbox": {
+        "left": 15525115.0,
+        "top": 11820097.0,
+        "right": 18593089.0,
+        "bottom": 8752123.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "58.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 17,
+      "bbox": {
+        "left": -1657675.0,
+        "top": 10786780.0,
+        "right": 1410300.0,
+        "bottom": 8081349.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "59.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "17",
+      "label": "heading",
+      "page_number": 17,
+      "bbox": {
+        "left": 16911875.0,
+        "top": 10191575.0,
+        "right": 18007775.0,
+        "bottom": 9625175.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 17,
+      "bbox": {
+        "left": 152400.0,
+        "top": 7055999.0,
+        "right": 18135601.0,
+        "bottom": 1963100.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "60.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 18,
+      "bbox": {
+        "left": 16140818.0,
+        "top": 1349166.0,
+        "right": 20570972.0,
+        "bottom": 236091.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "61.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 18,
+      "bbox": {
+        "left": -2182010.0,
+        "top": 10909447.0,
+        "right": 885964.0,
+        "bottom": 7841473.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "62.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "網頁架構圖",
+      "label": "heading",
+      "page_number": 18,
+      "bbox": {
+        "left": 418325.0,
+        "top": 1810700.0,
+        "right": 12130325.0,
+        "bottom": 502400.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "18",
+      "label": "heading",
+      "page_number": 18,
+      "bbox": {
+        "left": 16911875.0,
+        "top": 10191575.0,
+        "right": 18007775.0,
+        "bottom": 9625175.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 18,
+      "bbox": {
+        "left": 1038364.0,
+        "top": 9472776.0,
+        "right": 17452255.0,
+        "bottom": 1963100.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "63.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 19,
+      "bbox": {
+        "left": -1443083.0,
+        "top": 10480145.0,
+        "right": 2748407.0,
+        "bottom": 6288657.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "64.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 19,
+      "bbox": {
+        "left": 559683.0,
+        "top": 3785166.0,
+        "right": 1082170.0,
+        "bottom": 3262679.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "65.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 19,
+      "bbox": {
+        "left": 15749709.0,
+        "top": 2209955.0,
+        "right": 17259300.0,
+        "bottom": 1028700.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "66.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 19,
+      "bbox": {
+        "left": 15512859.0,
+        "top": 8269275.0,
+        "right": 17823437.0,
+        "bottom": 7026530.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "67.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "                       實驗",
+      "label": "heading",
+      "page_number": 19,
+      "bbox": {
+        "left": 1520400.0,
+        "top": 5670613.0,
+        "right": 18288000.0,
+        "bottom": 4381813.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "19",
+      "label": "heading",
+      "page_number": 19,
+      "bbox": {
+        "left": 16911875.0,
+        "top": 10191575.0,
+        "right": 18007775.0,
+        "bottom": 9625175.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "實驗-資料集",
+      "label": "heading",
+      "page_number": 20,
+      "bbox": {
+        "left": -2283100.0,
+        "top": 1828250.0,
+        "right": 9428900.0,
+        "bottom": 442850.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 20,
+      "bbox": {
+        "left": 961845.0,
+        "top": 3351968.0,
+        "right": 1731586.0,
+        "bottom": 2584225.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "68.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "Chinese valence-arousal words (CVAW)",
+      "label": "heading",
+      "page_number": 20,
+      "bbox": {
+        "left": 1269275.0,
+        "top": 8088250.0,
+        "right": 17759675.0,
+        "bottom": 4024750.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "Chinese valence-arousal phrases (CVAP)",
+      "label": "heading",
+      "page_number": 20,
+      "bbox": {
+        "left": 1269275.0,
+        "top": 8088250.0,
+        "right": 17759675.0,
+        "bottom": 4024750.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "Chinese valence-arousal sentences (CVAS)",
+      "label": "heading",
+      "page_number": 20,
+      "bbox": {
+        "left": 1269275.0,
+        "top": 8088250.0,
+        "right": 17759675.0,
+        "bottom": 4024750.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "Chinese valence-arousal texts (CVAT)",
+      "label": "heading",
+      "page_number": 20,
+      "bbox": {
+        "left": 1269275.0,
+        "top": 8088250.0,
+        "right": 17759675.0,
+        "bottom": 4024750.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "20",
+      "label": "heading",
+      "page_number": 20,
+      "bbox": {
+        "left": 16911875.0,
+        "top": 10191575.0,
+        "right": 18007775.0,
+        "bottom": 9625175.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "資料集來源Chinese EmoBank中的四個項目 : ",
+      "label": "heading",
+      "page_number": 20,
+      "bbox": {
+        "left": 2253275.0,
+        "top": 3337538.0,
+        "right": 18743675.0,
+        "bottom": 2598638.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "共13299筆",
+      "label": "heading",
+      "page_number": 20,
+      "bbox": {
+        "left": 14909100.0,
+        "top": 6686138.0,
+        "right": 18288000.0,
+        "bottom": 5947238.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "實驗-資料集",
+      "label": "heading",
+      "page_number": 21,
+      "bbox": {
+        "left": -2283100.0,
+        "top": 1828250.0,
+        "right": 9428900.0,
+        "bottom": 442850.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "Chinese valence-arousal words (CVAW)",
+      "label": "heading",
+      "page_number": 21,
+      "bbox": {
+        "left": 749975.0,
+        "top": 2948263.0,
+        "right": 17240375.0,
+        "bottom": 2209363.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "‹#›",
+      "label": "heading",
+      "page_number": 21,
+      "bbox": {
+        "left": 6553200.0,
+        "top": 6721450.0,
+        "right": 8686800.0,
+        "bottom": 6356350.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "21",
+      "label": "heading",
+      "page_number": 21,
+      "bbox": {
+        "left": 16911875.0,
+        "top": 10191575.0,
+        "right": 18007775.0,
+        "bottom": 9625175.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 21,
+      "bbox": {
+        "left": 1244088.0,
+        "top": 8271304.0,
+        "right": 16746264.0,
+        "bottom": 2948268.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "69.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "包含 5,511 個情感多維度型字詞",
+      "label": "heading",
+      "page_number": 21,
+      "bbox": {
+        "left": 8263825.0,
+        "top": 9950575.0,
+        "right": 17008225.0,
+        "bottom": 9073375.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 21,
+      "bbox": {
+        "left": 15880524.0,
+        "top": 3065545.0,
+        "right": 19501131.0,
+        "bottom": -555062.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "70.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "實驗-資料集",
+      "label": "heading",
+      "page_number": 22,
+      "bbox": {
+        "left": -2283100.0,
+        "top": 1828250.0,
+        "right": 9428900.0,
+        "bottom": 442850.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": " 2. Chinese valence-arousal phrases (CVAP)",
+      "label": "paragraph",
+      "page_number": 22,
+      "bbox": {
+        "left": 749975.0,
+        "top": 2948263.0,
+        "right": 17240375.0,
+        "bottom": 2209363.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "‹#›",
+      "label": "heading",
+      "page_number": 22,
+      "bbox": {
+        "left": 6553200.0,
+        "top": 6721450.0,
+        "right": 8686800.0,
+        "bottom": 6356350.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "22",
+      "label": "heading",
+      "page_number": 22,
+      "bbox": {
+        "left": 16911875.0,
+        "top": 10191575.0,
+        "right": 18007775.0,
+        "bottom": 9625175.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 22,
+      "bbox": {
+        "left": 1237788.0,
+        "top": 8830471.0,
+        "right": 17050213.0,
+        "bottom": 3329396.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "71.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "包含 2249個情感多維度型短語",
+      "label": "heading",
+      "page_number": 22,
+      "bbox": {
+        "left": 8263825.0,
+        "top": 9950575.0,
+        "right": 17008225.0,
+        "bottom": 9073375.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 22,
+      "bbox": {
+        "left": 16088874.0,
+        "top": 2945845.0,
+        "right": 19709481.0,
+        "bottom": -674762.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "72.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "實驗-資料集",
+      "label": "heading",
+      "page_number": 23,
+      "bbox": {
+        "left": -2283100.0,
+        "top": 1828250.0,
+        "right": 9428900.0,
+        "bottom": 442850.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "3. Chinese valence-arousal sentences (CVAS)",
+      "label": "paragraph",
+      "page_number": 23,
+      "bbox": {
+        "left": 749975.0,
+        "top": 2948263.0,
+        "right": 17240375.0,
+        "bottom": 2209363.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "‹#›",
+      "label": "heading",
+      "page_number": 23,
+      "bbox": {
+        "left": 6553200.0,
+        "top": 6721450.0,
+        "right": 8686800.0,
+        "bottom": 6356350.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "23",
+      "label": "heading",
+      "page_number": 23,
+      "bbox": {
+        "left": 16911875.0,
+        "top": 10191575.0,
+        "right": 18007775.0,
+        "bottom": 9625175.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 23,
+      "bbox": {
+        "left": 422288.0,
+        "top": 7970268.0,
+        "right": 17865714.0,
+        "bottom": 3483151.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "73.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "包含 2583 個情感多維度型句子",
+      "label": "heading",
+      "page_number": 23,
+      "bbox": {
+        "left": 8167475.0,
+        "top": 9771975.0,
+        "right": 16911875.0,
+        "bottom": 8894775.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 23,
+      "bbox": {
+        "left": 16029349.0,
+        "top": 2945845.0,
+        "right": 19649956.0,
+        "bottom": -674762.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "74.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "實驗-資料集",
+      "label": "heading",
+      "page_number": 24,
+      "bbox": {
+        "left": -2283100.0,
+        "top": 1828250.0,
+        "right": 9428900.0,
+        "bottom": 442850.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4. Chinese valence-arousal texts (CVAT)",
+      "label": "paragraph",
+      "page_number": 24,
+      "bbox": {
+        "left": 749975.0,
+        "top": 2948263.0,
+        "right": 17240375.0,
+        "bottom": 2209363.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "‹#›",
+      "label": "heading",
+      "page_number": 24,
+      "bbox": {
+        "left": 6553200.0,
+        "top": 6721450.0,
+        "right": 8686800.0,
+        "bottom": 6356350.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "24",
+      "label": "heading",
+      "page_number": 24,
+      "bbox": {
+        "left": 16911875.0,
+        "top": 10191575.0,
+        "right": 18007775.0,
+        "bottom": 9625175.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 24,
+      "bbox": {
+        "left": 340975.0,
+        "top": 7392335.0,
+        "right": 17947026.0,
+        "bottom": 3329410.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "75.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "包含 2968個情感多維度型文本",
+      "label": "heading",
+      "page_number": 24,
+      "bbox": {
+        "left": 8167475.0,
+        "top": 9771975.0,
+        "right": 16911875.0,
+        "bottom": 8894775.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 24,
+      "bbox": {
+        "left": 16178174.0,
+        "top": 2945845.0,
+        "right": 19798781.0,
+        "bottom": -674762.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "76.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "      資料前處理",
+      "label": "heading",
+      "page_number": 25,
+      "bbox": {
+        "left": -3057000.0,
+        "top": 1887800.0,
+        "right": 8655000.0,
+        "bottom": 502400.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 25,
+      "bbox": {
+        "left": 15564474.0,
+        "top": 2579674.0,
+        "right": 17920124.0,
+        "bottom": 502399.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "77.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 25,
+      "bbox": {
+        "left": -2088810.0,
+        "top": 10993285.0,
+        "right": 979164.0,
+        "bottom": 7925311.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "78.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "剔除過長的樣本(超過512個字)",
+      "label": "heading",
+      "page_number": 25,
+      "bbox": {
+        "left": 869263.0,
+        "top": 4464826.0,
+        "right": 17418763.0,
+        "bottom": 2309926.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "資料清洗(標點符號.URL.@.hashtag.英文)",
+      "label": "paragraph",
+      "page_number": 25,
+      "bbox": {
+        "left": 869263.0,
+        "top": 4464826.0,
+        "right": 17418763.0,
+        "bottom": 2309926.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "25",
+      "label": "heading",
+      "page_number": 25,
+      "bbox": {
+        "left": 16911875.0,
+        "top": 10191575.0,
+        "right": 18007775.0,
+        "bottom": 9625175.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 25,
+      "bbox": {
+        "left": 2099722.0,
+        "top": 10011710.0,
+        "right": 16188297.0,
+        "bottom": 4886985.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "79.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "實驗-評估標準",
+      "label": "heading",
+      "page_number": 26,
+      "bbox": {
+        "left": 607225.0,
+        "top": 2098038.0,
+        "right": 12319225.0,
+        "bottom": 712638.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 26,
+      "bbox": {
+        "left": 15564474.0,
+        "top": 2579674.0,
+        "right": 17920124.0,
+        "bottom": 502399.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "80.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 26,
+      "bbox": {
+        "left": -2088810.0,
+        "top": 10993285.0,
+        "right": 979164.0,
+        "bottom": 7925311.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "81.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 3,
+      "text": "本專題實驗評估方式採用F1-measure以及準確率(Accuracy)",
+      "label": "heading",
+      "page_number": 26,
+      "bbox": {
+        "left": 979175.0,
+        "top": 7689863.0,
+        "right": 17528675.0,
+        "bottom": 2579663.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "‹#›",
+      "label": "heading",
+      "page_number": 26,
+      "bbox": {
+        "left": 6553200.0,
+        "top": 6721450.0,
+        "right": 8686800.0,
+        "bottom": 6356350.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "26",
+      "label": "heading",
+      "page_number": 26,
+      "bbox": {
+        "left": 16911875.0,
+        "top": 10191575.0,
+        "right": 18007775.0,
+        "bottom": 9625175.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 26,
+      "bbox": {
+        "left": 1686550.0,
+        "top": 9784425.0,
+        "right": 11846758.0,
+        "bottom": 5072200.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "82.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "實驗-評估標準",
+      "label": "heading",
+      "page_number": 27,
+      "bbox": {
+        "left": 607225.0,
+        "top": 1820838.0,
+        "right": 12319225.0,
+        "bottom": 712638.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 27,
+      "bbox": {
+        "left": 15564474.0,
+        "top": 2579674.0,
+        "right": 17920124.0,
+        "bottom": 502399.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "83.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 27,
+      "bbox": {
+        "left": -2088810.0,
+        "top": 10993285.0,
+        "right": 979164.0,
+        "bottom": 7925311.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "84.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "27",
+      "label": "heading",
+      "page_number": 27,
+      "bbox": {
+        "left": 16911875.0,
+        "top": 10191575.0,
+        "right": 18007775.0,
+        "bottom": 9625175.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 27,
+      "bbox": {
+        "left": 801226.0,
+        "top": 5620675.0,
+        "right": 8817124.0,
+        "bottom": 2098050.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "85.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 27,
+      "bbox": {
+        "left": 801225.0,
+        "top": 9625175.0,
+        "right": 8817123.0,
+        "bottom": 6122125.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "86.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 27,
+      "bbox": {
+        "left": 9295625.0,
+        "top": 5620675.0,
+        "right": 17438248.0,
+        "bottom": 2098050.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "87.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 27,
+      "bbox": {
+        "left": 9466875.0,
+        "top": 9625175.0,
+        "right": 17438249.0,
+        "bottom": 6122125.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "88.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "實驗-結果(BERT Model)",
+      "label": "heading",
+      "page_number": 28,
+      "bbox": {
+        "left": 607225.0,
+        "top": 1820850.0,
+        "right": 14528125.0,
+        "bottom": 712650.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 28,
+      "bbox": {
+        "left": 15564474.0,
+        "top": 2579674.0,
+        "right": 17920124.0,
+        "bottom": 502399.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "89.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 28,
+      "bbox": {
+        "left": -2088810.0,
+        "top": 10993285.0,
+        "right": 979164.0,
+        "bottom": 7925311.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "90.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "28",
+      "label": "heading",
+      "page_number": 28,
+      "bbox": {
+        "left": 16911875.0,
+        "top": 10191575.0,
+        "right": 18007775.0,
+        "bottom": 9625175.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 28,
+      "bbox": {
+        "left": 174876.0,
+        "top": 8667388.0,
+        "right": 18113126.0,
+        "bottom": 3055838.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "91.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "實驗-結果(BERT-CNN Model)",
+      "label": "heading",
+      "page_number": 29,
+      "bbox": {
+        "left": 607225.0,
+        "top": 1820850.0,
+        "right": 15162925.0,
+        "bottom": 712650.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 29,
+      "bbox": {
+        "left": 15564474.0,
+        "top": 2579674.0,
+        "right": 17920124.0,
+        "bottom": 502399.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "92.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 29,
+      "bbox": {
+        "left": -2088810.0,
+        "top": 10993285.0,
+        "right": 979164.0,
+        "bottom": 7925311.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "93.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "29",
+      "label": "heading",
+      "page_number": 29,
+      "bbox": {
+        "left": 16911875.0,
+        "top": 10191575.0,
+        "right": 18007775.0,
+        "bottom": 9625175.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 29,
+      "bbox": {
+        "left": 279163.0,
+        "top": 9259450.0,
+        "right": 18008838.0,
+        "bottom": 2945412.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "94.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 30,
+      "bbox": {
+        "left": -1443083.0,
+        "top": 10480145.0,
+        "right": 2748407.0,
+        "bottom": 6288657.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "95.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 30,
+      "bbox": {
+        "left": 559683.0,
+        "top": 3785166.0,
+        "right": 1082170.0,
+        "bottom": 3262679.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "96.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 30,
+      "bbox": {
+        "left": 15749709.0,
+        "top": 2209955.0,
+        "right": 17259300.0,
+        "bottom": 1028700.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "97.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 30,
+      "bbox": {
+        "left": 15512859.0,
+        "top": 8269275.0,
+        "right": 17823437.0,
+        "bottom": 7026530.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "98.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "使用者介面",
+      "label": "heading",
+      "page_number": 30,
+      "bbox": {
+        "left": 1736825.0,
+        "top": 5670613.0,
+        "right": 18504425.0,
+        "bottom": 4381813.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "30",
+      "label": "heading",
+      "page_number": 30,
+      "bbox": {
+        "left": 16911875.0,
+        "top": 10191575.0,
+        "right": 18007775.0,
+        "bottom": 9625175.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "使用者介面",
+      "label": "heading",
+      "page_number": 31,
+      "bbox": {
+        "left": 418325.0,
+        "top": 1810700.0,
+        "right": 12130325.0,
+        "bottom": 502400.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 31,
+      "bbox": {
+        "left": 15564474.0,
+        "top": 2579674.0,
+        "right": 17920124.0,
+        "bottom": 502399.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "99.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "1",
+      "label": "heading",
+      "page_number": 31,
+      "bbox": {
+        "left": 1272837.0,
+        "top": 3248975.0,
+        "right": 1899837.0,
+        "bottom": 2479475.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4",
+      "label": "heading",
+      "page_number": 31,
+      "bbox": {
+        "left": 1272837.0,
+        "top": 9060063.0,
+        "right": 1899837.0,
+        "bottom": 8290563.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "2",
+      "label": "heading",
+      "page_number": 31,
+      "bbox": {
+        "left": 1272850.0,
+        "top": 5073263.0,
+        "right": 1899850.0,
+        "bottom": 4303763.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "登入註冊畫面",
+      "label": "heading",
+      "page_number": 31,
+      "bbox": {
+        "left": 2609025.0,
+        "top": 5052700.0,
+        "right": 7323825.0,
+        "bottom": 4313800.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "填寫基本資訊頁面",
+      "label": "heading",
+      "page_number": 31,
+      "bbox": {
+        "left": 2609025.0,
+        "top": 7058475.0,
+        "right": 8606325.0,
+        "bottom": 6319575.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "聊天室",
+      "label": "heading",
+      "page_number": 31,
+      "bbox": {
+        "left": 11367317.0,
+        "top": 3124938.0,
+        "right": 16543817.0,
+        "bottom": 2386038.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "3",
+      "label": "heading",
+      "page_number": 31,
+      "bbox": {
+        "left": 1272837.0,
+        "top": 7054275.0,
+        "right": 1899837.0,
+        "bottom": 6284775.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "交友匹配畫面",
+      "label": "heading",
+      "page_number": 31,
+      "bbox": {
+        "left": 2504017.0,
+        "top": 9141500.0,
+        "right": 6975217.0,
+        "bottom": 8402600.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "5",
+      "label": "heading",
+      "page_number": 31,
+      "bbox": {
+        "left": 9921175.0,
+        "top": 3242263.0,
+        "right": 10978075.0,
+        "bottom": 2472763.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "個人資訊頁面",
+      "label": "heading",
+      "page_number": 31,
+      "bbox": {
+        "left": 11367325.0,
+        "top": 5028850.0,
+        "right": 16543825.0,
+        "bottom": 4289950.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "首頁",
+      "label": "heading",
+      "page_number": 31,
+      "bbox": {
+        "left": 2609023.0,
+        "top": 3213563.0,
+        "right": 7785523.0,
+        "bottom": 2474663.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "6",
+      "label": "heading",
+      "page_number": 31,
+      "bbox": {
+        "left": 9921188.0,
+        "top": 5019238.0,
+        "right": 10978088.0,
+        "bottom": 4249738.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "31",
+      "label": "heading",
+      "page_number": 31,
+      "bbox": {
+        "left": 16911875.0,
+        "top": 10191575.0,
+        "right": 18007775.0,
+        "bottom": 9625175.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "7",
+      "label": "heading",
+      "page_number": 31,
+      "bbox": {
+        "left": 10200362.0,
+        "top": 6996075.0,
+        "right": 10827362.0,
+        "bottom": 6226575.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "聊天機器人",
+      "label": "heading",
+      "page_number": 31,
+      "bbox": {
+        "left": 11536548.0,
+        "top": 6960663.0,
+        "right": 16713048.0,
+        "bottom": 6221763.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "使用者介面",
+      "label": "heading",
+      "page_number": 32,
+      "bbox": {
+        "left": 418325.0,
+        "top": 1810700.0,
+        "right": 12130325.0,
+        "bottom": 502400.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 32,
+      "bbox": {
+        "left": 15564474.0,
+        "top": 2579674.0,
+        "right": 17920124.0,
+        "bottom": 502399.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "100.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "聊天機器人",
+      "label": "heading",
+      "page_number": 32,
+      "bbox": {
+        "left": 2162317.0,
+        "top": 2794463.0,
+        "right": 7338817.0,
+        "bottom": 2055563.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "7",
+      "label": "heading",
+      "page_number": 32,
+      "bbox": {
+        "left": 661100.0,
+        "top": 2809763.0,
+        "right": 1718000.0,
+        "bottom": 2040263.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "32",
+      "label": "heading",
+      "page_number": 32,
+      "bbox": {
+        "left": 16911875.0,
+        "top": 10191575.0,
+        "right": 18007775.0,
+        "bottom": 9625175.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 32,
+      "bbox": {
+        "left": 1379142.0,
+        "top": 10068825.0,
+        "right": 17266000.0,
+        "bottom": 2055575.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "101.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "角色扮演",
+      "label": "heading",
+      "page_number": 33,
+      "bbox": {
+        "left": 1028700.0,
+        "top": 2537925.0,
+        "right": 13940400.0,
+        "bottom": 1152525.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "Joy",
+      "label": "heading",
+      "page_number": 33,
+      "bbox": {
+        "left": 2888388.0,
+        "top": 4878691.0,
+        "right": 8030388.0,
+        "bottom": 3179491.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "第一象限",
+      "label": "heading",
+      "page_number": 33,
+      "bbox": {
+        "left": 2888388.0,
+        "top": 4878691.0,
+        "right": 8030388.0,
+        "bottom": 3179491.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 33,
+      "bbox": {
+        "left": 15106527.0,
+        "top": 2178327.0,
+        "right": 17413423.0,
+        "bottom": 981625.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "102.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 33,
+      "bbox": {
+        "left": 940665.0,
+        "top": 4379046.0,
+        "right": 1799882.0,
+        "bottom": 3519829.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "103.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "Anger",
+      "label": "heading",
+      "page_number": 33,
+      "bbox": {
+        "left": 2561700.0,
+        "top": 8545313.0,
+        "right": 10306200.0,
+        "bottom": 6846113.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "第二象限",
+      "label": "heading",
+      "page_number": 33,
+      "bbox": {
+        "left": 2561700.0,
+        "top": 8545313.0,
+        "right": 10306200.0,
+        "bottom": 6846113.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 33,
+      "bbox": {
+        "left": 957460.0,
+        "top": 8125205.0,
+        "right": 1880640.0,
+        "bottom": 7202021.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "104.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "33",
+      "label": "heading",
+      "page_number": 33,
+      "bbox": {
+        "left": 16800950.0,
+        "top": 10191575.0,
+        "right": 18007550.0,
+        "bottom": 9625175.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "Sadness",
+      "label": "heading",
+      "page_number": 33,
+      "bbox": {
+        "left": 11468600.0,
+        "top": 4659216.0,
+        "right": 16610600.0,
+        "bottom": 2960016.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "第三象限",
+      "label": "heading",
+      "page_number": 33,
+      "bbox": {
+        "left": 11468600.0,
+        "top": 4659216.0,
+        "right": 16610600.0,
+        "bottom": 2960016.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 33,
+      "bbox": {
+        "left": 9928715.0,
+        "top": 4411183.0,
+        "right": 10787932.0,
+        "bottom": 3551966.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "105.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "Peace",
+      "label": "heading",
+      "page_number": 33,
+      "bbox": {
+        "left": 11468600.0,
+        "top": 8513188.0,
+        "right": 19213100.0,
+        "bottom": 6813988.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "第四象限",
+      "label": "heading",
+      "page_number": 33,
+      "bbox": {
+        "left": 11468600.0,
+        "top": 8513188.0,
+        "right": 19213100.0,
+        "bottom": 6813988.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 33,
+      "bbox": {
+        "left": 9896735.0,
+        "top": 7896042.0,
+        "right": 10819915.0,
+        "bottom": 6972858.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "106.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 33,
+      "bbox": {
+        "left": 6102748.0,
+        "top": 5679037.0,
+        "right": 9399747.0,
+        "bottom": 2379147.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "107.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 33,
+      "bbox": {
+        "left": 14438421.0,
+        "top": 9939187.0,
+        "right": 17413420.0,
+        "bottom": 5745723.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "108.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 33,
+      "bbox": {
+        "left": 5680050.0,
+        "top": 10272523.0,
+        "right": 8655050.0,
+        "bottom": 5837816.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "109.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 33,
+      "bbox": {
+        "left": 15106525.0,
+        "top": 5338983.0,
+        "right": 18081526.0,
+        "bottom": 2719188.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "110.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "DEMO 影片:",
+      "label": "heading",
+      "page_number": 34,
+      "bbox": {
+        "left": 418325.0,
+        "top": 1810700.0,
+        "right": 12130325.0,
+        "bottom": 502400.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 34,
+      "bbox": {
+        "left": 15564474.0,
+        "top": 2579674.0,
+        "right": 17920124.0,
+        "bottom": 502399.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "111.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "34",
+      "label": "heading",
+      "page_number": 34,
+      "bbox": {
+        "left": 16911875.0,
+        "top": 10191575.0,
+        "right": 18007775.0,
+        "bottom": 9625175.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 34,
+      "bbox": {
+        "left": 2023838.0,
+        "top": 9820900.0,
+        "right": 16264163.0,
+        "bottom": 1810700.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "112.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 35,
+      "bbox": {
+        "left": -1443083.0,
+        "top": 10480145.0,
+        "right": 2748407.0,
+        "bottom": 6288657.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "113.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 35,
+      "bbox": {
+        "left": 559683.0,
+        "top": 3785166.0,
+        "right": 1082170.0,
+        "bottom": 3262679.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "114.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 35,
+      "bbox": {
+        "left": 15749709.0,
+        "top": 2209955.0,
+        "right": 17259300.0,
+        "bottom": 1028700.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "115.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 35,
+      "bbox": {
+        "left": 15512859.0,
+        "top": 8269275.0,
+        "right": 17823437.0,
+        "bottom": 7026530.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "116.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "結論",
+      "label": "heading",
+      "page_number": 35,
+      "bbox": {
+        "left": 1736825.0,
+        "top": 5670625.0,
+        "right": 18504425.0,
+        "bottom": 4311025.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "35",
+      "label": "heading",
+      "page_number": 35,
+      "bbox": {
+        "left": 16911875.0,
+        "top": 10191575.0,
+        "right": 18007775.0,
+        "bottom": 9625175.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "結論",
+      "label": "heading",
+      "page_number": 36,
+      "bbox": {
+        "left": 1028700.0,
+        "top": 2537925.0,
+        "right": 13940400.0,
+        "bottom": 1152525.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "希冀在未來能依靠所學使本系統更加完善，並提供更精準的模型預測。",
+      "label": "paragraph",
+      "page_number": 36,
+      "bbox": {
+        "left": 3612300.0,
+        "top": 8271638.0,
+        "right": 17413500.0,
+        "bottom": 6912038.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "本專題運用深度學習建構出精準度高的模型、正確的配對使用者，最後結合網頁的方式來展現成果",
+      "label": "paragraph",
+      "page_number": 36,
+      "bbox": {
+        "left": 3612300.0,
+        "top": 4373488.0,
+        "right": 17757600.0,
+        "bottom": 3013888.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 36,
+      "bbox": {
+        "left": -932226.0,
+        "top": 10912204.0,
+        "right": 2094202.0,
+        "bottom": 8239854.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "117.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 36,
+      "bbox": {
+        "left": 15106527.0,
+        "top": 2178327.0,
+        "right": 17413423.0,
+        "bottom": 981625.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "118.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 36,
+      "bbox": {
+        "left": 1993612.0,
+        "top": 4117799.0,
+        "right": 2664700.0,
+        "bottom": 3444685.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "119.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 36,
+      "bbox": {
+        "left": 1944352.0,
+        "top": 7776791.0,
+        "right": 2661813.0,
+        "bottom": 7057114.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "120.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "透過這次的專題幫助大眾找到想要透過內在來交友的配對系統。現在的系統仍有許多能夠進步之處",
+      "label": "paragraph",
+      "page_number": 36,
+      "bbox": {
+        "left": 3612300.0,
+        "top": 6431551.0,
+        "right": 17413500.0,
+        "bottom": 5071951.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 36,
+      "bbox": {
+        "left": 1931196.0,
+        "top": 5976540.0,
+        "right": 2672129.0,
+        "bottom": 5220145.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "121.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "36",
+      "label": "heading",
+      "page_number": 36,
+      "bbox": {
+        "left": 16911875.0,
+        "top": 10191575.0,
+        "right": 18007775.0,
+        "bottom": 9625175.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 37,
+      "bbox": {
+        "left": -1443083.0,
+        "top": 10480145.0,
+        "right": 2748407.0,
+        "bottom": 6288657.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "122.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 37,
+      "bbox": {
+        "left": 559683.0,
+        "top": 3785166.0,
+        "right": 1082170.0,
+        "bottom": 3262679.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "123.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 37,
+      "bbox": {
+        "left": 15749709.0,
+        "top": 2209955.0,
+        "right": 17259300.0,
+        "bottom": 1028700.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "124.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 37,
+      "bbox": {
+        "left": 15512859.0,
+        "top": 8269275.0,
+        "right": 17823437.0,
+        "bottom": 7026530.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "125.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "參考文獻",
+      "label": "heading",
+      "page_number": 37,
+      "bbox": {
+        "left": 1426800.0,
+        "top": 6009438.0,
+        "right": 18194400.0,
+        "bottom": 4649838.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "19.",
+      "label": "paragraph",
+      "page_number": 37,
+      "bbox": {
+        "left": 17554500.0,
+        "top": 10179275.0,
+        "right": 18288000.0,
+        "bottom": 9625175.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "37",
+      "label": "heading",
+      "page_number": 37,
+      "bbox": {
+        "left": 16911875.0,
+        "top": 10191575.0,
+        "right": 18007775.0,
+        "bottom": 9625175.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "1.吳佩珊（2022）。使用BERT-CNN進行Twitter 使用者之立場偵測。﹝碩士論文。國立臺灣師範大學﹞  臺灣博碩士論文知識加值系統。",
+      "label": "paragraph",
+      "page_number": 38,
+      "bbox": {
+        "left": 1028700.0,
+        "top": 9418025.0,
+        "right": 17505900.0,
+        "bottom": 2954825.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "2.https://leemeng.tw/attack_on_bert_transfer_learning_in_nlp.html",
+      "label": "paragraph",
+      "page_number": 38,
+      "bbox": {
+        "left": 1028700.0,
+        "top": 9418025.0,
+        "right": 17505900.0,
+        "bottom": 2954825.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "3.Hoang, M., Bihorac, O. A., & Rouces, J. (2019). Aspect-based sentiment analysis using bert. In Proceedings of the 22nd nordic conference on computational linguistics (pp. 187-196).",
+      "label": "paragraph",
+      "page_number": 38,
+      "bbox": {
+        "left": 1028700.0,
+        "top": 9418025.0,
+        "right": 17505900.0,
+        "bottom": 2954825.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "4.Song, Y., Wang, J., Liang, Z., Liu, Z., & Jiang, T. (2020). Utilizing BERT intermediate layers for aspect based sentiment analysis and natural language inference. arXiv preprint arXiv:2002.04815.",
+      "label": "paragraph",
+      "page_number": 38,
+      "bbox": {
+        "left": 1028700.0,
+        "top": 9418025.0,
+        "right": 17505900.0,
+        "bottom": 2954825.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "5.Li, X., Bing, L., Zhang, W., & Lam, W. (2019). Exploiting BERT for end-to-end aspect-based sentiment analysis. arXiv preprint arXiv:1910.00883.",
+      "label": "paragraph",
+      "page_number": 38,
+      "bbox": {
+        "left": 1028700.0,
+        "top": 9418025.0,
+        "right": 17505900.0,
+        "bottom": 2954825.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "6.Abas, A. R., El-Henawy, I., Mohamed, H., & Abdellatif, A. (2020). Deep learning model for fine-grained aspect-based opinion mining. IEEE Access, 8, 128845-128855.",
+      "label": "paragraph",
+      "page_number": 38,
+      "bbox": {
+        "left": 1028700.0,
+        "top": 9418025.0,
+        "right": 17505900.0,
+        "bottom": 2954825.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 38,
+      "bbox": {
+        "left": 16259440.0,
+        "top": 1996747.0,
+        "right": 19327414.0,
+        "bottom": -1071227.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "126.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 38,
+      "bbox": {
+        "left": -3831232.0,
+        "top": 7087816.0,
+        "right": 598922.0,
+        "bottom": 5974741.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "127.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "參考文獻",
+      "label": "heading",
+      "page_number": 38,
+      "bbox": {
+        "left": 1028700.0,
+        "top": 2417100.0,
+        "right": 10611000.0,
+        "bottom": 1031700.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "38",
+      "label": "heading",
+      "page_number": 38,
+      "bbox": {
+        "left": 16911875.0,
+        "top": 10191575.0,
+        "right": 18007775.0,
+        "bottom": 9625175.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "7.Lung-Hao Lee、Jian-Hong Li 和 Liang-Chih Yu，“中國 EmoBank：為維度情感分析構建效價喚醒資源” ， ACM Trans。亞洲和低資源語言訊息處理，卷。21、沒有。4，第 65 條，2022 年。",
+      "label": "paragraph",
+      "page_number": 39,
+      "bbox": {
+        "left": 1028700.0,
+        "top": 5798525.0,
+        "right": 17505900.0,
+        "bottom": 2954825.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "8. 餘亮智、李龍浩、郝帥、王進、何雲超、胡軍、K. Robert Lai 和張學傑。2016.「在效價喚醒維度上建構中國情感資源。NAACL/HLT-16 會議記錄，第 540-545 頁。",
+      "label": "paragraph",
+      "page_number": 39,
+      "bbox": {
+        "left": 1028700.0,
+        "top": 5798525.0,
+        "right": 17505900.0,
+        "bottom": 2954825.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 39,
+      "bbox": {
+        "left": 16259440.0,
+        "top": 1996747.0,
+        "right": 19327414.0,
+        "bottom": -1071227.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "128.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 39,
+      "bbox": {
+        "left": -3831232.0,
+        "top": 7087816.0,
+        "right": 598922.0,
+        "bottom": 5974741.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "129.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "參考文獻",
+      "label": "heading",
+      "page_number": 39,
+      "bbox": {
+        "left": 1028700.0,
+        "top": 2417100.0,
+        "right": 10611000.0,
+        "bottom": 1031700.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "39",
+      "label": "heading",
+      "page_number": 39,
+      "bbox": {
+        "left": 16911875.0,
+        "top": 10191575.0,
+        "right": 18007775.0,
+        "bottom": 9625175.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 40,
+      "bbox": {
+        "left": 11242638.0,
+        "top": 6083407.0,
+        "right": 15357438.0,
+        "bottom": 1968607.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "130.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "THANKS.",
+      "label": "paragraph",
+      "page_number": 40,
+      "bbox": {
+        "left": 3530823.0,
+        "top": 6385657.0,
+        "right": 14757123.0,
+        "bottom": 4311757.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 40,
+      "bbox": {
+        "left": 1336370.0,
+        "top": 3936880.0,
+        "right": 3444057.0,
+        "bottom": 2185584.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "131.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 40,
+      "bbox": {
+        "left": 13753367.0,
+        "top": 2186218.0,
+        "right": 16002542.0,
+        "bottom": 1621113.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "132.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "picture",
+      "level": 2,
+      "text": "[Image description failed]",
+      "label": "picture",
+      "page_number": 40,
+      "bbox": {
+        "left": 15994859.0,
+        "top": 8022456.0,
+        "right": 18288000.0,
+        "bottom": 5929444.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      },
+      "image": "133.png",
+      "caption": "[Image description failed]"
+    },
+    {
+      "type": "text",
+      "level": 2,
+      "text": "40",
+      "label": "heading",
+      "page_number": 40,
+      "bbox": {
+        "left": 16911875.0,
+        "top": 10191575.0,
+        "right": 18007775.0,
+        "bottom": 9625175.0,
+        "coord_origin": "CoordOrigin.BOTTOMLEFT"
+      }
+    }
+  ]
+}
