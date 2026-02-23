@@ -25,6 +25,7 @@ from config import (
     DOCLING_NUM_THREADS,
     DOCLING_MAX_PAGES,
     DOCLING_IMAGES_SCALE,
+    DOCLING_VLM_FORCE_BACKEND_TEXT,
 )
 
 try:
@@ -91,9 +92,13 @@ class DocumentParser:
             accel = AcceleratorOptions(device=DOCLING_DEVICE, num_threads=DOCLING_NUM_THREADS)
             format_options[InputFormat.PDF] = PdfFormatOption(
                 pipeline_cls=VlmPipeline,
-                pipeline_options=VlmPipelineOptions(accelerator_options=accel),
+                pipeline_options=VlmPipelineOptions(
+                    accelerator_options=accel,
+                    force_backend_text=DOCLING_VLM_FORCE_BACKEND_TEXT,
+                ),
             )
-            print(f"[OK] Granite Docling (VLM)，裝置: {DOCLING_DEVICE}")
+            mode = "VLM 版面 + 後端文字" if DOCLING_VLM_FORCE_BACKEND_TEXT else "VLM 全文"
+            print(f"[OK] Granite Docling ({mode})，裝置: {DOCLING_DEVICE}")
 
         self.converter = DocumentConverter(
             allowed_formats=allowed_formats,

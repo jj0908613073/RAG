@@ -27,7 +27,7 @@ for dir_path in [RAW_PDF_DIR, PROCESSED_MD_DIR, OUTPUT_BASE, MILVUS_DATA_DIR]:
 
 # ==================== Docling 設定 ====================
 # 分層模式：True = Step1 用標準 pipeline（標題/段落/圖 placeholder），圖另存；之後再對圖做 VLM caption
-# False = Step1 直接用 Granite VLM 解析整份 PDF（圖內文字靠 VLM，較吃資源）
+# False = Step1 直接用 Granite VLM 解析整份 PDF（圖內文字靠 VLM）
 DOCLING_LAYERED_MODE = True
 
 # 僅在非分層模式時使用 VLM
@@ -42,6 +42,8 @@ DOCLING_NUM_THREADS = 4
 DOCLING_MAX_PAGES = 5
 # 提取圖片的縮放倍率：1.0 預設、2.0 較清晰（較大檔案），圖糊可調高
 DOCLING_IMAGES_SCALE = 2.0
+# Docling VLM：True = 用 PDF 後端/OCR 的文字，VLM 只負責版面結構（可改善 VLM 文字異常）
+DOCLING_VLM_FORCE_BACKEND_TEXT = True
 
 DOCLING_CONFIG = {
     "do_ocr": True,  # 處理掃描式 PDF
